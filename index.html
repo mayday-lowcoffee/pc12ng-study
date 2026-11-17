@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Pilatus PC-12 NG Study</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+       <h1>
+
+    <img
+        src="images/pc12.png"
+        alt="Pilatus PC-12"
+        class="title-aircraft">
+
+    Pilatus PC‑12 NG Study
+
+</h1>
+
+        <div class="study-controls">
+
+            <label for="categorySelect">
+                Study Mode
+            </label>
+
+            <select id="categorySelect">
+
+                <option value="ALL">
+                    ALL SECTIONS
+                </option>
+
+                <option value="RANDOM_REVIEW">
+                    RANDOM REVIEW
+                </option>
+
+                <option value="LIMITATIONS">
+                    LIMITATIONS
+                </option>
+
+            </select>
+
+            <button onclick="startStudyMode()">
+                Start Study Session
+            </button>
+
+            <button onclick="restartSession()">
+                Restart Session
+            </button>
+
+        </div>
+
+        <div class="stats-panel">
+
+            <div>
+                Correct:
+                <span id="correctCount">0</span>
+            </div>
+
+            <div>
+                Incorrect:
+                <span id="incorrectCount">0</span>
+            </div>
+
+            <div>
+                Score:
+                <span id="scorePercent">0%</span>
+            </div>
+
+        </div>
+
+        <div class="question-header">
+
+            <div id="questionCounter">
+                Question 1
+            </div>
+
+            <div id="questionDifficulty">
+                Difficulty
+            </div>
+
+        </div>
+
+        <div class="question-card">
+
+            <div id="questionCategory"
+                 class="question-category">
+            </div>
+
+            <h2 id="questionText">
+            </h2>
+
+            <div id="answers">
+            </div>
+
+            <div class="navigation-buttons">
+
+                <button onclick="previousQuestion()">
+                    ⬅ Previous
+                </button>
+
+                <button onclick="checkAnswer()">
+                    ✅ Check Answer
+                </button>
+
+                <button onclick="nextQuestion()">
+                    Next ➡
+                </button>
+
+            </div>
+
+            <div id="result">
+            </div>
+
+        </div>
+
+        <div class="reference-panel">
+
+            <h3>Source Information</h3>
+
+            <div id="questionReference"></div>
+
+            <div id="questionTopic"></div>
+
+            <div id="questionPage"></div>
+
+            <div id="questionManual"></div>
+
+            <div id="questionRevision"></div>
+
+        </div>
+
+    </div>
+
+    <!-- QUESTION DATABASES -->
+
+    <script src="questions/limitations.js"></script>
+
+    <script src="questions/general.js"></script>
+
+    <script src="questions/emergency.js"></script>
+
+    <script src="questions/normal.js"></script>
+
+    <script src="questions/performance.js"></script>
+
+    <script src="questions/weight_balance.js"></script>
+
+    <script src="questions/aircraft_systems.js"></script>
+
+    <script src="questions/handling_maintenance.js"></script>
+
+    <script src="questions/supplements.js"></script>
+
+    <script src="questions/safety.js"></script>
+
+    <script src="questions/index.js"></script>
+
+    <!-- APP -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
