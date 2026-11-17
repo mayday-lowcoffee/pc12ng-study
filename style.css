@@ -5,23 +5,14 @@
 }
 
 body {
-
-    font-family:
-        "Segoe UI",
-        Arial,
-        sans-serif;
-
+    font-family: "Segoe UI", Arial, sans-serif;
     background: #f4f7fb;
-
     color: #1f2937;
-
     padding: 30px;
 }
 
 .container {
-
     max-width: 1200px;
-
     margin: auto;
 }
 
@@ -30,42 +21,25 @@ body {
 ========================== */
 
 h1 {
-
     position: relative;
-
     text-align: center;
-
-    margin-bottom: 25px;
-
     color: #003366;
-
     font-size: 2rem;
-
     font-weight: 700;
-
     min-height: 110px;
-
     display: flex;
-
     align-items: center;
-
     justify-content: center;
+    margin-bottom: 25px;
 }
 
 .title-aircraft {
-
     position: absolute;
-
     left: 0;
-
     top: 50%;
-
     transform: translateY(-50%);
-
     height: 110px;
-
     width: auto;
-
     object-fit: contain;
 }
 
@@ -74,33 +48,22 @@ h1 {
 ========================== */
 
 .study-controls {
-
     display: flex;
-
     flex-wrap: wrap;
-
     gap: 10px;
-
     align-items: center;
-
     justify-content: center;
-
     margin-bottom: 20px;
 }
 
 .study-controls label {
-
     font-weight: bold;
 }
 
 .study-controls select {
-
     padding: 10px;
-
     border-radius: 8px;
-
     border: 1px solid #ccc;
-
     min-width: 220px;
 }
 
@@ -109,27 +72,17 @@ h1 {
 ========================== */
 
 .stats-panel {
-
     display: flex;
-
     justify-content: center;
-
     gap: 40px;
-
     margin-bottom: 20px;
-
     padding: 15px;
-
     background: white;
-
     border-radius: 12px;
-
-    box-shadow:
-        0 3px 10px rgba(0,0,0,.08);
+    box-shadow: 0 3px 10px rgba(0,0,0,.08);
 }
 
 .stats-panel div {
-
     font-weight: 600;
 }
 
@@ -138,33 +91,22 @@ h1 {
 ========================== */
 
 .question-header {
-
     display: flex;
-
     justify-content: space-between;
-
     align-items: center;
-
     margin-bottom: 15px;
 }
 
 #questionCounter {
-
     font-weight: bold;
-
     font-size: 1rem;
 }
 
 #questionDifficulty {
-
     padding: 6px 12px;
-
     border-radius: 20px;
-
     background: #e8eefc;
-
     color: #003366;
-
     font-weight: bold;
 }
 
@@ -173,32 +115,21 @@ h1 {
 ========================== */
 
 .question-card {
-
     background: white;
-
     border-radius: 15px;
-
     padding: 25px;
-
-    box-shadow:
-        0 4px 15px rgba(0,0,0,.10);
+    box-shadow: 0 4px 15px rgba(0,0,0,.10);
 }
 
 .question-category {
-
     color: #0056b3;
-
     font-weight: bold;
-
     margin-bottom: 10px;
-
     letter-spacing: 1px;
 }
 
 #questionText {
-
     margin-bottom: 25px;
-
     line-height: 1.5;
 }
 
@@ -207,60 +138,40 @@ h1 {
 ========================== */
 
 .answer {
-
     display: flex;
-
     align-items: center;
-
     gap: 12px;
-
     padding: 16px;
-
     margin-bottom: 12px;
-
     border: 1px solid #d5dbe3;
-
     border-radius: 10px;
-
     transition: all .2s ease;
-
     cursor: pointer;
-
     user-select: none;
-
     background: white;
 }
 
 .answer:hover {
-
     background: #f7f9fc;
-
     border-color: #0056b3;
 }
 
 .answer input[type="radio"] {
-
     pointer-events: none;
-
     transform: scale(1.15);
 }
 
 .answer span {
-
     flex: 1;
 }
 
 .correct {
-
     background: #eaf8ea !important;
-
     border: 2px solid #36a336 !important;
 }
 
 .incorrect {
-
     background: #fff1f1 !important;
-
     border: 2px solid #df5c5c !important;
 }
 
@@ -269,55 +180,39 @@ h1 {
 ========================== */
 
 .navigation-buttons {
-
     display: flex;
-
     gap: 10px;
-
     flex-wrap: wrap;
-
     margin-top: 20px;
 }
 
 button {
-
     border: none;
-
     border-radius: 8px;
-
     padding: 12px 18px;
-
     color: white;
-
     font-weight: 600;
-
     cursor: pointer;
-
     transition: .2s;
 }
 
 button:hover {
-
     opacity: .92;
 }
 
 .navigation-buttons button:nth-child(1) {
-
     background: #5b6472;
 }
 
 .navigation-buttons button:nth-child(2) {
-
     background: #1d8f3a;
 }
 
 .navigation-buttons button:nth-child(3) {
-
     background: #0056b3;
 }
 
 .study-controls button {
-
     background: #0056b3;
 }
 
@@ -326,40 +221,30 @@ button:hover {
 ========================== */
 
 #result {
-
     margin-top: 25px;
 }
 
 .result-card {
-
     border-radius: 12px;
-
     padding: 18px;
 }
 
 .result-correct {
-
     background: #eaf8ea;
-
     border: 2px solid #36a336;
 }
 
 .result-incorrect {
-
     background: #fff1f1;
-
     border: 2px solid #df5c5c;
 }
 
 .result-card h3 {
-
     margin-bottom: 10px;
 }
 
 .result-card p {
-
     margin-bottom: 10px;
-
     line-height: 1.5;
 }
 
@@ -368,31 +253,21 @@ button:hover {
 ========================== */
 
 .reference-panel {
-
     margin-top: 20px;
-
     background: white;
-
     border-radius: 12px;
-
     padding: 20px;
-
-    box-shadow:
-        0 3px 10px rgba(0,0,0,.08);
+    box-shadow: 0 3px 10px rgba(0,0,0,.08);
 }
 
 .reference-panel h3 {
-
     margin-bottom: 15px;
-
     color: #003366;
 }
 
 .reference-panel div {
-
     margin-bottom: 8px;
-
-    line-height: 1.4;
+    line-height: 1.5;
 }
 
 /* ==========================
@@ -401,16 +276,22 @@ button:hover {
 
 @media (max-width: 1024px) {
 
+    body {
+        padding: 20px;
+    }
+
     h1 {
-
-        min-height: 90px;
-
-        font-size: 1.8rem;
+        min-height: auto;
+        flex-direction: column;
+        gap: 12px;
+        font-size: 2rem;
     }
 
     .title-aircraft {
-
-        height: 90px;
+        position: static;
+        transform: none;
+        height: 110px;
+        max-width: 100%;
     }
 }
 
@@ -421,65 +302,118 @@ button:hover {
 @media (max-width: 768px) {
 
     body {
+        padding: 12px;
+    }
 
-        padding: 15px;
+    .container {
+        width: 100%;
     }
 
     h1 {
-
         min-height: auto;
-
-        font-size: 1.4rem;
-
-        display: flex;
-
         flex-direction: column;
-
-        gap: 10px;
+        gap: 12px;
+        font-size: 1.9rem;
+        text-align: center;
     }
 
     .title-aircraft {
-
         position: static;
-
         transform: none;
+        height: 95px;
+        max-width: 95%;
+    }
 
-        height: 70px;
+    .study-controls {
+        flex-direction: column;
+        width: 100%;
+        gap: 12px;
+    }
+
+    .study-controls select {
+        width: 100%;
+        min-width: unset;
+    }
+
+    .study-controls button {
+        width: 100%;
     }
 
     .stats-panel {
-
         flex-direction: column;
-
-        gap: 10px;
-
+        gap: 14px;
         text-align: center;
     }
 
     .question-header {
-
         flex-direction: column;
-
         gap: 10px;
+        text-align: center;
+    }
+
+    .question-card {
+        padding: 18px;
+    }
+
+    #questionCounter {
+        font-size: 1.2rem;
+    }
+
+    #questionText {
+        font-size: 1.2rem;
+        line-height: 1.5;
+    }
+
+    .answer {
+        min-height: 72px;
+        padding: 18px;
+        font-size: 1rem;
+    }
+
+    .answer input[type="radio"] {
+        transform: scale(1.4);
     }
 
     .navigation-buttons {
-
         flex-direction: column;
+        gap: 12px;
     }
 
     button {
-
         width: 100%;
+        min-height: 54px;
+        font-size: 1rem;
     }
 
-    .study-controls {
-
-        flex-direction: column;
+    .reference-panel {
+        padding: 18px;
     }
 
-    .study-controls select {
+    .reference-panel h3 {
+        text-align: center;
+        font-size: 1.3rem;
+    }
+}
 
-        width: 100%;
+/* ==========================
+   SMALL PHONES
+========================== */
+
+@media (max-width: 480px) {
+
+    h1 {
+        font-size: 1.7rem;
+    }
+
+    .title-aircraft {
+        height: 80px;
+    }
+
+    #questionText {
+        font-size: 1.1rem;
+    }
+
+    .answer {
+        font-size: 0.95rem;
     }
 }
