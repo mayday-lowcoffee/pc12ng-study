@@ -1,5 +1,10 @@
 const allQuestions = [
 
-    ...limitationsQuestions
+    ...limitationsQuestions,
+
+    ...weightAndBalanceQuestions,
+
+    ...normalOperatingProceduresQuestions,
+
 
 ];

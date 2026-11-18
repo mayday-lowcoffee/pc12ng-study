@@ -63,6 +63,22 @@ function startStudyMode() {
             [...limitationsQuestions];
 
     } else if (
+    selectedMode ===
+    "WEIGHT_BALANCE"
+    ) {
+
+    activeQuestions = [
+        ...weightAndBalanceQuestions
+    ];
+    } else if (
+    selectedMode ===
+    "NORMAL_OPERATING_PROCEDURES"
+    ) {
+
+    activeQuestions = [
+        ...normalOperatingProceduresQuestions
+    ];
+    } else if (
         selectedMode === "RANDOM_REVIEW"
     ) {
 
