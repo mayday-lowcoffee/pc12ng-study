@@ -1,4 +1,4 @@
-const CACHE_NAME = "pc12-flightdeck-v1";
+const CACHE_NAME = "pc12-flightdeck-v3";
 const APP_SHELL = [
   "./",
   "./index.html",

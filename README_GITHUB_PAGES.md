@@ -2,6 +2,8 @@
 
 Este pacote contém o app de estudo, os bancos de questões, as traduções, o checklist e os arquivos para instalação como PWA e uso offline.
 
+O ícone usa uma versão gráfica em traço branco, baseada na vista superior do PC-12 enviada pelo usuário, sobre fundo azul-marinho.
+
 ## Publicar no GitHub Pages
 
 1. Extraia o ZIP no computador.
@@ -23,6 +25,8 @@ Se o repositório já tiver `images/pc12.png`, mantenha essa pasta ao copiar o p
 
 ## Publicar atualizações futuras
 
-Quando alterar perguntas, traduções, interface ou outros arquivos guardados offline, atualize a versão `pc12-flightdeck-v1` no início de `service-worker.js` (por exemplo, para `pc12-flightdeck-v2`) antes de publicar. Isso faz os aparelhos instalados substituírem o cache anterior.
+Esta versão usa o cache `pc12-flightdeck-v3`. Ao alterar perguntas, traduções, ícones, interface ou outros arquivos guardados offline, aumente o número (por exemplo, para `pc12-flightdeck-v4`) no início de `service-worker.js` antes de publicar. Isso faz os aparelhos instalados substituírem o cache anterior.
+
+Se o app já estiver na Tela de Início e continuar exibindo o ícone anterior após a atualização, remova o atalho antigo e adicione o site novamente pelo Safari.
 
 O app ainda não salva respostas ou progresso da sessão depois que é fechado ou recarregado.
