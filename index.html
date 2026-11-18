@@ -1,9 +1,8 @@
-```html
 <!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="theme-color" content="#0b1f33">
     <meta name="description" content="A focused study tool for the Pilatus PC-12 NG aircraft manual.">
     <title>PC-12 NG | Flightdeck Study</title>
@@ -14,28 +13,18 @@
         <header class="topbar">
             <a class="brand" href="#top" aria-label="PC-12 NG Study home">
                 <span class="brand-mark" aria-hidden="true">P</span>
-                <span class="brand-copy">
-                    <strong>FLIGHTDECK</strong>
-                    <small>STUDY SYSTEM</small>
-                </span>
+                <span class="brand-copy"><strong>FLIGHTDECK</strong><small>STUDY SYSTEM</small></span>
             </a>
-            <div class="aircraft-tag">
-                <span class="status-dot"></span>
-                PILATUS PC-12 NG
-            </div>
+            <div class="aircraft-tag"><span class="status-dot"></span> PILATUS PC-12 NG</div>
         </header>
 
         <main id="top" class="container">
             <section class="welcome-panel" aria-labelledby="pageTitle">
                 <div class="welcome-copy">
-                    <div class="eyebrow">
-                        <span class="eyebrow-line"></span>
-                        KNOW THE AIRCRAFT
-                    </div>
+                    <div class="eyebrow"><span class="eyebrow-line"></span> KNOW THE AIRCRAFT</div>
                     <h1 id="pageTitle">Study with<br><em>precision.</em></h1>
                     <p>A focused workspace for learning the PC-12 NG aircraft manual, one question at a time.</p>
                 </div>
-
                 <div class="aircraft-visual" aria-hidden="true">
                     <div class="visual-ring"></div>
                     <img src="images/pc12.png" alt="" class="hero-aircraft">
@@ -54,144 +43,58 @@
                         <option value="NORMAL_OPERATING_PROCEDURES">Normal operating procedures</option>
                     </select>
                 </div>
-
                 <div class="toolbar-actions">
-                    <button type="button" class="button button-primary" onclick="startStudyMode()">
-                        <span aria-hidden="true">▶</span> Start session
-                    </button>
-                    <button type="button" class="button button-quiet" onclick="restartSession()">
-                        <span aria-hidden="true">↻</span> Restart
-                    </button>
+                    <button type="button" class="button button-primary" onclick="startStudyMode()"><span aria-hidden="true">▶</span> Start session</button>
+                    <button type="button" class="button button-quiet" onclick="restartSession()"><span aria-hidden="true">↻</span> Restart</button>
                 </div>
             </section>
 
             <section class="session-overview" aria-label="Session progress and statistics">
                 <div class="progress-block">
-                    <div class="progress-heading">
-                        <span>SESSION PROGRESS</span>
-                        <strong id="progressLabel">0 of 0</strong>
-                    </div>
-                    <div
-                        class="progress-track"
-                        role="progressbar"
-                        aria-label="Session progress"
-                        aria-valuemin="0"
-                        aria-valuemax="0"
-                        aria-valuenow="0"
-                        id="progressBar">
-                        <span id="progressFill"></span>
-                    </div>
-                    <div class="progress-foot">
-                        <span id="modeLabel">ALL SECTIONS</span>
-                        <span id="progressPercent">0%</span>
-                    </div>
+                    <div class="progress-heading"><span>SESSION PROGRESS</span><strong id="progressLabel">0 of 0</strong></div>
+                    <div class="progress-track" role="progressbar" aria-label="Session progress" aria-valuemin="0" aria-valuemax="0" aria-valuenow="0" id="progressBar"><span id="progressFill"></span></div>
+                    <div class="progress-foot"><span id="modeLabel">ALL SECTIONS</span><span id="progressPercent">0%</span></div>
                 </div>
-
-                <div class="stat-item">
-                    <span class="stat-icon stat-icon-correct">✓</span>
-                    <span class="stat-copy">
-                        <small>CORRECT</small>
-                        <strong id="correctCount">0</strong>
-                    </span>
-                </div>
-
-                <div class="stat-item">
-                    <span class="stat-icon stat-icon-incorrect">×</span>
-                    <span class="stat-copy">
-                        <small>INCORRECT</small>
-                        <strong id="incorrectCount">0</strong>
-                    </span>
-                </div>
-
-                <div class="stat-item stat-score">
-                    <span class="stat-copy">
-                        <small>SESSION SCORE</small>
-                        <strong id="scorePercent">0%</strong>
-                    </span>
-                </div>
+                <div class="stat-item"><span class="stat-icon stat-icon-correct">✓</span><span class="stat-copy"><small>CORRECT</small><strong id="correctCount">0</strong></span></div>
+                <div class="stat-item"><span class="stat-icon stat-icon-incorrect">×</span><span class="stat-copy"><small>INCORRECT</small><strong id="incorrectCount">0</strong></span></div>
+                <div class="stat-item stat-score"><span class="stat-copy"><small>SESSION SCORE</small><strong id="scorePercent">0%</strong></span></div>
             </section>
 
             <section class="study-layout" aria-label="Study question and source">
                 <div class="study-main">
                     <div class="question-heading">
-                        <div>
-                            <span class="section-kicker">KNOWLEDGE CHECK</span>
-                            <div id="questionCounter" class="question-count" aria-live="polite">Question 1 of 0</div>
-                        </div>
+                        <div><span class="section-kicker">KNOWLEDGE CHECK</span><div id="questionCounter" class="question-count" aria-live="polite">Question 1 of 0</div></div>
                         <div id="questionDifficulty" class="difficulty-badge">READY</div>
                     </div>
-
                     <article class="question-card">
-                        <div class="question-topline">
-                            <span id="questionCategory" class="category-label">STUDY QUESTION</span>
-                            <span class="question-index" id="questionIndexLabel">01</span>
-                        </div>
-
+                        <div class="question-topline"><span id="questionCategory" class="category-label">STUDY QUESTION</span><span class="question-index" id="questionIndexLabel">01</span></div>
                         <h2 id="questionText" tabindex="-1" aria-live="polite">Choose a study mode to begin.</h2>
                         <p class="answer-hint">SELECT ONE ANSWER</p>
                         <div id="answers" role="radiogroup" aria-labelledby="questionText"></div>
-
                         <div class="question-actions">
-                            <button type="button" class="button button-outline" onclick="previousQuestion()" id="previousButton">
-                                <span aria-hidden="true">←</span> Previous
-                            </button>
-                            <button type="button" class="button button-check" onclick="checkAnswer()" id="checkButton">
-                                <span aria-hidden="true">✓</span> Check answer
-                            </button>
-                            <button type="button" class="button button-primary" onclick="nextQuestion()" id="nextButton">
-                                Next <span aria-hidden="true">→</span>
-                            </button>
+                            <button type="button" class="button button-outline" onclick="previousQuestion()" id="previousButton"><span aria-hidden="true">←</span> Previous</button>
+                            <button type="button" class="button button-check" onclick="checkAnswer()" id="checkButton"><span aria-hidden="true">✓</span> Check answer</button>
+                            <button type="button" class="button button-primary" onclick="nextQuestion()" id="nextButton">Next <span aria-hidden="true">→</span></button>
                         </div>
-
                         <div id="result" aria-live="polite"></div>
                     </article>
                 </div>
 
                 <aside class="reference-panel" aria-label="Question source information">
-                    <div class="reference-heading">
-                        <span class="reference-icon" aria-hidden="true">▤</span>
-                        <div>
-                            <span class="section-kicker">STUDY MATERIAL</span>
-                            <h2>Manual reference</h2>
-                        </div>
-                    </div>
-
+                    <div class="reference-heading"><span class="reference-icon" aria-hidden="true">▤</span><div><span class="section-kicker">STUDY MATERIAL</span><h2>Manual reference</h2></div></div>
                     <p class="reference-intro">Use the source details to review this topic in the aircraft manual.</p>
-
                     <div class="reference-list">
-                        <div class="reference-row">
-                            <span>Reference</span>
-                            <strong id="questionReference">—</strong>
-                        </div>
-                        <div class="reference-row">
-                            <span>Topic</span>
-                            <strong id="questionTopic">—</strong>
-                        </div>
-                        <div class="reference-row">
-                            <span>POH page</span>
-                            <strong id="questionPage">—</strong>
-                        </div>
-                        <div class="reference-row">
-                            <span>Manual</span>
-                            <strong id="questionManual">—</strong>
-                        </div>
-                        <div class="reference-row">
-                            <span>Revision</span>
-                            <strong id="questionRevision">—</strong>
-                        </div>
+                        <div class="reference-row"><span>Reference</span><strong id="questionReference">—</strong></div>
+                        <div class="reference-row"><span>Topic</span><strong id="questionTopic">—</strong></div>
+                        <div class="reference-row"><span>POH page</span><strong id="questionPage">—</strong></div>
+                        <div class="reference-row"><span>Manual</span><strong id="questionManual">—</strong></div>
+                        <div class="reference-row"><span>Revision</span><strong id="questionRevision">—</strong></div>
                     </div>
-
-                    <div class="reference-note">
-                        <span aria-hidden="true">i</span>
-                        <p>Always confirm operational information in the current approved aircraft documentation.</p>
-                    </div>
+                    <div class="reference-note"><span aria-hidden="true">i</span><p>Always confirm operational information in the current approved aircraft documentation.</p></div>
                 </aside>
             </section>
 
-            <footer class="app-footer">
-                <span>PC-12 NG STUDY SYSTEM</span>
-                <span>BUILT FOR FOCUSED LEARNING</span>
-            </footer>
+            <footer class="app-footer"><span>PC-12 NG STUDY SYSTEM</span><span>BUILT FOR FOCUSED LEARNING</span></footer>
         </main>
     </div>
 
@@ -209,4 +112,3 @@
     <script src="script.js"></script>
 </body>
 </html>
-```
