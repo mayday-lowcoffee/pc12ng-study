@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="theme-color" content="#0b1f33">
     <meta name="description" content="A focused study tool for the Pilatus PC-12 NG aircraft manual.">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="PC-12 Study">
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
     <title>PC-12 NG | Flightdeck Study</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -134,7 +139,11 @@
             </section>
             </div>
 
-            <footer class="app-footer"><span>PC-12 NG STUDY SYSTEM</span><span>BUILT FOR FOCUSED LEARNING</span></footer>
+            <footer class="app-footer">
+                <span>PC-12 NG STUDY SYSTEM</span>
+                <span id="offlineStatus" role="status" aria-live="polite">Preparing offline study…</span>
+                <span>iPhone: Safari → Share → Add to Home Screen</span>
+            </footer>
         </main>
     </div>
 
@@ -153,5 +162,6 @@
     <script src="questions/portuguese_translations.js"></script>
     <script src="questions/checklist_study.js"></script>
     <script src="script.js"></script>
+    <script src="pwa.js"></script>
 </body>
 </html>
