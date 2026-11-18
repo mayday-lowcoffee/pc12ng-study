@@ -4,6 +4,8 @@ let currentQuestion = 0;
 let responses = [];
 let missedQuestions = [];
 let portugueseVisible = false;
+let activeStudyTab = "questions";
+let lastQuestionMode = "ALL";
 
 const questionSets = {
     ALL: () => getAllQuestions(),
@@ -34,7 +36,8 @@ const modeNames = {
     SAFETY: "SAFETY & OPERATIONAL TIPS",
     SUPPLEMENTS: "SUPPLEMENTS",
     WEIGHT_BALANCE: "WEIGHT & BALANCE",
-    NORMAL_OPERATING_PROCEDURES: "NORMAL OPERATING PROCEDURES"
+    NORMAL_OPERATING_PROCEDURES: "NORMAL OPERATING PROCEDURES",
+    CHECKLIST: "CHECKLIST — SEQUENTIAL RECALL"
 };
 
 window.addEventListener("DOMContentLoaded", () => {
@@ -43,8 +46,47 @@ window.addEventListener("DOMContentLoaded", () => {
     document.getElementById("translationToggle")?.addEventListener("click", () => {
         setPortugueseVisible(!portugueseVisible);
     });
+    populateChecklistPhaseOptions();
     startStudyMode();
 });
+
+function populateChecklistPhaseOptions() {
+    const selector = document.getElementById("checklistPhaseSelect");
+    if (!selector || !Array.isArray(window.checklistPhases)) return;
+    selector.replaceChildren(new Option("All phases, in order", "ALL"));
+    for (const phase of window.checklistPhases) {
+        selector.add(new Option(`${phase.en} · ${phase.pt}`, phase.id));
+    }
+}
+
+function setStudyTab(tab) {
+    if (tab !== "questions" && tab !== "checklist") return;
+    const selector = document.getElementById("categorySelect");
+    if (activeStudyTab === "questions" && selector) lastQuestionMode = selector.value;
+    activeStudyTab = tab;
+    const questionTab = document.getElementById("questionsTab");
+    const checklistTab = document.getElementById("checklistTab");
+    if (questionTab) {
+        questionTab.classList.toggle("is-active", tab === "questions");
+        questionTab.setAttribute("aria-selected", String(tab === "questions"));
+    }
+    if (checklistTab) {
+        checklistTab.classList.toggle("is-active", tab === "checklist");
+        checklistTab.setAttribute("aria-selected", String(tab === "checklist"));
+    }
+    const questionModeField = document.getElementById("questionModeField");
+    const checklistPhaseField = document.getElementById("checklistPhaseField");
+    const sourceNote = document.getElementById("checklistSourceNote");
+    const startButton = document.getElementById("startSessionButton");
+    if (questionModeField) questionModeField.hidden = tab !== "questions";
+    if (checklistPhaseField) checklistPhaseField.hidden = tab !== "checklist";
+    if (sourceNote) sourceNote.hidden = tab !== "checklist";
+    if (selector && tab === "questions") selector.value = lastQuestionMode;
+    if (startButton) startButton.innerHTML = tab === "checklist"
+        ? '<span aria-hidden="true">▶</span> Start checklist quiz'
+        : '<span aria-hidden="true">▶</span> Start session';
+    startStudyMode();
+}
 
 function getQuestionSet(name) {
     // Top-level let/const declarations in classic script files are not properties
@@ -78,10 +120,19 @@ function getAllQuestions() {
 }
 
 function startStudyMode() {
-    const mode = document.getElementById("categorySelect").value;
-    const getQuestions = questionSets[mode];
-    activeQuestions = getQuestions ? getQuestions() : [];
-    shuffleQuestions(activeQuestions);
+    const mode = activeStudyTab === "checklist"
+        ? "CHECKLIST"
+        : document.getElementById("categorySelect").value;
+    if (activeStudyTab === "checklist") {
+        const phaseId = document.getElementById("checklistPhaseSelect")?.value || "ALL";
+        activeQuestions = typeof window.buildChecklistQuestions === "function"
+            ? window.buildChecklistQuestions(phaseId)
+            : [];
+    } else {
+        const getQuestions = questionSets[mode];
+        activeQuestions = getQuestions ? getQuestions() : [];
+        shuffleQuestions(activeQuestions);
+    }
     responses = [];
     currentQuestion = 0;
     setText("modeLabel", modeNames[mode] || "STUDY SESSION");
@@ -321,6 +372,10 @@ function updateNavigation() {
 }
 
 function restartSession() {
+    if (activeStudyTab === "checklist") {
+        startStudyMode();
+        return;
+    }
     responses = [];
     currentQuestion = 0;
     shuffleQuestions(activeQuestions);

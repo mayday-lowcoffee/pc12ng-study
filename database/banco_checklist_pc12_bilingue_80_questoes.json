@@ -1,0 +1,3422 @@
+{
+  "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+  "sourceFile": "Check List 2.pdf",
+  "sourcePage": 1,
+  "language": [
+    "en",
+    "pt-BR"
+  ],
+  "totalPhases": 14,
+  "totalSteps": 80,
+  "note": "Sequência do checklist preservada. Diferenças observadas em relação ao POH estão sinalizadas para conferência com a lista aprovada da aeronave.",
+  "phases": [
+    {
+      "id": "before_start",
+      "en": "BEFORE START",
+      "pt": "ANTES DA PARTIDA",
+      "ref": "POH Section 4.4, pp. 4-10–4-11",
+      "page": "Checklist p. 1; POH 4-10–4-11",
+      "steps": [
+        {
+          "en": "MASTER POWER — ON",
+          "pt": "MASTER POWER — LIGADO",
+          "whyEn": "The supplied checklist and POH list this check or setting, but do not state a separate reason for this individual item.",
+          "whyPt": "O checklist enviado e o POH listam esta verificação ou ajuste, mas não apresentam um motivo separado para este item.",
+          "noteEn": "",
+          "notePt": ""
+        },
+        {
+          "en": "STAND BY BUS — ON",
+          "pt": "STAND BY BUS — LIGADO",
+          "whyEn": "The POH says to leave the standby bus on until the MFD powers up, about 30 seconds, before switching on the batteries.",
+          "whyPt": "O POH orienta manter o standby bus ligado até o MFD inicializar, cerca de 30 segundos, antes de ligar as baterias.",
+          "noteEn": "",
+          "notePt": ""
+        },
+        {
+          "en": "EPS — TEST-ARMED/ON",
+          "pt": "EPS — TESTAR/ARMAR/LIGAR",
+          "whyEn": "The POH specifies an EPS test and arming sequence, then checks the EPS indications and ESIS alignment.",
+          "whyPt": "O POH especifica uma sequência de teste e acionamento do EPS, seguida da conferência das indicações do EPS e do alinhamento do ESIS.",
+          "noteEn": "",
+          "notePt": ""
+        },
+        {
+          "en": "BATTERY 1/2 — ON · VOLTS 24 MIN",
+          "pt": "BATTERY 1/2 — LIGADAS · MÍNIMO 24 V",
+          "whyEn": "The POH requires both battery indications to show at least 24 VDC before departure.",
+          "whyPt": "O POH exige que as indicações das duas baterias mostrem pelo menos 24 VCC antes da partida.",
+          "noteEn": "",
+          "notePt": ""
+        },
+        {
+          "en": "EXTERNAL POWER — AS REQUIRED",
+          "pt": "ALIMENTAÇÃO EXTERNA — CONFORME NECESSÁRIO",
+          "whyEn": "When external power is used, the POH calls for checking 28 VDC and the external-power availability indication.",
+          "whyPt": "Quando se usa alimentação externa, o POH determina conferir 28 VCC e a indicação de disponibilidade da alimentação externa.",
+          "noteEn": "",
+          "notePt": ""
+        },
+        {
+          "en": "EXTERNAL LIGHTS — AS REQUIRED",
+          "pt": "LUZES EXTERNAS — CONFORME NECESSÁRIO",
+          "whyEn": "The POH cautions that prolonged beacon or logo-light use can reduce battery power and affect engine starting.",
+          "whyPt": "O POH adverte que o uso prolongado das luzes beacon ou logo pode reduzir a carga da bateria e afetar a partida do motor.",
+          "noteEn": "",
+          "notePt": ""
+        },
+        {
+          "en": "BARO REF — SET",
+          "pt": "REFERÊNCIA BAROMÉTRICA — AJUSTADA",
+          "whyEn": "The POH calls for setting and cross-checking the barometric reference during climb and approach preparations.",
+          "whyPt": "O POH determina ajustar e conferir a referência barométrica nos preparativos de subida e aproximação.",
+          "noteEn": "",
+          "notePt": ""
+        },
+        {
+          "en": "THR LEVER — IDLE",
+          "pt": "THR LEVER — MARCHA LENTA",
+          "whyEn": "The supplied checklist and POH list this check or setting, but do not state a separate reason for this individual item.",
+          "whyPt": "O checklist enviado e o POH listam esta verificação ou ajuste, mas não apresentam um motivo separado para este item.",
+          "noteEn": "",
+          "notePt": ""
+        },
+        {
+          "en": "CONDITION LEVER — CUT OFF",
+          "pt": "CONDITION LEVER — CUTOFF",
+          "whyEn": "The supplied checklist and POH list this check or setting, but do not state a separate reason for this individual item.",
+          "whyPt": "O checklist enviado e o POH listam esta verificação ou ajuste, mas não apresentam um motivo separado para este item.",
+          "noteEn": "",
+          "notePt": ""
+        },
+        {
+          "en": "PARKING BRAKE — ON",
+          "pt": "FREIO DE ESTACIONAMENTO — ACIONADO",
+          "whyEn": "The supplied checklist and POH list this check or setting, but do not state a separate reason for this individual item.",
+          "whyPt": "O checklist enviado e o POH listam esta verificação ou ajuste, mas não apresentam um motivo separado para este item.",
+          "noteEn": "",
+          "notePt": ""
+        },
+        {
+          "en": "FIRE WARM — CHECK",
+          "pt": "FIRE WARN — VERIFICAR",
+          "whyEn": "The POH calls for the FIRE WARN test and specifies that the engine-fire and fire-detector CAS annunciations appear during the test.",
+          "whyPt": "O POH determina testar FIRE WARN e especifica que as indicações CAS Engine Fire e Fire Detector apareçam durante o teste.",
+          "noteEn": "The uploaded checklist prints “FIRE WARM”; the POH uses “FIRE WARN”.",
+          "notePt": "O checklist enviado traz “FIRE WARM”; o POH usa “FIRE WARN”."
+        },
+        {
+          "en": "LAMP — CHECK",
+          "pt": "LAMP — VERIFICAR",
+          "whyEn": "Pressing LAMP should illuminate the master warning and caution lights, confirming those attention lights operate.",
+          "whyPt": "Ao pressionar LAMP, as luzes Master Warning e Caution devem acender, confirmando o funcionamento dessas luzes de atenção.",
+          "noteEn": "",
+          "notePt": ""
+        },
+        {
+          "en": "FUEL PUMP — CHECK",
+          "pt": "FUEL PUMP — VERIFICAR",
+          "whyEn": "For the first flight of the day, the POH checks that the Fuel Pressure Low caution goes out when each pump is selected ON, then sets each pump to AUTO.",
+          "whyPt": "No primeiro voo do dia, o POH verifica se a indicação Fuel Pressure Low apaga ao selecionar cada bomba em ON e, em seguida, seleciona cada uma em AUTO.",
+          "noteEn": "",
+          "notePt": ""
+        }
+      ]
+    },
+    {
+      "id": "clear_for_start",
+      "en": "CLEAR FOR START",
+      "pt": "LIBERADO PARA PARTIDA",
+      "ref": "POH Sections 4.4–4.5.1, pp. 4-10–4-12",
+      "page": "Checklist p. 1; POH 4-10–4-12",
+      "steps": [
+        {
+          "en": "CLEARENCE — CHECK",
+          "pt": "CLEARANCE — VERIFICAR",
+          "whyEn": "The POH requires the ATIS and start-up clearance to be received before engine start.",
+          "whyPt": "O POH exige receber o ATIS e a autorização de partida antes de acionar o motor.",
+          "noteEn": "The source prints “CLEARENCE”.",
+          "notePt": "O arquivo traz a grafia “CLEARENCE”."
+        },
+        {
+          "en": "EXTERNAL LIGHTS — AS REQUIRED",
+          "pt": "LUZES EXTERNAS — CONFORME NECESSÁRIO",
+          "whyEn": "The POH cautions that prolonged beacon or logo-light use can reduce battery power and affect engine starting.",
+          "whyPt": "O POH adverte que o uso prolongado das luzes beacon ou logo pode reduzir a carga da bateria e afetar a partida do motor.",
+          "noteEn": "",
+          "notePt": ""
+        },
+        {
+          "en": "PROP AREA — CLEAR",
+          "pt": "ÁREA DA HÉLICE — LIVRE",
+          "whyEn": "The POH requires the propeller area to be clear of obstructions before starting.",
+          "whyPt": "O POH exige que a área da hélice esteja livre de obstáculos antes da partida.",
+          "noteEn": "",
+          "notePt": ""
+        },
+        {
+          "en": "START SWITCH — ON/PRESS > 2 SEC",
+          "pt": "START SWITCH — ON/PRESSIONAR POR MAIS DE 2 S",
+          "whyEn": "The supplied checklist states this timing, but the POH engine-start procedure says to push the STARTER switch momentarily. The difference is flagged here for verification against the approved checklist for this aircraft.",
+          "whyPt": "O checklist enviado especifica esse tempo, mas o procedimento de partida do POH diz para pressionar momentaneamente o STARTER. A diferença fica sinalizada para conferência com o checklist aprovado desta aeronave.",
+          "noteEn": "CHECKLIST/POH DIFFERENCE: checklist says >2 sec; POH Section 4.5.1 says “PUSH momentarily”. Confirm the approved aircraft-specific procedure.",
+          "notePt": "DIFERENÇA CHECKLIST/POH: o checklist diz >2 s; o POH, Seção 4.5.1, diz “PUSH momentarily”. Confirme o procedimento aprovado para esta aeronave."
+        }
+      ]
+    },
+    {
+      "id": "after_start",
+      "en": "AFTER START",
+      "pt": "APÓS A PARTIDA",
+      "ref": "POH Section 4.5.1, p. 4-13",
+      "page": "Checklist p. 1; POH 4-13",
+      "steps": [
+        {
+          "en": "ENGINE INSTRUMENTS — CHECK",
+          "pt": "INSTRUMENTOS DO MOTOR — VERIFICAR",
+          "whyEn": "After the starter sequence, the POH requires engine instruments to be stable in the green range.",
+          "whyPt": "Após a sequência do starter, o POH exige que os instrumentos do motor estejam estáveis na faixa verde.",
+          "noteEn": "",
+          "notePt": ""
+        },
+        {
+          "en": "GEN1/GEN2 (VOLTS/AMPS) — CHECK",
+          "pt": "GEN1/GEN2 (VOLTS/AMPÈRES) — VERIFICAR",
+          "whyEn": "The POH calls for checking generator volts and amps after start.",
+          "whyPt": "O POH determina conferir volts e ampères dos geradores após a partida.",
+          "noteEn": "",
+          "notePt": ""
+        },
+        {
+          "en": "FUEL TOTALIZER — RESET",
+          "pt": "FUEL TOTALIZER — REINICIALIZAR",
+          "whyEn": "The POH calls for pressing the FUEL RESET soft key after engine start; it does not give a separate explanation for the checklist's “FUEL TOTALIZER” label.",
+          "whyPt": "O POH determina pressionar FUEL RESET após a partida; não apresenta uma explicação separada para o rótulo “FUEL TOTALIZER” usado no checklist.",
+          "noteEn": "",
+          "notePt": ""
+        },
+        {
+          "en": "EXTERNAL POWER — DISCONNECTED",
+          "pt": "ALIMENTAÇÃO EXTERNA — DESCONECTADA",
+          "whyEn": "The POH directs disconnecting the external power unit after the engine-start sequence.",
+          "whyPt": "O POH determina desconectar a unidade de alimentação externa após a sequência de partida.",
+          "noteEn": "",
+          "notePt": ""
+        }
+      ]
+    },
+    {
+      "id": "before_taxi",
+      "en": "BEFORE TAXI",
+      "pt": "ANTES DO TÁXI",
+      "ref": "POH Section 4.6, p. 4-15",
+      "page": "Checklist p. 1; POH 4-15",
+      "steps": [
+        {
+          "en": "PUSHER — CHECK",
+          "pt": "PUSHER — VERIFICAR",
+          "whyEn": "The POH requires a preflight function test of the stall warning/stick-pusher system.",
+          "whyPt": "O POH exige um teste funcional pré-voo do sistema de aviso de estol/stick pusher.",
+          "noteEn": "",
+          "notePt": ""
+        },
+        {
+          "en": "FLAPS — 15°",
+          "pt": "FLAPS — 15°",
+          "whyEn": "The POH lists 15° for the before-departure flap setting; it notes that 30° may be used for reduced takeoff distance.",
+          "whyPt": "O POH lista 15° como ajuste dos flaps antes da partida; observa que 30° pode ser usado para reduzir a distância de decolagem.",
+          "noteEn": "",
+          "notePt": ""
+        },
+        {
+          "en": "PFD'S/MFD'S — CHECK/NO FLAGS",
+          "pt": "PFD'S/MFD'S — VERIFICAR/SEM FLAGS",
+          "whyEn": "The POH requires the PFD, MFD, CAS and ESIS to have no flags or red warning captions and to be aligned.",
+          "whyPt": "O POH exige que PFD, MFD, CAS e ESIS não apresentem flags nem avisos vermelhos e estejam alinhados.",
+          "noteEn": "",
+          "notePt": ""
+        },
+        {
+          "en": "CAS — CHECK",
+          "pt": "CAS — VERIFICAR",
+          "whyEn": "The POH before-taxi procedure checks the CAS window and requires no cautions.",
+          "whyPt": "O procedimento do POH antes do táxi manda conferir a janela CAS e exige ausência de cautions.",
+          "noteEn": "",
+          "notePt": ""
+        },
+        {
+          "en": "PROBES AND WINDSHIELD HEAT — TEST ON 1 MIN",
+          "pt": "PROBES E AQUECIMENTO DO PARA-BRISA — TESTAR LIGADOS POR 1 MIN",
+          "whyEn": "The checklist calls for a one-minute check of probe and windshield heat; the POH requires probe heat ON for line-up and windshield heat as required.",
+          "whyPt": "O checklist determina verificar por um minuto o aquecimento das sondas e do para-brisa; o POH exige PROBES ON no alinhamento e windshield heat conforme necessário.",
+          "noteEn": "",
+          "notePt": ""
+        },
+        {
+          "en": "BRIEFING — CHECK",
+          "pt": "BRIEFING — VERIFICAR",
+          "whyEn": "The POH requires the departure and emergency briefing to be completed before takeoff.",
+          "whyPt": "O POH exige concluir o briefing de partida e de emergência antes da decolagem.",
+          "noteEn": "",
+          "notePt": ""
+        }
+      ]
+    },
+    {
+      "id": "taxi",
+      "en": "TAXI",
+      "pt": "TÁXI",
+      "ref": "POH Section 4.7, p. 4-16; Section 4.8.1, p. 4-17",
+      "page": "Checklist p. 1; POH 4-16–4-17",
+      "steps": [
+        {
+          "en": "REVERSE — CHECK",
+          "pt": "REVERSE — VERIFICAR",
+          "whyEn": "The POH taxi procedure checks that beta is available and returns the PCL to IDLE; when conditions allow, beta can control taxi speed and reduce brake wear.",
+          "whyPt": "O procedimento de táxi do POH verifica a disponibilidade de beta e retorna o PCL a IDLE; quando as condições permitem, beta pode controlar a velocidade de táxi e reduzir o desgaste dos freios.",
+          "noteEn": "The POH describes checking beta availability; the uploaded checklist labels this “REVERSE”.",
+          "notePt": "O POH descreve verificar a disponibilidade de beta; o checklist enviado chama o item de “REVERSE”."
+        },
+        {
+          "en": "BRAKES — CHECK",
+          "pt": "FREIOS — VERIFICAR",
+          "whyEn": "The POH includes a brake check during taxi before departure.",
+          "whyPt": "O POH inclui uma verificação dos freios durante o táxi antes da partida.",
+          "noteEn": "",
+          "notePt": ""
+        },
+        {
+          "en": "TRIM — CHECK/GREEN RANGE",
+          "pt": "TRIM — VERIFICAR/FAIXA VERDE",
+          "whyEn": "The POH requires trim in the green range before departure; it specifies the green diamond for the stated aft-CG condition.",
+          "whyPt": "O POH exige trim na faixa verde antes da partida; especifica o losango verde para a condição indicada de CG traseiro.",
+          "noteEn": "",
+          "notePt": ""
+        },
+        {
+          "en": "FLIGHT CONTROLS — CHECK",
+          "pt": "CONTROLES DE VOO — VERIFICAR",
+          "whyEn": "The POH before-departure check calls for full, free and correct flight-control movement.",
+          "whyPt": "A verificação do POH antes da partida exige movimento completo, livre e correto dos controles de voo.",
+          "noteEn": "",
+          "notePt": ""
+        },
+        {
+          "en": "GLARSHILD — CHECK",
+          "pt": "GLARESHIELD — VERIFICAR",
+          "whyEn": "The supplied checklist names this inspection, but the POH does not state a separate reason for this individual item.",
+          "whyPt": "O checklist enviado inclui esta inspeção, mas o POH não apresenta uma justificativa separada para este item.",
+          "noteEn": "The source prints “GLARSHILD”.",
+          "notePt": "O arquivo traz a grafia “GLARSHILD”."
+        },
+        {
+          "en": "TRANSPONDER/TA — CHECK",
+          "pt": "TRANSPONDER/TA — VERIFICAR",
+          "whyEn": "The supplied checklist and POH list this check or setting, but do not state a separate reason for this individual item.",
+          "whyPt": "O checklist enviado e o POH listam esta verificação ou ajuste, mas não apresentam um motivo separado para este item.",
+          "noteEn": "",
+          "notePt": ""
+        },
+        {
+          "en": "PRESSURIZATION — CHECK",
+          "pt": "PRESSURIZAÇÃO — VERIFICAR",
+          "whyEn": "The POH requires the CPCS configuration and landing-field elevation to be checked before departure.",
+          "whyPt": "O POH exige conferir a configuração do CPCS e a elevação do aeródromo de pouso antes da partida.",
+          "noteEn": "",
+          "notePt": ""
+        }
+      ]
+    },
+    {
+      "id": "cleared_takeoff",
+      "en": "CLEARED FOR TAKEOFF",
+      "pt": "LIBERADO PARA DECOLAGEM",
+      "ref": "POH Section 4.8.2, p. 4-17; Section 4.9, p. 4-18",
+      "page": "Checklist p. 1; POH 4-17–4-18",
+      "steps": [
+        {
+          "en": "HEADINGS — CROSS CHECK",
+          "pt": "PROAS — CONFERIR",
+          "whyEn": "The POH line-up check requires the runway to be identified, heading verified and heading bug synchronized.",
+          "whyPt": "A verificação de alinhamento do POH exige identificar a pista, verificar a proa e sincronizar o heading bug.",
+          "noteEn": "",
+          "notePt": ""
+        },
+        {
+          "en": "PROBES — ON",
+          "pt": "PROBES — LIGADO",
+          "whyEn": "The POH line-up check specifies PROBES ON.",
+          "whyPt": "A verificação de alinhamento do POH especifica PROBES ON.",
+          "noteEn": "",
+          "notePt": ""
+        },
+        {
+          "en": "LIGHTS — ALL ON",
+          "pt": "LUZES — TODAS LIGADAS",
+          "whyEn": "The supplied checklist and POH list this check or setting, but do not state a separate reason for this individual item.",
+          "whyPt": "O checklist enviado e o POH listam esta verificação ou ajuste, mas não apresentam um motivo separado para este item.",
+          "noteEn": "",
+          "notePt": ""
+        },
+        {
+          "en": "GO AROW — CHECK",
+          "pt": "GO AROUND — VERIFICAR",
+          "whyEn": "The supplied checklist says to check this control. The POH describes pressing the Go Around switch during a balked landing if the autopilot is engaged; it does not define this checklist item as a switch press.",
+          "whyPt": "O checklist enviado manda verificar este controle. O POH descreve pressionar Go Around durante uma arremetida se o piloto automático estiver engajado; não define este item como um comando de pressionar.",
+          "noteEn": "The source prints “GO AROW”; the POH calls the related control “Go Around”.",
+          "notePt": "O arquivo traz “GO AROW”; o POH chama o controle relacionado de “Go Around”."
+        },
+        {
+          "en": "CONDITION LEVER — FLIGHT IDLE",
+          "pt": "CONDITION LEVER — FLIGHT IDLE",
+          "whyEn": "The POH line-up check specifies FLIGHT IDLE before takeoff.",
+          "whyPt": "A verificação de alinhamento do POH especifica FLIGHT IDLE antes da decolagem.",
+          "noteEn": "",
+          "notePt": ""
+        },
+        {
+          "en": "TERR INHIB — CHECK",
+          "pt": "TERR INHIB — VERIFICAR",
+          "whyEn": "When TERR INHIB is active, the POH says terrain and aural alerts are deactivated; it is generally used when position accuracy is inadequate or the airport is not in the terrain database.",
+          "whyPt": "Quando TERR INHIB está ativo, o POH informa que os alertas visuais e sonoros de terreno ficam desativados; em geral, é usado quando a precisão da posição é inadequada ou o aeródromo não está no banco de dados de terreno.",
+          "noteEn": "“CHECK” does not mean to activate the inhibit; verify the intended state for the flight.",
+          "notePt": "“VERIFICAR” não significa ativar o inhibit; confira o estado pretendido para o voo."
+        },
+        {
+          "en": "BLEED AIR — AS REQUIRED",
+          "pt": "BLEED AIR — CONFORME NECESSÁRIO",
+          "whyEn": "The POH describes ACS BLEED AIR INHIBIT only under specified takeoff-power conditions; it is selected AUTO in climb if it was inhibited for takeoff.",
+          "whyPt": "O POH prevê ACS BLEED AIR INHIBIT apenas nas condições especificadas de potência de decolagem; na subida, seleciona-se AUTO se o sistema foi inibido para a decolagem.",
+          "noteEn": "",
+          "notePt": ""
+        }
+      ]
+    },
+    {
+      "id": "after_takeoff",
+      "en": "AFTER TAKE OFF",
+      "pt": "APÓS A DECOLAGEM",
+      "ref": "POH Section 4.9, p. 4-18; Section 4.11, p. 4-21",
+      "page": "Checklist p. 1; POH 4-18, 4-21",
+      "steps": [
+        {
+          "en": "LDG GEAR — UP",
+          "pt": "TREM DE POUSO — RECOLHIDO",
+          "whyEn": "The POH sequences landing-gear retraction after lift-off and a positive rate of climb.",
+          "whyPt": "O POH determina recolher o trem após a decolagem e uma razão de subida positiva.",
+          "noteEn": "",
+          "notePt": ""
+        },
+        {
+          "en": "FLAPS — RETRACTED",
+          "pt": "FLAPS — RECOLHIDOS",
+          "whyEn": "The POH specifies FLAPS 0° above 100 KIAS after takeoff.",
+          "whyPt": "O POH especifica FLAPS 0° acima de 100 KIAS após a decolagem.",
+          "noteEn": "",
+          "notePt": ""
+        },
+        {
+          "en": "YAW DAMPER — ON",
+          "pt": "YAW DAMPER — LIGADO",
+          "whyEn": "The POH selects the yaw damper ON after a positive rate of climb; its limitations require the yaw damper OFF during takeoff and landing.",
+          "whyPt": "O POH seleciona o yaw damper ON após uma razão de subida positiva; as limitações exigem yaw damper OFF durante decolagem e pouso.",
+          "noteEn": "",
+          "notePt": ""
+        },
+        {
+          "en": "PRESSURIZATION — CHECK",
+          "pt": "PRESSURIZAÇÃO — VERIFICAR",
+          "whyEn": "The POH calls for monitoring cabin pressure during climb and cruise.",
+          "whyPt": "O POH determina monitorar a pressão da cabine durante a subida e o cruzeiro.",
+          "noteEn": "",
+          "notePt": ""
+        },
+        {
+          "en": "LIGHTS — AS REQUIRED",
+          "pt": "LUZES — CONFORME NECESSÁRIO",
+          "whyEn": "The supplied checklist and POH list this check or setting, but do not state a separate reason for this individual item.",
+          "whyPt": "O checklist enviado e o POH listam esta verificação ou ajuste, mas não apresentam um motivo separado para este item.",
+          "noteEn": "",
+          "notePt": ""
+        },
+        {
+          "en": "BLEED AIR — ON",
+          "pt": "BLEED AIR — LIGADO",
+          "whyEn": "The POH climb procedure says ACS BLEED AIR AUTO if it was selected INHIBIT for takeoff.",
+          "whyPt": "O procedimento de subida do POH diz ACS BLEED AIR AUTO se o sistema foi selecionado INHIBIT para a decolagem.",
+          "noteEn": "CHECKLIST/POH DIFFERENCE: the checklist says ON; POH Section 4.11 says AUTO if inhibited for takeoff. Confirm the approved aircraft-specific procedure.",
+          "notePt": "DIFERENÇA CHECKLIST/POH: o checklist diz ON; o POH, Seção 4.11, diz AUTO se foi inibido na decolagem. Confirme o procedimento aprovado para esta aeronave."
+        }
+      ]
+    },
+    {
+      "id": "ten_thousand_climb",
+      "en": "TEN THOUSAND CLIMBING",
+      "pt": "SUBIDA A 10.000 FT",
+      "ref": "POH Sections 4.11 and 4.20, pp. 4-21 and 4-28",
+      "page": "Checklist p. 1; POH 4-21, 4-28",
+      "steps": [
+        {
+          "en": "SEAT BELTS — AS REQUIRED",
+          "pt": "CINTOS — CONFORME NECESSÁRIO",
+          "whyEn": "The supplied checklist and POH list this check or setting, but do not state a separate reason for this individual item.",
+          "whyPt": "O checklist enviado e o POH listam esta verificação ou ajuste, mas não apresentam um motivo separado para este item.",
+          "noteEn": "",
+          "notePt": ""
+        },
+        {
+          "en": "LIGHTS — AS REQUIRED",
+          "pt": "LUZES — CONFORME NECESSÁRIO",
+          "whyEn": "The supplied checklist and POH list this check or setting, but do not state a separate reason for this individual item.",
+          "whyPt": "O checklist enviado e o POH listam esta verificação ou ajuste, mas não apresentam um motivo separado para este item.",
+          "noteEn": "",
+          "notePt": ""
+        },
+        {
+          "en": "OXYGEN — OPEN",
+          "pt": "OXIGÊNIO — ABERTO",
+          "whyEn": "The POH oxygen procedure requires the oxygen system and masks to be configured for the flight; above 10,000 ft it specifies the masks connected and the Oxygen Control Valve in AUTO.",
+          "whyPt": "O procedimento de oxigênio do POH exige configurar o sistema e as máscaras para o voo; acima de 10.000 ft, especifica máscaras conectadas e Oxygen Control Valve em AUTO.",
+          "noteEn": "The checklist says OPEN; POH Section 4.20 describes AUTO above 10,000 ft. Verify that these labels refer to the same control on this aircraft.",
+          "notePt": "O checklist diz OPEN; o POH, Seção 4.20, descreve AUTO acima de 10.000 ft. Confira se os dois rótulos se referem ao mesmo controle nesta aeronave."
+        },
+        {
+          "en": "INERT SEP — CLOSED",
+          "pt": "INERT SEP — FECHADO",
+          "whyEn": "The POH associates opening the inertial separator with icing, unprepared surfaces or bird-strike protection; it also notes that opening it reduces engine performance.",
+          "whyPt": "O POH associa a abertura do separador inercial a gelo, superfícies não preparadas ou proteção contra impacto de aves; também informa que aberto reduz o desempenho do motor.",
+          "noteEn": "",
+          "notePt": ""
+        },
+        {
+          "en": "ALTIMETERS — CHECK STD",
+          "pt": "ALTÍMETROS — CONFERIR STD",
+          "whyEn": "The supplied checklist and POH list this check or setting, but do not state a separate reason for this individual item.",
+          "whyPt": "O checklist enviado e o POH listam esta verificação ou ajuste, mas não apresentam um motivo separado para este item.",
+          "noteEn": "",
+          "notePt": ""
+        }
+      ]
+    },
+    {
+      "id": "cruise",
+      "en": "CRUISE",
+      "pt": "CRUZEIRO",
+      "ref": "POH Section 4.12, p. 4-21",
+      "page": "Checklist p. 1; POH 4-21",
+      "steps": [
+        {
+          "en": "PRESSURIZATION — CHECK",
+          "pt": "PRESSURIZAÇÃO — VERIFICAR",
+          "whyEn": "The POH cruise procedure requires cabin pressurization to be monitored.",
+          "whyPt": "O procedimento de cruzeiro do POH exige monitorar a pressurização da cabine.",
+          "noteEn": "",
+          "notePt": ""
+        },
+        {
+          "en": "ICE PROTECTION — AS REQUIRED",
+          "pt": "PROTEÇÃO CONTRA GELO — CONFORME NECESSÁRIO",
+          "whyEn": "The POH requires the ice-protection system to be operated as required by the conditions.",
+          "whyPt": "O POH determina operar o sistema de proteção contra gelo conforme as condições exigirem.",
+          "noteEn": "",
+          "notePt": ""
+        }
+      ]
+    },
+    {
+      "id": "before_approach",
+      "en": "BEFORE APPROACH",
+      "pt": "ANTES DA APROXIMAÇÃO",
+      "ref": "POH Sections 4.13–4.14.1, p. 4-22",
+      "page": "Checklist p. 1; POH 4-22",
+      "steps": [
+        {
+          "en": "BRIEFING — CONFIRMED",
+          "pt": "BRIEFING — CONFIRMADO",
+          "whyEn": "The POH descent and approach procedures call for receiving ATIS and performing the briefing.",
+          "whyPt": "Os procedimentos de descida e aproximação do POH determinam receber o ATIS e realizar o briefing.",
+          "noteEn": "",
+          "notePt": ""
+        }
+      ]
+    },
+    {
+      "id": "ten_thousand_descent",
+      "en": "TEN THOUSAND DECENT",
+      "pt": "DESCIDA A 10.000 FT",
+      "ref": "POH Sections 4.13–4.14.1 and 4.20, pp. 4-22 and 4-28",
+      "page": "Checklist p. 1; POH 4-22, 4-28",
+      "steps": [
+        {
+          "en": "ALTIMETERS — SET",
+          "pt": "ALTÍMETROS — AJUSTAR",
+          "whyEn": "The POH approach check requires the altimeter to be set.",
+          "whyPt": "A verificação de aproximação do POH exige ajustar o altímetro.",
+          "noteEn": "",
+          "notePt": ""
+        },
+        {
+          "en": "ICE PROTECTION — SET",
+          "pt": "PROTEÇÃO CONTRA GELO — AJUSTAR",
+          "whyEn": "The POH requires the ice-protection configuration to match the conditions.",
+          "whyPt": "O POH exige que a configuração de proteção contra gelo corresponda às condições.",
+          "noteEn": "",
+          "notePt": ""
+        },
+        {
+          "en": "MDA/DA — SET",
+          "pt": "MDA/DA — AJUSTAR",
+          "whyEn": "The supplied checklist and POH list this check or setting, but do not state a separate reason for this individual item.",
+          "whyPt": "O checklist enviado e o POH listam esta verificação ou ajuste, mas não apresentam um motivo separado para este item.",
+          "noteEn": "",
+          "notePt": ""
+        },
+        {
+          "en": "SEAT BELTS — ON",
+          "pt": "CINTOS — AFIVELADOS",
+          "whyEn": "The supplied checklist and POH list this check or setting, but do not state a separate reason for this individual item.",
+          "whyPt": "O checklist enviado e o POH listam esta verificação ou ajuste, mas não apresentam um motivo separado para este item.",
+          "noteEn": "",
+          "notePt": ""
+        },
+        {
+          "en": "OXYGEN — OFF",
+          "pt": "OXIGÊNIO — DESLIGADO",
+          "whyEn": "The supplied checklist and POH list this check or setting, but do not state a separate reason for this individual item.",
+          "whyPt": "O checklist enviado e o POH listam esta verificação ou ajuste, mas não apresentam um motivo separado para este item.",
+          "noteEn": "",
+          "notePt": ""
+        },
+        {
+          "en": "LIGHTS — AS REQUIRED",
+          "pt": "LUZES — CONFORME NECESSÁRIO",
+          "whyEn": "The supplied checklist and POH list this check or setting, but do not state a separate reason for this individual item.",
+          "whyPt": "O checklist enviado e o POH listam esta verificação ou ajuste, mas não apresentam um motivo separado para este item.",
+          "noteEn": "",
+          "notePt": ""
+        },
+        {
+          "en": "INERTIAL SEPARATOR — OPEN",
+          "pt": "SEPARADOR INERCIAL — ABERTO",
+          "whyEn": "The POH approach check calls for the inertial separator OPEN when operating on an unprepared surface or for bird-strike protection; the systems description explains that it bypasses heavy particles away from the engine.",
+          "whyPt": "A verificação de aproximação do POH prevê o separador inercial OPEN ao operar em superfície não preparada ou para proteção contra impacto de aves; a descrição do sistema explica que ele desvia partículas pesadas para longe do motor.",
+          "noteEn": "The POH makes OPEN conditional in the approach check; the supplied checklist lists it in this phase. Confirm applicability for the flight.",
+          "notePt": "Na verificação de aproximação, o POH condiciona a seleção OPEN; o checklist enviado a lista nesta fase. Confirme a aplicabilidade ao voo."
+        },
+        {
+          "en": "TERR INHIB — AS REQUIRED",
+          "pt": "TERR INHIB — CONFORME NECESSÁRIO",
+          "whyEn": "When TERR INHIB is active, terrain and aural alerts are deactivated; the POH limits its general use to situations such as inadequate position accuracy or airports missing from the terrain database.",
+          "whyPt": "Quando TERR INHIB está ativo, os alertas visuais e sonoros de terreno ficam desativados; o POH restringe seu uso geral a situações como precisão inadequada da posição ou aeródromos ausentes do banco de terreno.",
+          "noteEn": "",
+          "notePt": ""
+        }
+      ]
+    },
+    {
+      "id": "final",
+      "en": "FINAL",
+      "pt": "FINAL",
+      "ref": "POH Section 4.14.2, p. 4-23; Limitations, cabin pressure",
+      "page": "Checklist p. 1; POH 4-23; Section 2",
+      "steps": [
+        {
+          "en": "LANDING GEAR — DOWN (3 GREEN)",
+          "pt": "TREM DE POUSO — BAIXADO (3 LUZES VERDES)",
+          "whyEn": "The three green lights confirm the landing-gear down indication specified by the POH final check.",
+          "whyPt": "As três luzes verdes confirmam a indicação de trem baixado especificada na verificação final do POH.",
+          "noteEn": "",
+          "notePt": ""
+        },
+        {
+          "en": "FLAPS — AS REQUIRED",
+          "pt": "FLAPS — CONFORME NECESSÁRIO",
+          "whyEn": "The POH final check specifies 40° or as required, subject to the stated icing and failure limits.",
+          "whyPt": "A verificação final do POH especifica 40° ou conforme necessário, sujeito aos limites indicados para gelo e falhas.",
+          "noteEn": "",
+          "notePt": ""
+        },
+        {
+          "en": "CABIN DIFFERENTIAL — < 0.7",
+          "pt": "DIFERENCIAL DA CABINE — < 0,7",
+          "whyEn": "The POH approves pressurized landing only up to 0.7 psid and calls for decreasing cabin differential pressure before landing.",
+          "whyPt": "O POH aprova pouso pressurizado somente até 0,7 psid e exige que o diferencial de pressão da cabine esteja diminuindo antes do pouso.",
+          "noteEn": "",
+          "notePt": ""
+        },
+        {
+          "en": "YAW DAMPER — DISENGAGED",
+          "pt": "YAW DAMPER — DESENGAJADO",
+          "whyEn": "The POH limitations require the yaw damper OFF during landing; the final checklist also calls for it disengaged before landing.",
+          "whyPt": "As limitações do POH exigem yaw damper OFF durante o pouso; a lista final também determina desengajá-lo antes de pousar.",
+          "noteEn": "",
+          "notePt": ""
+        },
+        {
+          "en": "LIGHTS — ALL ON",
+          "pt": "LUZES — TODAS LIGADAS",
+          "whyEn": "The supplied checklist and POH list this check or setting, but do not state a separate reason for this individual item.",
+          "whyPt": "O checklist enviado e o POH listam esta verificação ou ajuste, mas não apresentam um motivo separado para este item.",
+          "noteEn": "",
+          "notePt": ""
+        }
+      ]
+    },
+    {
+      "id": "after_landing",
+      "en": "AFTER LANDING",
+      "pt": "APÓS O POUSO",
+      "ref": "POH Sections 4.16–4.17, pp. 4-25",
+      "page": "Checklist p. 1; POH 4-25",
+      "steps": [
+        {
+          "en": "GROUND IDLE — SET",
+          "pt": "GROUND IDLE — AJUSTAR",
+          "whyEn": "The POH defines GROUND IDLE for ground operation and says it keeps propeller speed above the prohibited 350–950 rpm range under the specified ambient conditions.",
+          "whyPt": "O POH define GROUND IDLE para operação no solo e informa que mantém a rotação da hélice acima da faixa proibida de 350–950 rpm nas condições de temperatura especificadas.",
+          "noteEn": "",
+          "notePt": ""
+        },
+        {
+          "en": "FLAPS — AS REQUIRED",
+          "pt": "FLAPS — CONFORME NECESSÁRIO",
+          "whyEn": "The supplied checklist gives this setting as required; the POH after-landing checklist says Flaps UP when the runway is vacated.",
+          "whyPt": "O checklist enviado deixa o ajuste conforme necessário; a lista do POH após o pouso diz Flaps UP depois de livrar a pista.",
+          "noteEn": "CHECKLIST/POH DIFFERENCE: checklist says AS REQUIRED; POH Section 4.17 says UP when the runway is vacated.",
+          "notePt": "DIFERENÇA CHECKLIST/POH: o checklist diz AS REQUIRED; o POH, Seção 4.17, diz UP ao livrar a pista."
+        },
+        {
+          "en": "RADAR — STBY",
+          "pt": "RADAR — STBY",
+          "whyEn": "The POH places the weather radar in STBY after landing; its ground-operation limitation warns about personnel within 15 ft of the forward antenna sector.",
+          "whyPt": "O POH coloca o radar meteorológico em STBY após o pouso; sua limitação em solo alerta sobre pessoas a menos de 15 ft do setor dianteiro da antena.",
+          "noteEn": "",
+          "notePt": ""
+        },
+        {
+          "en": "TRANSPONDER — GROUND",
+          "pt": "TRANSPONDER — GROUND",
+          "whyEn": "The POH after-landing procedure says STBY or check GND; this checklist specifies GROUND.",
+          "whyPt": "O procedimento do POH após o pouso diz STBY ou verificar GND; este checklist especifica GROUND.",
+          "noteEn": "",
+          "notePt": ""
+        },
+        {
+          "en": "ICE PROTECTION — OFF",
+          "pt": "PROTEÇÃO CONTRA GELO — OFF",
+          "whyEn": "The POH after-landing procedure calls for ice-protection switches OFF or as required.",
+          "whyPt": "O procedimento do POH após o pouso determina ICE PROTECTION OFF ou conforme necessário.",
+          "noteEn": "",
+          "notePt": ""
+        },
+        {
+          "en": "TRIM — RESET",
+          "pt": "TRIM — REINICIALIZAR",
+          "whyEn": "The POH after-landing checklist returns trim to the green range.",
+          "whyPt": "A lista do POH após o pouso retorna o trim à faixa verde.",
+          "noteEn": "",
+          "notePt": ""
+        }
+      ]
+    },
+    {
+      "id": "shutdown",
+      "en": "SHUTDOWN",
+      "pt": "DESLIGAMENTO",
+      "ref": "POH Sections 4.18–4.19, pp. 4-26–4-27",
+      "page": "Checklist p. 1; POH 4-26–4-27",
+      "steps": [
+        {
+          "en": "CONDITION LEVER — CUTOFF",
+          "pt": "CONDITION LEVER — CUTOFF",
+          "whyEn": "The POH shutdown procedure selects CONDITION LEVER CUT-OFF/FEATHER to shut down the engine.",
+          "whyPt": "O procedimento de desligamento do POH seleciona CONDITION LEVER CUT-OFF/FEATHER para desligar o motor.",
+          "noteEn": "",
+          "notePt": ""
+        },
+        {
+          "en": "STANDBY BUS — OFF",
+          "pt": "STANDBY BUS — OFF",
+          "whyEn": "The POH shutdown sequence switches the standby bus off before the EPS and battery switches.",
+          "whyPt": "A sequência de desligamento do POH desliga o standby bus antes do EPS e das baterias.",
+          "noteEn": "",
+          "notePt": ""
+        },
+        {
+          "en": "EPS — OFF",
+          "pt": "EPS — OFF",
+          "whyEn": "The POH shutdown sequence switches the EPS off after the standby bus.",
+          "whyPt": "A sequência de desligamento do POH desliga o EPS depois do standby bus.",
+          "noteEn": "",
+          "notePt": ""
+        },
+        {
+          "en": "BATTERY 1/2 — OFF",
+          "pt": "BATTERY 1/2 — OFF",
+          "whyEn": "The POH shutdown sequence switches both batteries off after the standby bus and EPS.",
+          "whyPt": "A sequência de desligamento do POH desliga as duas baterias após o standby bus e o EPS.",
+          "noteEn": "",
+          "notePt": ""
+        },
+        {
+          "en": "FLIGHT CONTROL LOCK — INSTALL",
+          "pt": "TRAVA DOS CONTROLES DE VOO — INSTALAR",
+          "whyEn": "The POH parking procedure requires the flight-control lock installed while parked.",
+          "whyPt": "O procedimento de estacionamento do POH exige instalar a trava dos controles de voo enquanto a aeronave estiver estacionada.",
+          "noteEn": "",
+          "notePt": ""
+        },
+        {
+          "en": "MASTER POWER — OFF",
+          "pt": "MASTER POWER — OFF",
+          "whyEn": "This item is present in the supplied checklist. The POH shutdown sequence lists standby bus, EPS and battery switches OFF but does not give a separate Master Power OFF step in Section 4.18.",
+          "whyPt": "Este item aparece no checklist enviado. A sequência de desligamento do POH lista standby bus, EPS e baterias OFF, mas não traz uma etapa separada de Master Power OFF na Seção 4.18.",
+          "noteEn": "The supplied checklist includes this additional step; the POH shutdown section does not list it separately.",
+          "notePt": "O checklist enviado inclui esta etapa adicional; a seção de desligamento do POH não a lista separadamente."
+        }
+      ]
+    }
+  ],
+  "quizQuestions": [
+    {
+      "id": 3000,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "EASY",
+      "question": "What is the first checklist item in BEFORE START?",
+      "answers": [
+        "STAND BY BUS — ON",
+        "EPS — TEST-ARMED/ON",
+        "MASTER POWER — ON",
+        "BATTERY 1/2 — ON · VOLTS 24 MIN"
+      ],
+      "correct": 2,
+      "explanation": "MASTER POWER — ON. The supplied checklist and POH list this check or setting, but do not state a separate reason for this individual item.",
+      "memoryAid": "BEFORE START: 1/13",
+      "reference": "Checklist PDF, page 1; POH Section 4.4, pp. 4-10–4-11",
+      "sourcePage": "Checklist p. 1; POH 4-10–4-11",
+      "sourceTopic": "BEFORE START",
+      "sourceSubtopic": "Checklist step 1",
+      "sourceText": "MASTER POWER — ON",
+      "factId": "CHECKLIST_BEFORE_START_01",
+      "conceptId": "CHECKLIST_SEQUENCE_BEFORE_START",
+      "questionPt": "Qual é o primeiro item do checklist em ANTES DA PARTIDA?",
+      "answersPt": [
+        "STAND BY BUS — LIGADO",
+        "EPS — TESTAR/ARMAR/LIGAR",
+        "MASTER POWER — LIGADO",
+        "BATTERY 1/2 — LIGADAS · MÍNIMO 24 V"
+      ],
+      "explanationPt": "MASTER POWER — LIGADO. O checklist enviado e o POH listam esta verificação ou ajuste, mas não apresentam um motivo separado para este item."
+    },
+    {
+      "id": 3001,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "MEDIUM",
+      "question": "In BEFORE START, what checklist item comes after “MASTER POWER — ON”?",
+      "answers": [
+        "STAND BY BUS — ON",
+        "MASTER POWER — ON",
+        "BATTERY 1/2 — ON · VOLTS 24 MIN",
+        "EPS — TEST-ARMED/ON"
+      ],
+      "correct": 0,
+      "explanation": "STAND BY BUS — ON. The POH says to leave the standby bus on until the MFD powers up, about 30 seconds, before switching on the batteries.",
+      "memoryAid": "BEFORE START: 2/13",
+      "reference": "Checklist PDF, page 1; POH Section 4.4, pp. 4-10–4-11",
+      "sourcePage": "Checklist p. 1; POH 4-10–4-11",
+      "sourceTopic": "BEFORE START",
+      "sourceSubtopic": "Checklist step 2",
+      "sourceText": "STAND BY BUS — ON",
+      "factId": "CHECKLIST_BEFORE_START_02",
+      "conceptId": "CHECKLIST_SEQUENCE_BEFORE_START",
+      "questionPt": "Em ANTES DA PARTIDA, qual item vem depois de “MASTER POWER — LIGADO”?",
+      "answersPt": [
+        "STAND BY BUS — LIGADO",
+        "MASTER POWER — LIGADO",
+        "BATTERY 1/2 — LIGADAS · MÍNIMO 24 V",
+        "EPS — TESTAR/ARMAR/LIGAR"
+      ],
+      "explanationPt": "STAND BY BUS — LIGADO. O POH orienta manter o standby bus ligado até o MFD inicializar, cerca de 30 segundos, antes de ligar as baterias."
+    },
+    {
+      "id": 3002,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "MEDIUM",
+      "question": "In BEFORE START, what checklist item comes after “STAND BY BUS — ON”?",
+      "answers": [
+        "EPS — TEST-ARMED/ON",
+        "BATTERY 1/2 — ON · VOLTS 24 MIN",
+        "MASTER POWER — ON",
+        "STAND BY BUS — ON"
+      ],
+      "correct": 0,
+      "explanation": "EPS — TEST-ARMED/ON. The POH specifies an EPS test and arming sequence, then checks the EPS indications and ESIS alignment.",
+      "memoryAid": "BEFORE START: 3/13",
+      "reference": "Checklist PDF, page 1; POH Section 4.4, pp. 4-10–4-11",
+      "sourcePage": "Checklist p. 1; POH 4-10–4-11",
+      "sourceTopic": "BEFORE START",
+      "sourceSubtopic": "Checklist step 3",
+      "sourceText": "EPS — TEST-ARMED/ON",
+      "factId": "CHECKLIST_BEFORE_START_03",
+      "conceptId": "CHECKLIST_SEQUENCE_BEFORE_START",
+      "questionPt": "Em ANTES DA PARTIDA, qual item vem depois de “STAND BY BUS — LIGADO”?",
+      "answersPt": [
+        "EPS — TESTAR/ARMAR/LIGAR",
+        "BATTERY 1/2 — LIGADAS · MÍNIMO 24 V",
+        "MASTER POWER — LIGADO",
+        "STAND BY BUS — LIGADO"
+      ],
+      "explanationPt": "EPS — TESTAR/ARMAR/LIGAR. O POH especifica uma sequência de teste e acionamento do EPS, seguida da conferência das indicações do EPS e do alinhamento do ESIS."
+    },
+    {
+      "id": 3003,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "MEDIUM",
+      "question": "In BEFORE START, what checklist item comes after “EPS — TEST-ARMED/ON”?",
+      "answers": [
+        "BATTERY 1/2 — ON · VOLTS 24 MIN",
+        "EPS — TEST-ARMED/ON",
+        "STAND BY BUS — ON",
+        "MASTER POWER — ON"
+      ],
+      "correct": 0,
+      "explanation": "BATTERY 1/2 — ON · VOLTS 24 MIN. The POH requires both battery indications to show at least 24 VDC before departure.",
+      "memoryAid": "BEFORE START: 4/13",
+      "reference": "Checklist PDF, page 1; POH Section 4.4, pp. 4-10–4-11",
+      "sourcePage": "Checklist p. 1; POH 4-10–4-11",
+      "sourceTopic": "BEFORE START",
+      "sourceSubtopic": "Checklist step 4",
+      "sourceText": "BATTERY 1/2 — ON · VOLTS 24 MIN",
+      "factId": "CHECKLIST_BEFORE_START_04",
+      "conceptId": "CHECKLIST_SEQUENCE_BEFORE_START",
+      "questionPt": "Em ANTES DA PARTIDA, qual item vem depois de “EPS — TESTAR/ARMAR/LIGAR”?",
+      "answersPt": [
+        "BATTERY 1/2 — LIGADAS · MÍNIMO 24 V",
+        "EPS — TESTAR/ARMAR/LIGAR",
+        "STAND BY BUS — LIGADO",
+        "MASTER POWER — LIGADO"
+      ],
+      "explanationPt": "BATTERY 1/2 — LIGADAS · MÍNIMO 24 V. O POH exige que as indicações das duas baterias mostrem pelo menos 24 VCC antes da partida."
+    },
+    {
+      "id": 3004,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "MEDIUM",
+      "question": "In BEFORE START, what checklist item comes after “BATTERY 1/2 — ON · VOLTS 24 MIN”?",
+      "answers": [
+        "STAND BY BUS — ON",
+        "MASTER POWER — ON",
+        "EXTERNAL POWER — AS REQUIRED",
+        "EPS — TEST-ARMED/ON"
+      ],
+      "correct": 2,
+      "explanation": "EXTERNAL POWER — AS REQUIRED. When external power is used, the POH calls for checking 28 VDC and the external-power availability indication.",
+      "memoryAid": "BEFORE START: 5/13",
+      "reference": "Checklist PDF, page 1; POH Section 4.4, pp. 4-10–4-11",
+      "sourcePage": "Checklist p. 1; POH 4-10–4-11",
+      "sourceTopic": "BEFORE START",
+      "sourceSubtopic": "Checklist step 5",
+      "sourceText": "EXTERNAL POWER — AS REQUIRED",
+      "factId": "CHECKLIST_BEFORE_START_05",
+      "conceptId": "CHECKLIST_SEQUENCE_BEFORE_START",
+      "questionPt": "Em ANTES DA PARTIDA, qual item vem depois de “BATTERY 1/2 — LIGADAS · MÍNIMO 24 V”?",
+      "answersPt": [
+        "STAND BY BUS — LIGADO",
+        "MASTER POWER — LIGADO",
+        "ALIMENTAÇÃO EXTERNA — CONFORME NECESSÁRIO",
+        "EPS — TESTAR/ARMAR/LIGAR"
+      ],
+      "explanationPt": "ALIMENTAÇÃO EXTERNA — CONFORME NECESSÁRIO. Quando se usa alimentação externa, o POH determina conferir 28 VCC e a indicação de disponibilidade da alimentação externa."
+    },
+    {
+      "id": 3005,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "MEDIUM",
+      "question": "In BEFORE START, what checklist item comes after “EXTERNAL POWER — AS REQUIRED”?",
+      "answers": [
+        "EPS — TEST-ARMED/ON",
+        "STAND BY BUS — ON",
+        "MASTER POWER — ON",
+        "EXTERNAL LIGHTS — AS REQUIRED"
+      ],
+      "correct": 3,
+      "explanation": "EXTERNAL LIGHTS — AS REQUIRED. The POH cautions that prolonged beacon or logo-light use can reduce battery power and affect engine starting.",
+      "memoryAid": "BEFORE START: 6/13",
+      "reference": "Checklist PDF, page 1; POH Section 4.4, pp. 4-10–4-11",
+      "sourcePage": "Checklist p. 1; POH 4-10–4-11",
+      "sourceTopic": "BEFORE START",
+      "sourceSubtopic": "Checklist step 6",
+      "sourceText": "EXTERNAL LIGHTS — AS REQUIRED",
+      "factId": "CHECKLIST_BEFORE_START_06",
+      "conceptId": "CHECKLIST_SEQUENCE_BEFORE_START",
+      "questionPt": "Em ANTES DA PARTIDA, qual item vem depois de “ALIMENTAÇÃO EXTERNA — CONFORME NECESSÁRIO”?",
+      "answersPt": [
+        "EPS — TESTAR/ARMAR/LIGAR",
+        "STAND BY BUS — LIGADO",
+        "MASTER POWER — LIGADO",
+        "LUZES EXTERNAS — CONFORME NECESSÁRIO"
+      ],
+      "explanationPt": "LUZES EXTERNAS — CONFORME NECESSÁRIO. O POH adverte que o uso prolongado das luzes beacon ou logo pode reduzir a carga da bateria e afetar a partida do motor."
+    },
+    {
+      "id": 3006,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "MEDIUM",
+      "question": "In BEFORE START, what checklist item comes after “EXTERNAL LIGHTS — AS REQUIRED”?",
+      "answers": [
+        "BARO REF — SET",
+        "EPS — TEST-ARMED/ON",
+        "STAND BY BUS — ON",
+        "MASTER POWER — ON"
+      ],
+      "correct": 0,
+      "explanation": "BARO REF — SET. The POH calls for setting and cross-checking the barometric reference during climb and approach preparations.",
+      "memoryAid": "BEFORE START: 7/13",
+      "reference": "Checklist PDF, page 1; POH Section 4.4, pp. 4-10–4-11",
+      "sourcePage": "Checklist p. 1; POH 4-10–4-11",
+      "sourceTopic": "BEFORE START",
+      "sourceSubtopic": "Checklist step 7",
+      "sourceText": "BARO REF — SET",
+      "factId": "CHECKLIST_BEFORE_START_07",
+      "conceptId": "CHECKLIST_SEQUENCE_BEFORE_START",
+      "questionPt": "Em ANTES DA PARTIDA, qual item vem depois de “LUZES EXTERNAS — CONFORME NECESSÁRIO”?",
+      "answersPt": [
+        "REFERÊNCIA BAROMÉTRICA — AJUSTADA",
+        "EPS — TESTAR/ARMAR/LIGAR",
+        "STAND BY BUS — LIGADO",
+        "MASTER POWER — LIGADO"
+      ],
+      "explanationPt": "REFERÊNCIA BAROMÉTRICA — AJUSTADA. O POH determina ajustar e conferir a referência barométrica nos preparativos de subida e aproximação."
+    },
+    {
+      "id": 3007,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "MEDIUM",
+      "question": "In BEFORE START, what checklist item comes after “BARO REF — SET”?",
+      "answers": [
+        "MASTER POWER — ON",
+        "STAND BY BUS — ON",
+        "THR LEVER — IDLE",
+        "EPS — TEST-ARMED/ON"
+      ],
+      "correct": 2,
+      "explanation": "THR LEVER — IDLE. The supplied checklist and POH list this check or setting, but do not state a separate reason for this individual item.",
+      "memoryAid": "BEFORE START: 8/13",
+      "reference": "Checklist PDF, page 1; POH Section 4.4, pp. 4-10–4-11",
+      "sourcePage": "Checklist p. 1; POH 4-10–4-11",
+      "sourceTopic": "BEFORE START",
+      "sourceSubtopic": "Checklist step 8",
+      "sourceText": "THR LEVER — IDLE",
+      "factId": "CHECKLIST_BEFORE_START_08",
+      "conceptId": "CHECKLIST_SEQUENCE_BEFORE_START",
+      "questionPt": "Em ANTES DA PARTIDA, qual item vem depois de “REFERÊNCIA BAROMÉTRICA — AJUSTADA”?",
+      "answersPt": [
+        "MASTER POWER — LIGADO",
+        "STAND BY BUS — LIGADO",
+        "THR LEVER — MARCHA LENTA",
+        "EPS — TESTAR/ARMAR/LIGAR"
+      ],
+      "explanationPt": "THR LEVER — MARCHA LENTA. O checklist enviado e o POH listam esta verificação ou ajuste, mas não apresentam um motivo separado para este item."
+    },
+    {
+      "id": 3008,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "MEDIUM",
+      "question": "In BEFORE START, what checklist item comes after “THR LEVER — IDLE”?",
+      "answers": [
+        "CONDITION LEVER — CUT OFF",
+        "STAND BY BUS — ON",
+        "MASTER POWER — ON",
+        "EPS — TEST-ARMED/ON"
+      ],
+      "correct": 0,
+      "explanation": "CONDITION LEVER — CUT OFF. The supplied checklist and POH list this check or setting, but do not state a separate reason for this individual item.",
+      "memoryAid": "BEFORE START: 9/13",
+      "reference": "Checklist PDF, page 1; POH Section 4.4, pp. 4-10–4-11",
+      "sourcePage": "Checklist p. 1; POH 4-10–4-11",
+      "sourceTopic": "BEFORE START",
+      "sourceSubtopic": "Checklist step 9",
+      "sourceText": "CONDITION LEVER — CUT OFF",
+      "factId": "CHECKLIST_BEFORE_START_09",
+      "conceptId": "CHECKLIST_SEQUENCE_BEFORE_START",
+      "questionPt": "Em ANTES DA PARTIDA, qual item vem depois de “THR LEVER — MARCHA LENTA”?",
+      "answersPt": [
+        "CONDITION LEVER — CUTOFF",
+        "STAND BY BUS — LIGADO",
+        "MASTER POWER — LIGADO",
+        "EPS — TESTAR/ARMAR/LIGAR"
+      ],
+      "explanationPt": "CONDITION LEVER — CUTOFF. O checklist enviado e o POH listam esta verificação ou ajuste, mas não apresentam um motivo separado para este item."
+    },
+    {
+      "id": 3009,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "MEDIUM",
+      "question": "In BEFORE START, what checklist item comes after “CONDITION LEVER — CUT OFF”?",
+      "answers": [
+        "STAND BY BUS — ON",
+        "PARKING BRAKE — ON",
+        "MASTER POWER — ON",
+        "EPS — TEST-ARMED/ON"
+      ],
+      "correct": 1,
+      "explanation": "PARKING BRAKE — ON. The supplied checklist and POH list this check or setting, but do not state a separate reason for this individual item.",
+      "memoryAid": "BEFORE START: 10/13",
+      "reference": "Checklist PDF, page 1; POH Section 4.4, pp. 4-10–4-11",
+      "sourcePage": "Checklist p. 1; POH 4-10–4-11",
+      "sourceTopic": "BEFORE START",
+      "sourceSubtopic": "Checklist step 10",
+      "sourceText": "PARKING BRAKE — ON",
+      "factId": "CHECKLIST_BEFORE_START_10",
+      "conceptId": "CHECKLIST_SEQUENCE_BEFORE_START",
+      "questionPt": "Em ANTES DA PARTIDA, qual item vem depois de “CONDITION LEVER — CUTOFF”?",
+      "answersPt": [
+        "STAND BY BUS — LIGADO",
+        "FREIO DE ESTACIONAMENTO — ACIONADO",
+        "MASTER POWER — LIGADO",
+        "EPS — TESTAR/ARMAR/LIGAR"
+      ],
+      "explanationPt": "FREIO DE ESTACIONAMENTO — ACIONADO. O checklist enviado e o POH listam esta verificação ou ajuste, mas não apresentam um motivo separado para este item."
+    },
+    {
+      "id": 3010,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "MEDIUM",
+      "question": "In BEFORE START, what checklist item comes after “PARKING BRAKE — ON”?",
+      "answers": [
+        "EPS — TEST-ARMED/ON",
+        "FIRE WARM — CHECK",
+        "MASTER POWER — ON",
+        "STAND BY BUS — ON"
+      ],
+      "correct": 1,
+      "explanation": "FIRE WARM — CHECK. The POH calls for the FIRE WARN test and specifies that the engine-fire and fire-detector CAS annunciations appear during the test. The uploaded checklist prints “FIRE WARM”; the POH uses “FIRE WARN”.",
+      "memoryAid": "BEFORE START: 11/13",
+      "reference": "Checklist PDF, page 1; POH Section 4.4, pp. 4-10–4-11",
+      "sourcePage": "Checklist p. 1; POH 4-10–4-11",
+      "sourceTopic": "BEFORE START",
+      "sourceSubtopic": "Checklist step 11",
+      "sourceText": "FIRE WARM — CHECK",
+      "factId": "CHECKLIST_BEFORE_START_11",
+      "conceptId": "CHECKLIST_SEQUENCE_BEFORE_START",
+      "questionPt": "Em ANTES DA PARTIDA, qual item vem depois de “FREIO DE ESTACIONAMENTO — ACIONADO”?",
+      "answersPt": [
+        "EPS — TESTAR/ARMAR/LIGAR",
+        "FIRE WARN — VERIFICAR",
+        "MASTER POWER — LIGADO",
+        "STAND BY BUS — LIGADO"
+      ],
+      "explanationPt": "FIRE WARN — VERIFICAR. O POH determina testar FIRE WARN e especifica que as indicações CAS Engine Fire e Fire Detector apareçam durante o teste. O checklist enviado traz “FIRE WARM”; o POH usa “FIRE WARN”."
+    },
+    {
+      "id": 3011,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "MEDIUM",
+      "question": "In BEFORE START, what checklist item comes after “FIRE WARM — CHECK”?",
+      "answers": [
+        "EPS — TEST-ARMED/ON",
+        "MASTER POWER — ON",
+        "STAND BY BUS — ON",
+        "LAMP — CHECK"
+      ],
+      "correct": 3,
+      "explanation": "LAMP — CHECK. Pressing LAMP should illuminate the master warning and caution lights, confirming those attention lights operate.",
+      "memoryAid": "BEFORE START: 12/13",
+      "reference": "Checklist PDF, page 1; POH Section 4.4, pp. 4-10–4-11",
+      "sourcePage": "Checklist p. 1; POH 4-10–4-11",
+      "sourceTopic": "BEFORE START",
+      "sourceSubtopic": "Checklist step 12",
+      "sourceText": "LAMP — CHECK",
+      "factId": "CHECKLIST_BEFORE_START_12",
+      "conceptId": "CHECKLIST_SEQUENCE_BEFORE_START",
+      "questionPt": "Em ANTES DA PARTIDA, qual item vem depois de “FIRE WARN — VERIFICAR”?",
+      "answersPt": [
+        "EPS — TESTAR/ARMAR/LIGAR",
+        "MASTER POWER — LIGADO",
+        "STAND BY BUS — LIGADO",
+        "LAMP — VERIFICAR"
+      ],
+      "explanationPt": "LAMP — VERIFICAR. Ao pressionar LAMP, as luzes Master Warning e Caution devem acender, confirmando o funcionamento dessas luzes de atenção."
+    },
+    {
+      "id": 3012,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "MEDIUM",
+      "question": "In BEFORE START, what checklist item comes after “LAMP — CHECK”?",
+      "answers": [
+        "STAND BY BUS — ON",
+        "EPS — TEST-ARMED/ON",
+        "FUEL PUMP — CHECK",
+        "MASTER POWER — ON"
+      ],
+      "correct": 2,
+      "explanation": "FUEL PUMP — CHECK. For the first flight of the day, the POH checks that the Fuel Pressure Low caution goes out when each pump is selected ON, then sets each pump to AUTO.",
+      "memoryAid": "BEFORE START: 13/13",
+      "reference": "Checklist PDF, page 1; POH Section 4.4, pp. 4-10–4-11",
+      "sourcePage": "Checklist p. 1; POH 4-10–4-11",
+      "sourceTopic": "BEFORE START",
+      "sourceSubtopic": "Checklist step 13",
+      "sourceText": "FUEL PUMP — CHECK",
+      "factId": "CHECKLIST_BEFORE_START_13",
+      "conceptId": "CHECKLIST_SEQUENCE_BEFORE_START",
+      "questionPt": "Em ANTES DA PARTIDA, qual item vem depois de “LAMP — VERIFICAR”?",
+      "answersPt": [
+        "STAND BY BUS — LIGADO",
+        "EPS — TESTAR/ARMAR/LIGAR",
+        "FUEL PUMP — VERIFICAR",
+        "MASTER POWER — LIGADO"
+      ],
+      "explanationPt": "FUEL PUMP — VERIFICAR. No primeiro voo do dia, o POH verifica se a indicação Fuel Pressure Low apaga ao selecionar cada bomba em ON e, em seguida, seleciona cada uma em AUTO."
+    },
+    {
+      "id": 3100,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "EASY",
+      "question": "What is the first checklist item in CLEAR FOR START?",
+      "answers": [
+        "CLEARENCE — CHECK",
+        "START SWITCH — ON/PRESS > 2 SEC",
+        "EXTERNAL LIGHTS — AS REQUIRED",
+        "PROP AREA — CLEAR"
+      ],
+      "correct": 0,
+      "explanation": "CLEARENCE — CHECK. The POH requires the ATIS and start-up clearance to be received before engine start. The source prints “CLEARENCE”.",
+      "memoryAid": "CLEAR FOR START: 1/4",
+      "reference": "Checklist PDF, page 1; POH Sections 4.4–4.5.1, pp. 4-10–4-12",
+      "sourcePage": "Checklist p. 1; POH 4-10–4-12",
+      "sourceTopic": "CLEAR FOR START",
+      "sourceSubtopic": "Checklist step 1",
+      "sourceText": "CLEARENCE — CHECK",
+      "factId": "CHECKLIST_CLEAR_FOR_START_01",
+      "conceptId": "CHECKLIST_SEQUENCE_CLEAR_FOR_START",
+      "questionPt": "Qual é o primeiro item do checklist em LIBERADO PARA PARTIDA?",
+      "answersPt": [
+        "CLEARANCE — VERIFICAR",
+        "START SWITCH — ON/PRESSIONAR POR MAIS DE 2 S",
+        "LUZES EXTERNAS — CONFORME NECESSÁRIO",
+        "ÁREA DA HÉLICE — LIVRE"
+      ],
+      "explanationPt": "CLEARANCE — VERIFICAR. O POH exige receber o ATIS e a autorização de partida antes de acionar o motor. O arquivo traz a grafia “CLEARENCE”."
+    },
+    {
+      "id": 3101,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "MEDIUM",
+      "question": "In CLEAR FOR START, what checklist item comes after “CLEARENCE — CHECK”?",
+      "answers": [
+        "CLEARENCE — CHECK",
+        "EXTERNAL LIGHTS — AS REQUIRED",
+        "PROP AREA — CLEAR",
+        "START SWITCH — ON/PRESS > 2 SEC"
+      ],
+      "correct": 1,
+      "explanation": "EXTERNAL LIGHTS — AS REQUIRED. The POH cautions that prolonged beacon or logo-light use can reduce battery power and affect engine starting.",
+      "memoryAid": "CLEAR FOR START: 2/4",
+      "reference": "Checklist PDF, page 1; POH Sections 4.4–4.5.1, pp. 4-10–4-12",
+      "sourcePage": "Checklist p. 1; POH 4-10–4-12",
+      "sourceTopic": "CLEAR FOR START",
+      "sourceSubtopic": "Checklist step 2",
+      "sourceText": "EXTERNAL LIGHTS — AS REQUIRED",
+      "factId": "CHECKLIST_CLEAR_FOR_START_02",
+      "conceptId": "CHECKLIST_SEQUENCE_CLEAR_FOR_START",
+      "questionPt": "Em LIBERADO PARA PARTIDA, qual item vem depois de “CLEARANCE — VERIFICAR”?",
+      "answersPt": [
+        "CLEARANCE — VERIFICAR",
+        "LUZES EXTERNAS — CONFORME NECESSÁRIO",
+        "ÁREA DA HÉLICE — LIVRE",
+        "START SWITCH — ON/PRESSIONAR POR MAIS DE 2 S"
+      ],
+      "explanationPt": "LUZES EXTERNAS — CONFORME NECESSÁRIO. O POH adverte que o uso prolongado das luzes beacon ou logo pode reduzir a carga da bateria e afetar a partida do motor."
+    },
+    {
+      "id": 3102,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "MEDIUM",
+      "question": "In CLEAR FOR START, what checklist item comes after “EXTERNAL LIGHTS — AS REQUIRED”?",
+      "answers": [
+        "EXTERNAL LIGHTS — AS REQUIRED",
+        "PROP AREA — CLEAR",
+        "START SWITCH — ON/PRESS > 2 SEC",
+        "CLEARENCE — CHECK"
+      ],
+      "correct": 1,
+      "explanation": "PROP AREA — CLEAR. The POH requires the propeller area to be clear of obstructions before starting.",
+      "memoryAid": "CLEAR FOR START: 3/4",
+      "reference": "Checklist PDF, page 1; POH Sections 4.4–4.5.1, pp. 4-10–4-12",
+      "sourcePage": "Checklist p. 1; POH 4-10–4-12",
+      "sourceTopic": "CLEAR FOR START",
+      "sourceSubtopic": "Checklist step 3",
+      "sourceText": "PROP AREA — CLEAR",
+      "factId": "CHECKLIST_CLEAR_FOR_START_03",
+      "conceptId": "CHECKLIST_SEQUENCE_CLEAR_FOR_START",
+      "questionPt": "Em LIBERADO PARA PARTIDA, qual item vem depois de “LUZES EXTERNAS — CONFORME NECESSÁRIO”?",
+      "answersPt": [
+        "LUZES EXTERNAS — CONFORME NECESSÁRIO",
+        "ÁREA DA HÉLICE — LIVRE",
+        "START SWITCH — ON/PRESSIONAR POR MAIS DE 2 S",
+        "CLEARANCE — VERIFICAR"
+      ],
+      "explanationPt": "ÁREA DA HÉLICE — LIVRE. O POH exige que a área da hélice esteja livre de obstáculos antes da partida."
+    },
+    {
+      "id": 3103,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "MEDIUM",
+      "question": "In CLEAR FOR START, what checklist item comes after “PROP AREA — CLEAR”?",
+      "answers": [
+        "START SWITCH — ON/PRESS > 2 SEC",
+        "EXTERNAL LIGHTS — AS REQUIRED",
+        "PROP AREA — CLEAR",
+        "CLEARENCE — CHECK"
+      ],
+      "correct": 0,
+      "explanation": "START SWITCH — ON/PRESS > 2 SEC. The supplied checklist states this timing, but the POH engine-start procedure says to push the STARTER switch momentarily. The difference is flagged here for verification against the approved checklist for this aircraft. CHECKLIST/POH DIFFERENCE: checklist says >2 sec; POH Section 4.5.1 says “PUSH momentarily”. Confirm the approved aircraft-specific procedure.",
+      "memoryAid": "CLEAR FOR START: 4/4",
+      "reference": "Checklist PDF, page 1; POH Sections 4.4–4.5.1, pp. 4-10–4-12",
+      "sourcePage": "Checklist p. 1; POH 4-10–4-12",
+      "sourceTopic": "CLEAR FOR START",
+      "sourceSubtopic": "Checklist step 4",
+      "sourceText": "START SWITCH — ON/PRESS > 2 SEC",
+      "factId": "CHECKLIST_CLEAR_FOR_START_04",
+      "conceptId": "CHECKLIST_SEQUENCE_CLEAR_FOR_START",
+      "questionPt": "Em LIBERADO PARA PARTIDA, qual item vem depois de “ÁREA DA HÉLICE — LIVRE”?",
+      "answersPt": [
+        "START SWITCH — ON/PRESSIONAR POR MAIS DE 2 S",
+        "LUZES EXTERNAS — CONFORME NECESSÁRIO",
+        "ÁREA DA HÉLICE — LIVRE",
+        "CLEARANCE — VERIFICAR"
+      ],
+      "explanationPt": "START SWITCH — ON/PRESSIONAR POR MAIS DE 2 S. O checklist enviado especifica esse tempo, mas o procedimento de partida do POH diz para pressionar momentaneamente o STARTER. A diferença fica sinalizada para conferência com o checklist aprovado desta aeronave. DIFERENÇA CHECKLIST/POH: o checklist diz >2 s; o POH, Seção 4.5.1, diz “PUSH momentarily”. Confirme o procedimento aprovado para esta aeronave."
+    },
+    {
+      "id": 3200,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "EASY",
+      "question": "What is the first checklist item in AFTER START?",
+      "answers": [
+        "EXTERNAL POWER — DISCONNECTED",
+        "GEN1/GEN2 (VOLTS/AMPS) — CHECK",
+        "ENGINE INSTRUMENTS — CHECK",
+        "FUEL TOTALIZER — RESET"
+      ],
+      "correct": 2,
+      "explanation": "ENGINE INSTRUMENTS — CHECK. After the starter sequence, the POH requires engine instruments to be stable in the green range.",
+      "memoryAid": "AFTER START: 1/4",
+      "reference": "Checklist PDF, page 1; POH Section 4.5.1, p. 4-13",
+      "sourcePage": "Checklist p. 1; POH 4-13",
+      "sourceTopic": "AFTER START",
+      "sourceSubtopic": "Checklist step 1",
+      "sourceText": "ENGINE INSTRUMENTS — CHECK",
+      "factId": "CHECKLIST_AFTER_START_01",
+      "conceptId": "CHECKLIST_SEQUENCE_AFTER_START",
+      "questionPt": "Qual é o primeiro item do checklist em APÓS A PARTIDA?",
+      "answersPt": [
+        "ALIMENTAÇÃO EXTERNA — DESCONECTADA",
+        "GEN1/GEN2 (VOLTS/AMPÈRES) — VERIFICAR",
+        "INSTRUMENTOS DO MOTOR — VERIFICAR",
+        "FUEL TOTALIZER — REINICIALIZAR"
+      ],
+      "explanationPt": "INSTRUMENTOS DO MOTOR — VERIFICAR. Após a sequência do starter, o POH exige que os instrumentos do motor estejam estáveis na faixa verde."
+    },
+    {
+      "id": 3201,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "MEDIUM",
+      "question": "In AFTER START, what checklist item comes after “ENGINE INSTRUMENTS — CHECK”?",
+      "answers": [
+        "EXTERNAL POWER — DISCONNECTED",
+        "GEN1/GEN2 (VOLTS/AMPS) — CHECK",
+        "ENGINE INSTRUMENTS — CHECK",
+        "FUEL TOTALIZER — RESET"
+      ],
+      "correct": 1,
+      "explanation": "GEN1/GEN2 (VOLTS/AMPS) — CHECK. The POH calls for checking generator volts and amps after start.",
+      "memoryAid": "AFTER START: 2/4",
+      "reference": "Checklist PDF, page 1; POH Section 4.5.1, p. 4-13",
+      "sourcePage": "Checklist p. 1; POH 4-13",
+      "sourceTopic": "AFTER START",
+      "sourceSubtopic": "Checklist step 2",
+      "sourceText": "GEN1/GEN2 (VOLTS/AMPS) — CHECK",
+      "factId": "CHECKLIST_AFTER_START_02",
+      "conceptId": "CHECKLIST_SEQUENCE_AFTER_START",
+      "questionPt": "Em APÓS A PARTIDA, qual item vem depois de “INSTRUMENTOS DO MOTOR — VERIFICAR”?",
+      "answersPt": [
+        "ALIMENTAÇÃO EXTERNA — DESCONECTADA",
+        "GEN1/GEN2 (VOLTS/AMPÈRES) — VERIFICAR",
+        "INSTRUMENTOS DO MOTOR — VERIFICAR",
+        "FUEL TOTALIZER — REINICIALIZAR"
+      ],
+      "explanationPt": "GEN1/GEN2 (VOLTS/AMPÈRES) — VERIFICAR. O POH determina conferir volts e ampères dos geradores após a partida."
+    },
+    {
+      "id": 3202,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "MEDIUM",
+      "question": "In AFTER START, what checklist item comes after “GEN1/GEN2 (VOLTS/AMPS) — CHECK”?",
+      "answers": [
+        "ENGINE INSTRUMENTS — CHECK",
+        "EXTERNAL POWER — DISCONNECTED",
+        "GEN1/GEN2 (VOLTS/AMPS) — CHECK",
+        "FUEL TOTALIZER — RESET"
+      ],
+      "correct": 3,
+      "explanation": "FUEL TOTALIZER — RESET. The POH calls for pressing the FUEL RESET soft key after engine start; it does not give a separate explanation for the checklist's “FUEL TOTALIZER” label.",
+      "memoryAid": "AFTER START: 3/4",
+      "reference": "Checklist PDF, page 1; POH Section 4.5.1, p. 4-13",
+      "sourcePage": "Checklist p. 1; POH 4-13",
+      "sourceTopic": "AFTER START",
+      "sourceSubtopic": "Checklist step 3",
+      "sourceText": "FUEL TOTALIZER — RESET",
+      "factId": "CHECKLIST_AFTER_START_03",
+      "conceptId": "CHECKLIST_SEQUENCE_AFTER_START",
+      "questionPt": "Em APÓS A PARTIDA, qual item vem depois de “GEN1/GEN2 (VOLTS/AMPÈRES) — VERIFICAR”?",
+      "answersPt": [
+        "INSTRUMENTOS DO MOTOR — VERIFICAR",
+        "ALIMENTAÇÃO EXTERNA — DESCONECTADA",
+        "GEN1/GEN2 (VOLTS/AMPÈRES) — VERIFICAR",
+        "FUEL TOTALIZER — REINICIALIZAR"
+      ],
+      "explanationPt": "FUEL TOTALIZER — REINICIALIZAR. O POH determina pressionar FUEL RESET após a partida; não apresenta uma explicação separada para o rótulo “FUEL TOTALIZER” usado no checklist."
+    },
+    {
+      "id": 3203,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "MEDIUM",
+      "question": "In AFTER START, what checklist item comes after “FUEL TOTALIZER — RESET”?",
+      "answers": [
+        "FUEL TOTALIZER — RESET",
+        "EXTERNAL POWER — DISCONNECTED",
+        "ENGINE INSTRUMENTS — CHECK",
+        "GEN1/GEN2 (VOLTS/AMPS) — CHECK"
+      ],
+      "correct": 1,
+      "explanation": "EXTERNAL POWER — DISCONNECTED. The POH directs disconnecting the external power unit after the engine-start sequence.",
+      "memoryAid": "AFTER START: 4/4",
+      "reference": "Checklist PDF, page 1; POH Section 4.5.1, p. 4-13",
+      "sourcePage": "Checklist p. 1; POH 4-13",
+      "sourceTopic": "AFTER START",
+      "sourceSubtopic": "Checklist step 4",
+      "sourceText": "EXTERNAL POWER — DISCONNECTED",
+      "factId": "CHECKLIST_AFTER_START_04",
+      "conceptId": "CHECKLIST_SEQUENCE_AFTER_START",
+      "questionPt": "Em APÓS A PARTIDA, qual item vem depois de “FUEL TOTALIZER — REINICIALIZAR”?",
+      "answersPt": [
+        "FUEL TOTALIZER — REINICIALIZAR",
+        "ALIMENTAÇÃO EXTERNA — DESCONECTADA",
+        "INSTRUMENTOS DO MOTOR — VERIFICAR",
+        "GEN1/GEN2 (VOLTS/AMPÈRES) — VERIFICAR"
+      ],
+      "explanationPt": "ALIMENTAÇÃO EXTERNA — DESCONECTADA. O POH determina desconectar a unidade de alimentação externa após a sequência de partida."
+    },
+    {
+      "id": 3300,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "EASY",
+      "question": "What is the first checklist item in BEFORE TAXI?",
+      "answers": [
+        "CAS — CHECK",
+        "PUSHER — CHECK",
+        "FLAPS — 15°",
+        "PFD'S/MFD'S — CHECK/NO FLAGS"
+      ],
+      "correct": 1,
+      "explanation": "PUSHER — CHECK. The POH requires a preflight function test of the stall warning/stick-pusher system.",
+      "memoryAid": "BEFORE TAXI: 1/6",
+      "reference": "Checklist PDF, page 1; POH Section 4.6, p. 4-15",
+      "sourcePage": "Checklist p. 1; POH 4-15",
+      "sourceTopic": "BEFORE TAXI",
+      "sourceSubtopic": "Checklist step 1",
+      "sourceText": "PUSHER — CHECK",
+      "factId": "CHECKLIST_BEFORE_TAXI_01",
+      "conceptId": "CHECKLIST_SEQUENCE_BEFORE_TAXI",
+      "questionPt": "Qual é o primeiro item do checklist em ANTES DO TÁXI?",
+      "answersPt": [
+        "CAS — VERIFICAR",
+        "PUSHER — VERIFICAR",
+        "FLAPS — 15°",
+        "PFD'S/MFD'S — VERIFICAR/SEM FLAGS"
+      ],
+      "explanationPt": "PUSHER — VERIFICAR. O POH exige um teste funcional pré-voo do sistema de aviso de estol/stick pusher."
+    },
+    {
+      "id": 3301,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "MEDIUM",
+      "question": "In BEFORE TAXI, what checklist item comes after “PUSHER — CHECK”?",
+      "answers": [
+        "PFD'S/MFD'S — CHECK/NO FLAGS",
+        "FLAPS — 15°",
+        "CAS — CHECK",
+        "PUSHER — CHECK"
+      ],
+      "correct": 1,
+      "explanation": "FLAPS — 15°. The POH lists 15° for the before-departure flap setting; it notes that 30° may be used for reduced takeoff distance.",
+      "memoryAid": "BEFORE TAXI: 2/6",
+      "reference": "Checklist PDF, page 1; POH Section 4.6, p. 4-15",
+      "sourcePage": "Checklist p. 1; POH 4-15",
+      "sourceTopic": "BEFORE TAXI",
+      "sourceSubtopic": "Checklist step 2",
+      "sourceText": "FLAPS — 15°",
+      "factId": "CHECKLIST_BEFORE_TAXI_02",
+      "conceptId": "CHECKLIST_SEQUENCE_BEFORE_TAXI",
+      "questionPt": "Em ANTES DO TÁXI, qual item vem depois de “PUSHER — VERIFICAR”?",
+      "answersPt": [
+        "PFD'S/MFD'S — VERIFICAR/SEM FLAGS",
+        "FLAPS — 15°",
+        "CAS — VERIFICAR",
+        "PUSHER — VERIFICAR"
+      ],
+      "explanationPt": "FLAPS — 15°. O POH lista 15° como ajuste dos flaps antes da partida; observa que 30° pode ser usado para reduzir a distância de decolagem."
+    },
+    {
+      "id": 3302,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "MEDIUM",
+      "question": "In BEFORE TAXI, what checklist item comes after “FLAPS — 15°”?",
+      "answers": [
+        "PFD'S/MFD'S — CHECK/NO FLAGS",
+        "PUSHER — CHECK",
+        "FLAPS — 15°",
+        "CAS — CHECK"
+      ],
+      "correct": 0,
+      "explanation": "PFD'S/MFD'S — CHECK/NO FLAGS. The POH requires the PFD, MFD, CAS and ESIS to have no flags or red warning captions and to be aligned.",
+      "memoryAid": "BEFORE TAXI: 3/6",
+      "reference": "Checklist PDF, page 1; POH Section 4.6, p. 4-15",
+      "sourcePage": "Checklist p. 1; POH 4-15",
+      "sourceTopic": "BEFORE TAXI",
+      "sourceSubtopic": "Checklist step 3",
+      "sourceText": "PFD'S/MFD'S — CHECK/NO FLAGS",
+      "factId": "CHECKLIST_BEFORE_TAXI_03",
+      "conceptId": "CHECKLIST_SEQUENCE_BEFORE_TAXI",
+      "questionPt": "Em ANTES DO TÁXI, qual item vem depois de “FLAPS — 15°”?",
+      "answersPt": [
+        "PFD'S/MFD'S — VERIFICAR/SEM FLAGS",
+        "PUSHER — VERIFICAR",
+        "FLAPS — 15°",
+        "CAS — VERIFICAR"
+      ],
+      "explanationPt": "PFD'S/MFD'S — VERIFICAR/SEM FLAGS. O POH exige que PFD, MFD, CAS e ESIS não apresentem flags nem avisos vermelhos e estejam alinhados."
+    },
+    {
+      "id": 3303,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "MEDIUM",
+      "question": "In BEFORE TAXI, what checklist item comes after “PFD'S/MFD'S — CHECK/NO FLAGS”?",
+      "answers": [
+        "PFD'S/MFD'S — CHECK/NO FLAGS",
+        "FLAPS — 15°",
+        "CAS — CHECK",
+        "PUSHER — CHECK"
+      ],
+      "correct": 2,
+      "explanation": "CAS — CHECK. The POH before-taxi procedure checks the CAS window and requires no cautions.",
+      "memoryAid": "BEFORE TAXI: 4/6",
+      "reference": "Checklist PDF, page 1; POH Section 4.6, p. 4-15",
+      "sourcePage": "Checklist p. 1; POH 4-15",
+      "sourceTopic": "BEFORE TAXI",
+      "sourceSubtopic": "Checklist step 4",
+      "sourceText": "CAS — CHECK",
+      "factId": "CHECKLIST_BEFORE_TAXI_04",
+      "conceptId": "CHECKLIST_SEQUENCE_BEFORE_TAXI",
+      "questionPt": "Em ANTES DO TÁXI, qual item vem depois de “PFD'S/MFD'S — VERIFICAR/SEM FLAGS”?",
+      "answersPt": [
+        "PFD'S/MFD'S — VERIFICAR/SEM FLAGS",
+        "FLAPS — 15°",
+        "CAS — VERIFICAR",
+        "PUSHER — VERIFICAR"
+      ],
+      "explanationPt": "CAS — VERIFICAR. O procedimento do POH antes do táxi manda conferir a janela CAS e exige ausência de cautions."
+    },
+    {
+      "id": 3304,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "MEDIUM",
+      "question": "In BEFORE TAXI, what checklist item comes after “CAS — CHECK”?",
+      "answers": [
+        "FLAPS — 15°",
+        "PUSHER — CHECK",
+        "PFD'S/MFD'S — CHECK/NO FLAGS",
+        "PROBES AND WINDSHIELD HEAT — TEST ON 1 MIN"
+      ],
+      "correct": 3,
+      "explanation": "PROBES AND WINDSHIELD HEAT — TEST ON 1 MIN. The checklist calls for a one-minute check of probe and windshield heat; the POH requires probe heat ON for line-up and windshield heat as required.",
+      "memoryAid": "BEFORE TAXI: 5/6",
+      "reference": "Checklist PDF, page 1; POH Section 4.6, p. 4-15",
+      "sourcePage": "Checklist p. 1; POH 4-15",
+      "sourceTopic": "BEFORE TAXI",
+      "sourceSubtopic": "Checklist step 5",
+      "sourceText": "PROBES AND WINDSHIELD HEAT — TEST ON 1 MIN",
+      "factId": "CHECKLIST_BEFORE_TAXI_05",
+      "conceptId": "CHECKLIST_SEQUENCE_BEFORE_TAXI",
+      "questionPt": "Em ANTES DO TÁXI, qual item vem depois de “CAS — VERIFICAR”?",
+      "answersPt": [
+        "FLAPS — 15°",
+        "PUSHER — VERIFICAR",
+        "PFD'S/MFD'S — VERIFICAR/SEM FLAGS",
+        "PROBES E AQUECIMENTO DO PARA-BRISA — TESTAR LIGADOS POR 1 MIN"
+      ],
+      "explanationPt": "PROBES E AQUECIMENTO DO PARA-BRISA — TESTAR LIGADOS POR 1 MIN. O checklist determina verificar por um minuto o aquecimento das sondas e do para-brisa; o POH exige PROBES ON no alinhamento e windshield heat conforme necessário."
+    },
+    {
+      "id": 3305,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "MEDIUM",
+      "question": "In BEFORE TAXI, what checklist item comes after “PROBES AND WINDSHIELD HEAT — TEST ON 1 MIN”?",
+      "answers": [
+        "PUSHER — CHECK",
+        "FLAPS — 15°",
+        "PFD'S/MFD'S — CHECK/NO FLAGS",
+        "BRIEFING — CHECK"
+      ],
+      "correct": 3,
+      "explanation": "BRIEFING — CHECK. The POH requires the departure and emergency briefing to be completed before takeoff.",
+      "memoryAid": "BEFORE TAXI: 6/6",
+      "reference": "Checklist PDF, page 1; POH Section 4.6, p. 4-15",
+      "sourcePage": "Checklist p. 1; POH 4-15",
+      "sourceTopic": "BEFORE TAXI",
+      "sourceSubtopic": "Checklist step 6",
+      "sourceText": "BRIEFING — CHECK",
+      "factId": "CHECKLIST_BEFORE_TAXI_06",
+      "conceptId": "CHECKLIST_SEQUENCE_BEFORE_TAXI",
+      "questionPt": "Em ANTES DO TÁXI, qual item vem depois de “PROBES E AQUECIMENTO DO PARA-BRISA — TESTAR LIGADOS POR 1 MIN”?",
+      "answersPt": [
+        "PUSHER — VERIFICAR",
+        "FLAPS — 15°",
+        "PFD'S/MFD'S — VERIFICAR/SEM FLAGS",
+        "BRIEFING — VERIFICAR"
+      ],
+      "explanationPt": "BRIEFING — VERIFICAR. O POH exige concluir o briefing de partida e de emergência antes da decolagem."
+    },
+    {
+      "id": 3400,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "EASY",
+      "question": "What is the first checklist item in TAXI?",
+      "answers": [
+        "REVERSE — CHECK",
+        "BRAKES — CHECK",
+        "TRIM — CHECK/GREEN RANGE",
+        "FLIGHT CONTROLS — CHECK"
+      ],
+      "correct": 0,
+      "explanation": "REVERSE — CHECK. The POH taxi procedure checks that beta is available and returns the PCL to IDLE; when conditions allow, beta can control taxi speed and reduce brake wear. The POH describes checking beta availability; the uploaded checklist labels this “REVERSE”.",
+      "memoryAid": "TAXI: 1/7",
+      "reference": "Checklist PDF, page 1; POH Section 4.7, p. 4-16; Section 4.8.1, p. 4-17",
+      "sourcePage": "Checklist p. 1; POH 4-16–4-17",
+      "sourceTopic": "TAXI",
+      "sourceSubtopic": "Checklist step 1",
+      "sourceText": "REVERSE — CHECK",
+      "factId": "CHECKLIST_TAXI_01",
+      "conceptId": "CHECKLIST_SEQUENCE_TAXI",
+      "questionPt": "Qual é o primeiro item do checklist em TÁXI?",
+      "answersPt": [
+        "REVERSE — VERIFICAR",
+        "FREIOS — VERIFICAR",
+        "TRIM — VERIFICAR/FAIXA VERDE",
+        "CONTROLES DE VOO — VERIFICAR"
+      ],
+      "explanationPt": "REVERSE — VERIFICAR. O procedimento de táxi do POH verifica a disponibilidade de beta e retorna o PCL a IDLE; quando as condições permitem, beta pode controlar a velocidade de táxi e reduzir o desgaste dos freios. O POH descreve verificar a disponibilidade de beta; o checklist enviado chama o item de “REVERSE”."
+    },
+    {
+      "id": 3401,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "MEDIUM",
+      "question": "In TAXI, what checklist item comes after “REVERSE — CHECK”?",
+      "answers": [
+        "BRAKES — CHECK",
+        "FLIGHT CONTROLS — CHECK",
+        "REVERSE — CHECK",
+        "TRIM — CHECK/GREEN RANGE"
+      ],
+      "correct": 0,
+      "explanation": "BRAKES — CHECK. The POH includes a brake check during taxi before departure.",
+      "memoryAid": "TAXI: 2/7",
+      "reference": "Checklist PDF, page 1; POH Section 4.7, p. 4-16; Section 4.8.1, p. 4-17",
+      "sourcePage": "Checklist p. 1; POH 4-16–4-17",
+      "sourceTopic": "TAXI",
+      "sourceSubtopic": "Checklist step 2",
+      "sourceText": "BRAKES — CHECK",
+      "factId": "CHECKLIST_TAXI_02",
+      "conceptId": "CHECKLIST_SEQUENCE_TAXI",
+      "questionPt": "Em TÁXI, qual item vem depois de “REVERSE — VERIFICAR”?",
+      "answersPt": [
+        "FREIOS — VERIFICAR",
+        "CONTROLES DE VOO — VERIFICAR",
+        "REVERSE — VERIFICAR",
+        "TRIM — VERIFICAR/FAIXA VERDE"
+      ],
+      "explanationPt": "FREIOS — VERIFICAR. O POH inclui uma verificação dos freios durante o táxi antes da partida."
+    },
+    {
+      "id": 3402,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "MEDIUM",
+      "question": "In TAXI, what checklist item comes after “BRAKES — CHECK”?",
+      "answers": [
+        "FLIGHT CONTROLS — CHECK",
+        "REVERSE — CHECK",
+        "BRAKES — CHECK",
+        "TRIM — CHECK/GREEN RANGE"
+      ],
+      "correct": 3,
+      "explanation": "TRIM — CHECK/GREEN RANGE. The POH requires trim in the green range before departure; it specifies the green diamond for the stated aft-CG condition.",
+      "memoryAid": "TAXI: 3/7",
+      "reference": "Checklist PDF, page 1; POH Section 4.7, p. 4-16; Section 4.8.1, p. 4-17",
+      "sourcePage": "Checklist p. 1; POH 4-16–4-17",
+      "sourceTopic": "TAXI",
+      "sourceSubtopic": "Checklist step 3",
+      "sourceText": "TRIM — CHECK/GREEN RANGE",
+      "factId": "CHECKLIST_TAXI_03",
+      "conceptId": "CHECKLIST_SEQUENCE_TAXI",
+      "questionPt": "Em TÁXI, qual item vem depois de “FREIOS — VERIFICAR”?",
+      "answersPt": [
+        "CONTROLES DE VOO — VERIFICAR",
+        "REVERSE — VERIFICAR",
+        "FREIOS — VERIFICAR",
+        "TRIM — VERIFICAR/FAIXA VERDE"
+      ],
+      "explanationPt": "TRIM — VERIFICAR/FAIXA VERDE. O POH exige trim na faixa verde antes da partida; especifica o losango verde para a condição indicada de CG traseiro."
+    },
+    {
+      "id": 3403,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "MEDIUM",
+      "question": "In TAXI, what checklist item comes after “TRIM — CHECK/GREEN RANGE”?",
+      "answers": [
+        "BRAKES — CHECK",
+        "REVERSE — CHECK",
+        "TRIM — CHECK/GREEN RANGE",
+        "FLIGHT CONTROLS — CHECK"
+      ],
+      "correct": 3,
+      "explanation": "FLIGHT CONTROLS — CHECK. The POH before-departure check calls for full, free and correct flight-control movement.",
+      "memoryAid": "TAXI: 4/7",
+      "reference": "Checklist PDF, page 1; POH Section 4.7, p. 4-16; Section 4.8.1, p. 4-17",
+      "sourcePage": "Checklist p. 1; POH 4-16–4-17",
+      "sourceTopic": "TAXI",
+      "sourceSubtopic": "Checklist step 4",
+      "sourceText": "FLIGHT CONTROLS — CHECK",
+      "factId": "CHECKLIST_TAXI_04",
+      "conceptId": "CHECKLIST_SEQUENCE_TAXI",
+      "questionPt": "Em TÁXI, qual item vem depois de “TRIM — VERIFICAR/FAIXA VERDE”?",
+      "answersPt": [
+        "FREIOS — VERIFICAR",
+        "REVERSE — VERIFICAR",
+        "TRIM — VERIFICAR/FAIXA VERDE",
+        "CONTROLES DE VOO — VERIFICAR"
+      ],
+      "explanationPt": "CONTROLES DE VOO — VERIFICAR. A verificação do POH antes da partida exige movimento completo, livre e correto dos controles de voo."
+    },
+    {
+      "id": 3404,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "MEDIUM",
+      "question": "In TAXI, what checklist item comes after “FLIGHT CONTROLS — CHECK”?",
+      "answers": [
+        "GLARSHILD — CHECK",
+        "TRIM — CHECK/GREEN RANGE",
+        "BRAKES — CHECK",
+        "REVERSE — CHECK"
+      ],
+      "correct": 0,
+      "explanation": "GLARSHILD — CHECK. The supplied checklist names this inspection, but the POH does not state a separate reason for this individual item. The source prints “GLARSHILD”.",
+      "memoryAid": "TAXI: 5/7",
+      "reference": "Checklist PDF, page 1; POH Section 4.7, p. 4-16; Section 4.8.1, p. 4-17",
+      "sourcePage": "Checklist p. 1; POH 4-16–4-17",
+      "sourceTopic": "TAXI",
+      "sourceSubtopic": "Checklist step 5",
+      "sourceText": "GLARSHILD — CHECK",
+      "factId": "CHECKLIST_TAXI_05",
+      "conceptId": "CHECKLIST_SEQUENCE_TAXI",
+      "questionPt": "Em TÁXI, qual item vem depois de “CONTROLES DE VOO — VERIFICAR”?",
+      "answersPt": [
+        "GLARESHIELD — VERIFICAR",
+        "TRIM — VERIFICAR/FAIXA VERDE",
+        "FREIOS — VERIFICAR",
+        "REVERSE — VERIFICAR"
+      ],
+      "explanationPt": "GLARESHIELD — VERIFICAR. O checklist enviado inclui esta inspeção, mas o POH não apresenta uma justificativa separada para este item. O arquivo traz a grafia “GLARSHILD”."
+    },
+    {
+      "id": 3405,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "MEDIUM",
+      "question": "In TAXI, what checklist item comes after “GLARSHILD — CHECK”?",
+      "answers": [
+        "BRAKES — CHECK",
+        "TRANSPONDER/TA — CHECK",
+        "TRIM — CHECK/GREEN RANGE",
+        "REVERSE — CHECK"
+      ],
+      "correct": 1,
+      "explanation": "TRANSPONDER/TA — CHECK. The supplied checklist and POH list this check or setting, but do not state a separate reason for this individual item.",
+      "memoryAid": "TAXI: 6/7",
+      "reference": "Checklist PDF, page 1; POH Section 4.7, p. 4-16; Section 4.8.1, p. 4-17",
+      "sourcePage": "Checklist p. 1; POH 4-16–4-17",
+      "sourceTopic": "TAXI",
+      "sourceSubtopic": "Checklist step 6",
+      "sourceText": "TRANSPONDER/TA — CHECK",
+      "factId": "CHECKLIST_TAXI_06",
+      "conceptId": "CHECKLIST_SEQUENCE_TAXI",
+      "questionPt": "Em TÁXI, qual item vem depois de “GLARESHIELD — VERIFICAR”?",
+      "answersPt": [
+        "FREIOS — VERIFICAR",
+        "TRANSPONDER/TA — VERIFICAR",
+        "TRIM — VERIFICAR/FAIXA VERDE",
+        "REVERSE — VERIFICAR"
+      ],
+      "explanationPt": "TRANSPONDER/TA — VERIFICAR. O checklist enviado e o POH listam esta verificação ou ajuste, mas não apresentam um motivo separado para este item."
+    },
+    {
+      "id": 3406,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "MEDIUM",
+      "question": "In TAXI, what checklist item comes after “TRANSPONDER/TA — CHECK”?",
+      "answers": [
+        "PRESSURIZATION — CHECK",
+        "BRAKES — CHECK",
+        "REVERSE — CHECK",
+        "TRIM — CHECK/GREEN RANGE"
+      ],
+      "correct": 0,
+      "explanation": "PRESSURIZATION — CHECK. The POH requires the CPCS configuration and landing-field elevation to be checked before departure.",
+      "memoryAid": "TAXI: 7/7",
+      "reference": "Checklist PDF, page 1; POH Section 4.7, p. 4-16; Section 4.8.1, p. 4-17",
+      "sourcePage": "Checklist p. 1; POH 4-16–4-17",
+      "sourceTopic": "TAXI",
+      "sourceSubtopic": "Checklist step 7",
+      "sourceText": "PRESSURIZATION — CHECK",
+      "factId": "CHECKLIST_TAXI_07",
+      "conceptId": "CHECKLIST_SEQUENCE_TAXI",
+      "questionPt": "Em TÁXI, qual item vem depois de “TRANSPONDER/TA — VERIFICAR”?",
+      "answersPt": [
+        "PRESSURIZAÇÃO — VERIFICAR",
+        "FREIOS — VERIFICAR",
+        "REVERSE — VERIFICAR",
+        "TRIM — VERIFICAR/FAIXA VERDE"
+      ],
+      "explanationPt": "PRESSURIZAÇÃO — VERIFICAR. O POH exige conferir a configuração do CPCS e a elevação do aeródromo de pouso antes da partida."
+    },
+    {
+      "id": 3500,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "EASY",
+      "question": "What is the first checklist item in CLEARED FOR TAKEOFF?",
+      "answers": [
+        "PROBES — ON",
+        "HEADINGS — CROSS CHECK",
+        "GO AROW — CHECK",
+        "LIGHTS — ALL ON"
+      ],
+      "correct": 1,
+      "explanation": "HEADINGS — CROSS CHECK. The POH line-up check requires the runway to be identified, heading verified and heading bug synchronized.",
+      "memoryAid": "CLEARED FOR TAKEOFF: 1/7",
+      "reference": "Checklist PDF, page 1; POH Section 4.8.2, p. 4-17; Section 4.9, p. 4-18",
+      "sourcePage": "Checklist p. 1; POH 4-17–4-18",
+      "sourceTopic": "CLEARED FOR TAKEOFF",
+      "sourceSubtopic": "Checklist step 1",
+      "sourceText": "HEADINGS — CROSS CHECK",
+      "factId": "CHECKLIST_CLEARED_TAKEOFF_01",
+      "conceptId": "CHECKLIST_SEQUENCE_CLEARED_TAKEOFF",
+      "questionPt": "Qual é o primeiro item do checklist em LIBERADO PARA DECOLAGEM?",
+      "answersPt": [
+        "PROBES — LIGADO",
+        "PROAS — CONFERIR",
+        "GO AROUND — VERIFICAR",
+        "LUZES — TODAS LIGADAS"
+      ],
+      "explanationPt": "PROAS — CONFERIR. A verificação de alinhamento do POH exige identificar a pista, verificar a proa e sincronizar o heading bug."
+    },
+    {
+      "id": 3501,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "MEDIUM",
+      "question": "In CLEARED FOR TAKEOFF, what checklist item comes after “HEADINGS — CROSS CHECK”?",
+      "answers": [
+        "LIGHTS — ALL ON",
+        "HEADINGS — CROSS CHECK",
+        "PROBES — ON",
+        "GO AROW — CHECK"
+      ],
+      "correct": 2,
+      "explanation": "PROBES — ON. The POH line-up check specifies PROBES ON.",
+      "memoryAid": "CLEARED FOR TAKEOFF: 2/7",
+      "reference": "Checklist PDF, page 1; POH Section 4.8.2, p. 4-17; Section 4.9, p. 4-18",
+      "sourcePage": "Checklist p. 1; POH 4-17–4-18",
+      "sourceTopic": "CLEARED FOR TAKEOFF",
+      "sourceSubtopic": "Checklist step 2",
+      "sourceText": "PROBES — ON",
+      "factId": "CHECKLIST_CLEARED_TAKEOFF_02",
+      "conceptId": "CHECKLIST_SEQUENCE_CLEARED_TAKEOFF",
+      "questionPt": "Em LIBERADO PARA DECOLAGEM, qual item vem depois de “PROAS — CONFERIR”?",
+      "answersPt": [
+        "LUZES — TODAS LIGADAS",
+        "PROAS — CONFERIR",
+        "PROBES — LIGADO",
+        "GO AROUND — VERIFICAR"
+      ],
+      "explanationPt": "PROBES — LIGADO. A verificação de alinhamento do POH especifica PROBES ON."
+    },
+    {
+      "id": 3502,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "MEDIUM",
+      "question": "In CLEARED FOR TAKEOFF, what checklist item comes after “PROBES — ON”?",
+      "answers": [
+        "PROBES — ON",
+        "LIGHTS — ALL ON",
+        "GO AROW — CHECK",
+        "HEADINGS — CROSS CHECK"
+      ],
+      "correct": 1,
+      "explanation": "LIGHTS — ALL ON. The supplied checklist and POH list this check or setting, but do not state a separate reason for this individual item.",
+      "memoryAid": "CLEARED FOR TAKEOFF: 3/7",
+      "reference": "Checklist PDF, page 1; POH Section 4.8.2, p. 4-17; Section 4.9, p. 4-18",
+      "sourcePage": "Checklist p. 1; POH 4-17–4-18",
+      "sourceTopic": "CLEARED FOR TAKEOFF",
+      "sourceSubtopic": "Checklist step 3",
+      "sourceText": "LIGHTS — ALL ON",
+      "factId": "CHECKLIST_CLEARED_TAKEOFF_03",
+      "conceptId": "CHECKLIST_SEQUENCE_CLEARED_TAKEOFF",
+      "questionPt": "Em LIBERADO PARA DECOLAGEM, qual item vem depois de “PROBES — LIGADO”?",
+      "answersPt": [
+        "PROBES — LIGADO",
+        "LUZES — TODAS LIGADAS",
+        "GO AROUND — VERIFICAR",
+        "PROAS — CONFERIR"
+      ],
+      "explanationPt": "LUZES — TODAS LIGADAS. O checklist enviado e o POH listam esta verificação ou ajuste, mas não apresentam um motivo separado para este item."
+    },
+    {
+      "id": 3503,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "MEDIUM",
+      "question": "In CLEARED FOR TAKEOFF, what checklist item comes after “LIGHTS — ALL ON”?",
+      "answers": [
+        "HEADINGS — CROSS CHECK",
+        "GO AROW — CHECK",
+        "LIGHTS — ALL ON",
+        "PROBES — ON"
+      ],
+      "correct": 1,
+      "explanation": "GO AROW — CHECK. The supplied checklist says to check this control. The POH describes pressing the Go Around switch during a balked landing if the autopilot is engaged; it does not define this checklist item as a switch press. The source prints “GO AROW”; the POH calls the related control “Go Around”.",
+      "memoryAid": "CLEARED FOR TAKEOFF: 4/7",
+      "reference": "Checklist PDF, page 1; POH Section 4.8.2, p. 4-17; Section 4.9, p. 4-18",
+      "sourcePage": "Checklist p. 1; POH 4-17–4-18",
+      "sourceTopic": "CLEARED FOR TAKEOFF",
+      "sourceSubtopic": "Checklist step 4",
+      "sourceText": "GO AROW — CHECK",
+      "factId": "CHECKLIST_CLEARED_TAKEOFF_04",
+      "conceptId": "CHECKLIST_SEQUENCE_CLEARED_TAKEOFF",
+      "questionPt": "Em LIBERADO PARA DECOLAGEM, qual item vem depois de “LUZES — TODAS LIGADAS”?",
+      "answersPt": [
+        "PROAS — CONFERIR",
+        "GO AROUND — VERIFICAR",
+        "LUZES — TODAS LIGADAS",
+        "PROBES — LIGADO"
+      ],
+      "explanationPt": "GO AROUND — VERIFICAR. O checklist enviado manda verificar este controle. O POH descreve pressionar Go Around durante uma arremetida se o piloto automático estiver engajado; não define este item como um comando de pressionar. O arquivo traz “GO AROW”; o POH chama o controle relacionado de “Go Around”."
+    },
+    {
+      "id": 3504,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "MEDIUM",
+      "question": "In CLEARED FOR TAKEOFF, what checklist item comes after “GO AROW — CHECK”?",
+      "answers": [
+        "LIGHTS — ALL ON",
+        "HEADINGS — CROSS CHECK",
+        "PROBES — ON",
+        "CONDITION LEVER — FLIGHT IDLE"
+      ],
+      "correct": 3,
+      "explanation": "CONDITION LEVER — FLIGHT IDLE. The POH line-up check specifies FLIGHT IDLE before takeoff.",
+      "memoryAid": "CLEARED FOR TAKEOFF: 5/7",
+      "reference": "Checklist PDF, page 1; POH Section 4.8.2, p. 4-17; Section 4.9, p. 4-18",
+      "sourcePage": "Checklist p. 1; POH 4-17–4-18",
+      "sourceTopic": "CLEARED FOR TAKEOFF",
+      "sourceSubtopic": "Checklist step 5",
+      "sourceText": "CONDITION LEVER — FLIGHT IDLE",
+      "factId": "CHECKLIST_CLEARED_TAKEOFF_05",
+      "conceptId": "CHECKLIST_SEQUENCE_CLEARED_TAKEOFF",
+      "questionPt": "Em LIBERADO PARA DECOLAGEM, qual item vem depois de “GO AROUND — VERIFICAR”?",
+      "answersPt": [
+        "LUZES — TODAS LIGADAS",
+        "PROAS — CONFERIR",
+        "PROBES — LIGADO",
+        "CONDITION LEVER — FLIGHT IDLE"
+      ],
+      "explanationPt": "CONDITION LEVER — FLIGHT IDLE. A verificação de alinhamento do POH especifica FLIGHT IDLE antes da decolagem."
+    },
+    {
+      "id": 3505,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "MEDIUM",
+      "question": "In CLEARED FOR TAKEOFF, what checklist item comes after “CONDITION LEVER — FLIGHT IDLE”?",
+      "answers": [
+        "TERR INHIB — CHECK",
+        "PROBES — ON",
+        "HEADINGS — CROSS CHECK",
+        "LIGHTS — ALL ON"
+      ],
+      "correct": 0,
+      "explanation": "TERR INHIB — CHECK. When TERR INHIB is active, the POH says terrain and aural alerts are deactivated; it is generally used when position accuracy is inadequate or the airport is not in the terrain database. “CHECK” does not mean to activate the inhibit; verify the intended state for the flight.",
+      "memoryAid": "CLEARED FOR TAKEOFF: 6/7",
+      "reference": "Checklist PDF, page 1; POH Section 4.8.2, p. 4-17; Section 4.9, p. 4-18",
+      "sourcePage": "Checklist p. 1; POH 4-17–4-18",
+      "sourceTopic": "CLEARED FOR TAKEOFF",
+      "sourceSubtopic": "Checklist step 6",
+      "sourceText": "TERR INHIB — CHECK",
+      "factId": "CHECKLIST_CLEARED_TAKEOFF_06",
+      "conceptId": "CHECKLIST_SEQUENCE_CLEARED_TAKEOFF",
+      "questionPt": "Em LIBERADO PARA DECOLAGEM, qual item vem depois de “CONDITION LEVER — FLIGHT IDLE”?",
+      "answersPt": [
+        "TERR INHIB — VERIFICAR",
+        "PROBES — LIGADO",
+        "PROAS — CONFERIR",
+        "LUZES — TODAS LIGADAS"
+      ],
+      "explanationPt": "TERR INHIB — VERIFICAR. Quando TERR INHIB está ativo, o POH informa que os alertas visuais e sonoros de terreno ficam desativados; em geral, é usado quando a precisão da posição é inadequada ou o aeródromo não está no banco de dados de terreno. “VERIFICAR” não significa ativar o inhibit; confira o estado pretendido para o voo."
+    },
+    {
+      "id": 3506,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "MEDIUM",
+      "question": "In CLEARED FOR TAKEOFF, what checklist item comes after “TERR INHIB — CHECK”?",
+      "answers": [
+        "LIGHTS — ALL ON",
+        "HEADINGS — CROSS CHECK",
+        "BLEED AIR — AS REQUIRED",
+        "PROBES — ON"
+      ],
+      "correct": 2,
+      "explanation": "BLEED AIR — AS REQUIRED. The POH describes ACS BLEED AIR INHIBIT only under specified takeoff-power conditions; it is selected AUTO in climb if it was inhibited for takeoff.",
+      "memoryAid": "CLEARED FOR TAKEOFF: 7/7",
+      "reference": "Checklist PDF, page 1; POH Section 4.8.2, p. 4-17; Section 4.9, p. 4-18",
+      "sourcePage": "Checklist p. 1; POH 4-17–4-18",
+      "sourceTopic": "CLEARED FOR TAKEOFF",
+      "sourceSubtopic": "Checklist step 7",
+      "sourceText": "BLEED AIR — AS REQUIRED",
+      "factId": "CHECKLIST_CLEARED_TAKEOFF_07",
+      "conceptId": "CHECKLIST_SEQUENCE_CLEARED_TAKEOFF",
+      "questionPt": "Em LIBERADO PARA DECOLAGEM, qual item vem depois de “TERR INHIB — VERIFICAR”?",
+      "answersPt": [
+        "LUZES — TODAS LIGADAS",
+        "PROAS — CONFERIR",
+        "BLEED AIR — CONFORME NECESSÁRIO",
+        "PROBES — LIGADO"
+      ],
+      "explanationPt": "BLEED AIR — CONFORME NECESSÁRIO. O POH prevê ACS BLEED AIR INHIBIT apenas nas condições especificadas de potência de decolagem; na subida, seleciona-se AUTO se o sistema foi inibido para a decolagem."
+    },
+    {
+      "id": 3600,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "EASY",
+      "question": "What is the first checklist item in AFTER TAKE OFF?",
+      "answers": [
+        "FLAPS — RETRACTED",
+        "LDG GEAR — UP",
+        "PRESSURIZATION — CHECK",
+        "YAW DAMPER — ON"
+      ],
+      "correct": 1,
+      "explanation": "LDG GEAR — UP. The POH sequences landing-gear retraction after lift-off and a positive rate of climb.",
+      "memoryAid": "AFTER TAKE OFF: 1/6",
+      "reference": "Checklist PDF, page 1; POH Section 4.9, p. 4-18; Section 4.11, p. 4-21",
+      "sourcePage": "Checklist p. 1; POH 4-18, 4-21",
+      "sourceTopic": "AFTER TAKE OFF",
+      "sourceSubtopic": "Checklist step 1",
+      "sourceText": "LDG GEAR — UP",
+      "factId": "CHECKLIST_AFTER_TAKEOFF_01",
+      "conceptId": "CHECKLIST_SEQUENCE_AFTER_TAKEOFF",
+      "questionPt": "Qual é o primeiro item do checklist em APÓS A DECOLAGEM?",
+      "answersPt": [
+        "FLAPS — RECOLHIDOS",
+        "TREM DE POUSO — RECOLHIDO",
+        "PRESSURIZAÇÃO — VERIFICAR",
+        "YAW DAMPER — LIGADO"
+      ],
+      "explanationPt": "TREM DE POUSO — RECOLHIDO. O POH determina recolher o trem após a decolagem e uma razão de subida positiva."
+    },
+    {
+      "id": 3601,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "MEDIUM",
+      "question": "In AFTER TAKE OFF, what checklist item comes after “LDG GEAR — UP”?",
+      "answers": [
+        "PRESSURIZATION — CHECK",
+        "YAW DAMPER — ON",
+        "LDG GEAR — UP",
+        "FLAPS — RETRACTED"
+      ],
+      "correct": 3,
+      "explanation": "FLAPS — RETRACTED. The POH specifies FLAPS 0° above 100 KIAS after takeoff.",
+      "memoryAid": "AFTER TAKE OFF: 2/6",
+      "reference": "Checklist PDF, page 1; POH Section 4.9, p. 4-18; Section 4.11, p. 4-21",
+      "sourcePage": "Checklist p. 1; POH 4-18, 4-21",
+      "sourceTopic": "AFTER TAKE OFF",
+      "sourceSubtopic": "Checklist step 2",
+      "sourceText": "FLAPS — RETRACTED",
+      "factId": "CHECKLIST_AFTER_TAKEOFF_02",
+      "conceptId": "CHECKLIST_SEQUENCE_AFTER_TAKEOFF",
+      "questionPt": "Em APÓS A DECOLAGEM, qual item vem depois de “TREM DE POUSO — RECOLHIDO”?",
+      "answersPt": [
+        "PRESSURIZAÇÃO — VERIFICAR",
+        "YAW DAMPER — LIGADO",
+        "TREM DE POUSO — RECOLHIDO",
+        "FLAPS — RECOLHIDOS"
+      ],
+      "explanationPt": "FLAPS — RECOLHIDOS. O POH especifica FLAPS 0° acima de 100 KIAS após a decolagem."
+    },
+    {
+      "id": 3602,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "MEDIUM",
+      "question": "In AFTER TAKE OFF, what checklist item comes after “FLAPS — RETRACTED”?",
+      "answers": [
+        "PRESSURIZATION — CHECK",
+        "LDG GEAR — UP",
+        "FLAPS — RETRACTED",
+        "YAW DAMPER — ON"
+      ],
+      "correct": 3,
+      "explanation": "YAW DAMPER — ON. The POH selects the yaw damper ON after a positive rate of climb; its limitations require the yaw damper OFF during takeoff and landing.",
+      "memoryAid": "AFTER TAKE OFF: 3/6",
+      "reference": "Checklist PDF, page 1; POH Section 4.9, p. 4-18; Section 4.11, p. 4-21",
+      "sourcePage": "Checklist p. 1; POH 4-18, 4-21",
+      "sourceTopic": "AFTER TAKE OFF",
+      "sourceSubtopic": "Checklist step 3",
+      "sourceText": "YAW DAMPER — ON",
+      "factId": "CHECKLIST_AFTER_TAKEOFF_03",
+      "conceptId": "CHECKLIST_SEQUENCE_AFTER_TAKEOFF",
+      "questionPt": "Em APÓS A DECOLAGEM, qual item vem depois de “FLAPS — RECOLHIDOS”?",
+      "answersPt": [
+        "PRESSURIZAÇÃO — VERIFICAR",
+        "TREM DE POUSO — RECOLHIDO",
+        "FLAPS — RECOLHIDOS",
+        "YAW DAMPER — LIGADO"
+      ],
+      "explanationPt": "YAW DAMPER — LIGADO. O POH seleciona o yaw damper ON após uma razão de subida positiva; as limitações exigem yaw damper OFF durante decolagem e pouso."
+    },
+    {
+      "id": 3603,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "MEDIUM",
+      "question": "In AFTER TAKE OFF, what checklist item comes after “YAW DAMPER — ON”?",
+      "answers": [
+        "LDG GEAR — UP",
+        "FLAPS — RETRACTED",
+        "YAW DAMPER — ON",
+        "PRESSURIZATION — CHECK"
+      ],
+      "correct": 3,
+      "explanation": "PRESSURIZATION — CHECK. The POH calls for monitoring cabin pressure during climb and cruise.",
+      "memoryAid": "AFTER TAKE OFF: 4/6",
+      "reference": "Checklist PDF, page 1; POH Section 4.9, p. 4-18; Section 4.11, p. 4-21",
+      "sourcePage": "Checklist p. 1; POH 4-18, 4-21",
+      "sourceTopic": "AFTER TAKE OFF",
+      "sourceSubtopic": "Checklist step 4",
+      "sourceText": "PRESSURIZATION — CHECK",
+      "factId": "CHECKLIST_AFTER_TAKEOFF_04",
+      "conceptId": "CHECKLIST_SEQUENCE_AFTER_TAKEOFF",
+      "questionPt": "Em APÓS A DECOLAGEM, qual item vem depois de “YAW DAMPER — LIGADO”?",
+      "answersPt": [
+        "TREM DE POUSO — RECOLHIDO",
+        "FLAPS — RECOLHIDOS",
+        "YAW DAMPER — LIGADO",
+        "PRESSURIZAÇÃO — VERIFICAR"
+      ],
+      "explanationPt": "PRESSURIZAÇÃO — VERIFICAR. O POH determina monitorar a pressão da cabine durante a subida e o cruzeiro."
+    },
+    {
+      "id": 3604,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "MEDIUM",
+      "question": "In AFTER TAKE OFF, what checklist item comes after “PRESSURIZATION — CHECK”?",
+      "answers": [
+        "LIGHTS — AS REQUIRED",
+        "YAW DAMPER — ON",
+        "LDG GEAR — UP",
+        "FLAPS — RETRACTED"
+      ],
+      "correct": 0,
+      "explanation": "LIGHTS — AS REQUIRED. The supplied checklist and POH list this check or setting, but do not state a separate reason for this individual item.",
+      "memoryAid": "AFTER TAKE OFF: 5/6",
+      "reference": "Checklist PDF, page 1; POH Section 4.9, p. 4-18; Section 4.11, p. 4-21",
+      "sourcePage": "Checklist p. 1; POH 4-18, 4-21",
+      "sourceTopic": "AFTER TAKE OFF",
+      "sourceSubtopic": "Checklist step 5",
+      "sourceText": "LIGHTS — AS REQUIRED",
+      "factId": "CHECKLIST_AFTER_TAKEOFF_05",
+      "conceptId": "CHECKLIST_SEQUENCE_AFTER_TAKEOFF",
+      "questionPt": "Em APÓS A DECOLAGEM, qual item vem depois de “PRESSURIZAÇÃO — VERIFICAR”?",
+      "answersPt": [
+        "LUZES — CONFORME NECESSÁRIO",
+        "YAW DAMPER — LIGADO",
+        "TREM DE POUSO — RECOLHIDO",
+        "FLAPS — RECOLHIDOS"
+      ],
+      "explanationPt": "LUZES — CONFORME NECESSÁRIO. O checklist enviado e o POH listam esta verificação ou ajuste, mas não apresentam um motivo separado para este item."
+    },
+    {
+      "id": 3605,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "MEDIUM",
+      "question": "In AFTER TAKE OFF, what checklist item comes after “LIGHTS — AS REQUIRED”?",
+      "answers": [
+        "FLAPS — RETRACTED",
+        "YAW DAMPER — ON",
+        "LDG GEAR — UP",
+        "BLEED AIR — ON"
+      ],
+      "correct": 3,
+      "explanation": "BLEED AIR — ON. The POH climb procedure says ACS BLEED AIR AUTO if it was selected INHIBIT for takeoff. CHECKLIST/POH DIFFERENCE: the checklist says ON; POH Section 4.11 says AUTO if inhibited for takeoff. Confirm the approved aircraft-specific procedure.",
+      "memoryAid": "AFTER TAKE OFF: 6/6",
+      "reference": "Checklist PDF, page 1; POH Section 4.9, p. 4-18; Section 4.11, p. 4-21",
+      "sourcePage": "Checklist p. 1; POH 4-18, 4-21",
+      "sourceTopic": "AFTER TAKE OFF",
+      "sourceSubtopic": "Checklist step 6",
+      "sourceText": "BLEED AIR — ON",
+      "factId": "CHECKLIST_AFTER_TAKEOFF_06",
+      "conceptId": "CHECKLIST_SEQUENCE_AFTER_TAKEOFF",
+      "questionPt": "Em APÓS A DECOLAGEM, qual item vem depois de “LUZES — CONFORME NECESSÁRIO”?",
+      "answersPt": [
+        "FLAPS — RECOLHIDOS",
+        "YAW DAMPER — LIGADO",
+        "TREM DE POUSO — RECOLHIDO",
+        "BLEED AIR — LIGADO"
+      ],
+      "explanationPt": "BLEED AIR — LIGADO. O procedimento de subida do POH diz ACS BLEED AIR AUTO se o sistema foi selecionado INHIBIT para a decolagem. DIFERENÇA CHECKLIST/POH: o checklist diz ON; o POH, Seção 4.11, diz AUTO se foi inibido na decolagem. Confirme o procedimento aprovado para esta aeronave."
+    },
+    {
+      "id": 3700,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "EASY",
+      "question": "What is the first checklist item in TEN THOUSAND CLIMBING?",
+      "answers": [
+        "OXYGEN — OPEN",
+        "INERT SEP — CLOSED",
+        "SEAT BELTS — AS REQUIRED",
+        "LIGHTS — AS REQUIRED"
+      ],
+      "correct": 2,
+      "explanation": "SEAT BELTS — AS REQUIRED. The supplied checklist and POH list this check or setting, but do not state a separate reason for this individual item.",
+      "memoryAid": "TEN THOUSAND CLIMBING: 1/5",
+      "reference": "Checklist PDF, page 1; POH Sections 4.11 and 4.20, pp. 4-21 and 4-28",
+      "sourcePage": "Checklist p. 1; POH 4-21, 4-28",
+      "sourceTopic": "TEN THOUSAND CLIMBING",
+      "sourceSubtopic": "Checklist step 1",
+      "sourceText": "SEAT BELTS — AS REQUIRED",
+      "factId": "CHECKLIST_TEN_THOUSAND_CLIMB_01",
+      "conceptId": "CHECKLIST_SEQUENCE_TEN_THOUSAND_CLIMB",
+      "questionPt": "Qual é o primeiro item do checklist em SUBIDA A 10.000 FT?",
+      "answersPt": [
+        "OXIGÊNIO — ABERTO",
+        "INERT SEP — FECHADO",
+        "CINTOS — CONFORME NECESSÁRIO",
+        "LUZES — CONFORME NECESSÁRIO"
+      ],
+      "explanationPt": "CINTOS — CONFORME NECESSÁRIO. O checklist enviado e o POH listam esta verificação ou ajuste, mas não apresentam um motivo separado para este item."
+    },
+    {
+      "id": 3701,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "MEDIUM",
+      "question": "In TEN THOUSAND CLIMBING, what checklist item comes after “SEAT BELTS — AS REQUIRED”?",
+      "answers": [
+        "LIGHTS — AS REQUIRED",
+        "INERT SEP — CLOSED",
+        "SEAT BELTS — AS REQUIRED",
+        "OXYGEN — OPEN"
+      ],
+      "correct": 0,
+      "explanation": "LIGHTS — AS REQUIRED. The supplied checklist and POH list this check or setting, but do not state a separate reason for this individual item.",
+      "memoryAid": "TEN THOUSAND CLIMBING: 2/5",
+      "reference": "Checklist PDF, page 1; POH Sections 4.11 and 4.20, pp. 4-21 and 4-28",
+      "sourcePage": "Checklist p. 1; POH 4-21, 4-28",
+      "sourceTopic": "TEN THOUSAND CLIMBING",
+      "sourceSubtopic": "Checklist step 2",
+      "sourceText": "LIGHTS — AS REQUIRED",
+      "factId": "CHECKLIST_TEN_THOUSAND_CLIMB_02",
+      "conceptId": "CHECKLIST_SEQUENCE_TEN_THOUSAND_CLIMB",
+      "questionPt": "Em SUBIDA A 10.000 FT, qual item vem depois de “CINTOS — CONFORME NECESSÁRIO”?",
+      "answersPt": [
+        "LUZES — CONFORME NECESSÁRIO",
+        "INERT SEP — FECHADO",
+        "CINTOS — CONFORME NECESSÁRIO",
+        "OXIGÊNIO — ABERTO"
+      ],
+      "explanationPt": "LUZES — CONFORME NECESSÁRIO. O checklist enviado e o POH listam esta verificação ou ajuste, mas não apresentam um motivo separado para este item."
+    },
+    {
+      "id": 3702,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "MEDIUM",
+      "question": "In TEN THOUSAND CLIMBING, what checklist item comes after “LIGHTS — AS REQUIRED”?",
+      "answers": [
+        "SEAT BELTS — AS REQUIRED",
+        "OXYGEN — OPEN",
+        "INERT SEP — CLOSED",
+        "LIGHTS — AS REQUIRED"
+      ],
+      "correct": 1,
+      "explanation": "OXYGEN — OPEN. The POH oxygen procedure requires the oxygen system and masks to be configured for the flight; above 10,000 ft it specifies the masks connected and the Oxygen Control Valve in AUTO. The checklist says OPEN; POH Section 4.20 describes AUTO above 10,000 ft. Verify that these labels refer to the same control on this aircraft.",
+      "memoryAid": "TEN THOUSAND CLIMBING: 3/5",
+      "reference": "Checklist PDF, page 1; POH Sections 4.11 and 4.20, pp. 4-21 and 4-28",
+      "sourcePage": "Checklist p. 1; POH 4-21, 4-28",
+      "sourceTopic": "TEN THOUSAND CLIMBING",
+      "sourceSubtopic": "Checklist step 3",
+      "sourceText": "OXYGEN — OPEN",
+      "factId": "CHECKLIST_TEN_THOUSAND_CLIMB_03",
+      "conceptId": "CHECKLIST_SEQUENCE_TEN_THOUSAND_CLIMB",
+      "questionPt": "Em SUBIDA A 10.000 FT, qual item vem depois de “LUZES — CONFORME NECESSÁRIO”?",
+      "answersPt": [
+        "CINTOS — CONFORME NECESSÁRIO",
+        "OXIGÊNIO — ABERTO",
+        "INERT SEP — FECHADO",
+        "LUZES — CONFORME NECESSÁRIO"
+      ],
+      "explanationPt": "OXIGÊNIO — ABERTO. O procedimento de oxigênio do POH exige configurar o sistema e as máscaras para o voo; acima de 10.000 ft, especifica máscaras conectadas e Oxygen Control Valve em AUTO. O checklist diz OPEN; o POH, Seção 4.20, descreve AUTO acima de 10.000 ft. Confira se os dois rótulos se referem ao mesmo controle nesta aeronave."
+    },
+    {
+      "id": 3703,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "MEDIUM",
+      "question": "In TEN THOUSAND CLIMBING, what checklist item comes after “OXYGEN — OPEN”?",
+      "answers": [
+        "OXYGEN — OPEN",
+        "INERT SEP — CLOSED",
+        "SEAT BELTS — AS REQUIRED",
+        "LIGHTS — AS REQUIRED"
+      ],
+      "correct": 1,
+      "explanation": "INERT SEP — CLOSED. The POH associates opening the inertial separator with icing, unprepared surfaces or bird-strike protection; it also notes that opening it reduces engine performance.",
+      "memoryAid": "TEN THOUSAND CLIMBING: 4/5",
+      "reference": "Checklist PDF, page 1; POH Sections 4.11 and 4.20, pp. 4-21 and 4-28",
+      "sourcePage": "Checklist p. 1; POH 4-21, 4-28",
+      "sourceTopic": "TEN THOUSAND CLIMBING",
+      "sourceSubtopic": "Checklist step 4",
+      "sourceText": "INERT SEP — CLOSED",
+      "factId": "CHECKLIST_TEN_THOUSAND_CLIMB_04",
+      "conceptId": "CHECKLIST_SEQUENCE_TEN_THOUSAND_CLIMB",
+      "questionPt": "Em SUBIDA A 10.000 FT, qual item vem depois de “OXIGÊNIO — ABERTO”?",
+      "answersPt": [
+        "OXIGÊNIO — ABERTO",
+        "INERT SEP — FECHADO",
+        "CINTOS — CONFORME NECESSÁRIO",
+        "LUZES — CONFORME NECESSÁRIO"
+      ],
+      "explanationPt": "INERT SEP — FECHADO. O POH associa a abertura do separador inercial a gelo, superfícies não preparadas ou proteção contra impacto de aves; também informa que aberto reduz o desempenho do motor."
+    },
+    {
+      "id": 3704,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "MEDIUM",
+      "question": "In TEN THOUSAND CLIMBING, what checklist item comes after “INERT SEP — CLOSED”?",
+      "answers": [
+        "ALTIMETERS — CHECK STD",
+        "OXYGEN — OPEN",
+        "SEAT BELTS — AS REQUIRED",
+        "LIGHTS — AS REQUIRED"
+      ],
+      "correct": 0,
+      "explanation": "ALTIMETERS — CHECK STD. The supplied checklist and POH list this check or setting, but do not state a separate reason for this individual item.",
+      "memoryAid": "TEN THOUSAND CLIMBING: 5/5",
+      "reference": "Checklist PDF, page 1; POH Sections 4.11 and 4.20, pp. 4-21 and 4-28",
+      "sourcePage": "Checklist p. 1; POH 4-21, 4-28",
+      "sourceTopic": "TEN THOUSAND CLIMBING",
+      "sourceSubtopic": "Checklist step 5",
+      "sourceText": "ALTIMETERS — CHECK STD",
+      "factId": "CHECKLIST_TEN_THOUSAND_CLIMB_05",
+      "conceptId": "CHECKLIST_SEQUENCE_TEN_THOUSAND_CLIMB",
+      "questionPt": "Em SUBIDA A 10.000 FT, qual item vem depois de “INERT SEP — FECHADO”?",
+      "answersPt": [
+        "ALTÍMETROS — CONFERIR STD",
+        "OXIGÊNIO — ABERTO",
+        "CINTOS — CONFORME NECESSÁRIO",
+        "LUZES — CONFORME NECESSÁRIO"
+      ],
+      "explanationPt": "ALTÍMETROS — CONFERIR STD. O checklist enviado e o POH listam esta verificação ou ajuste, mas não apresentam um motivo separado para este item."
+    },
+    {
+      "id": 3800,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "EASY",
+      "question": "What is the first checklist item in CRUISE?",
+      "answers": [
+        "MASTER POWER — ON",
+        "PRESSURIZATION — CHECK",
+        "STAND BY BUS — ON",
+        "ICE PROTECTION — AS REQUIRED"
+      ],
+      "correct": 1,
+      "explanation": "PRESSURIZATION — CHECK. The POH cruise procedure requires cabin pressurization to be monitored.",
+      "memoryAid": "CRUISE: 1/2",
+      "reference": "Checklist PDF, page 1; POH Section 4.12, p. 4-21",
+      "sourcePage": "Checklist p. 1; POH 4-21",
+      "sourceTopic": "CRUISE",
+      "sourceSubtopic": "Checklist step 1",
+      "sourceText": "PRESSURIZATION — CHECK",
+      "factId": "CHECKLIST_CRUISE_01",
+      "conceptId": "CHECKLIST_SEQUENCE_CRUISE",
+      "questionPt": "Qual é o primeiro item do checklist em CRUZEIRO?",
+      "answersPt": [
+        "MASTER POWER — LIGADO",
+        "PRESSURIZAÇÃO — VERIFICAR",
+        "STAND BY BUS — LIGADO",
+        "PROTEÇÃO CONTRA GELO — CONFORME NECESSÁRIO"
+      ],
+      "explanationPt": "PRESSURIZAÇÃO — VERIFICAR. O procedimento de cruzeiro do POH exige monitorar a pressurização da cabine."
+    },
+    {
+      "id": 3801,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "MEDIUM",
+      "question": "In CRUISE, what checklist item comes after “PRESSURIZATION — CHECK”?",
+      "answers": [
+        "STAND BY BUS — ON",
+        "ICE PROTECTION — AS REQUIRED",
+        "PRESSURIZATION — CHECK",
+        "MASTER POWER — ON"
+      ],
+      "correct": 1,
+      "explanation": "ICE PROTECTION — AS REQUIRED. The POH requires the ice-protection system to be operated as required by the conditions.",
+      "memoryAid": "CRUISE: 2/2",
+      "reference": "Checklist PDF, page 1; POH Section 4.12, p. 4-21",
+      "sourcePage": "Checklist p. 1; POH 4-21",
+      "sourceTopic": "CRUISE",
+      "sourceSubtopic": "Checklist step 2",
+      "sourceText": "ICE PROTECTION — AS REQUIRED",
+      "factId": "CHECKLIST_CRUISE_02",
+      "conceptId": "CHECKLIST_SEQUENCE_CRUISE",
+      "questionPt": "Em CRUZEIRO, qual item vem depois de “PRESSURIZAÇÃO — VERIFICAR”?",
+      "answersPt": [
+        "STAND BY BUS — LIGADO",
+        "PROTEÇÃO CONTRA GELO — CONFORME NECESSÁRIO",
+        "PRESSURIZAÇÃO — VERIFICAR",
+        "MASTER POWER — LIGADO"
+      ],
+      "explanationPt": "PROTEÇÃO CONTRA GELO — CONFORME NECESSÁRIO. O POH determina operar o sistema de proteção contra gelo conforme as condições exigirem."
+    },
+    {
+      "id": 3900,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "EASY",
+      "question": "What is the first checklist item in BEFORE APPROACH?",
+      "answers": [
+        "MASTER POWER — ON",
+        "STAND BY BUS — ON",
+        "EPS — TEST-ARMED/ON",
+        "BRIEFING — CONFIRMED"
+      ],
+      "correct": 3,
+      "explanation": "BRIEFING — CONFIRMED. The POH descent and approach procedures call for receiving ATIS and performing the briefing.",
+      "memoryAid": "BEFORE APPROACH: 1/1",
+      "reference": "Checklist PDF, page 1; POH Sections 4.13–4.14.1, p. 4-22",
+      "sourcePage": "Checklist p. 1; POH 4-22",
+      "sourceTopic": "BEFORE APPROACH",
+      "sourceSubtopic": "Checklist step 1",
+      "sourceText": "BRIEFING — CONFIRMED",
+      "factId": "CHECKLIST_BEFORE_APPROACH_01",
+      "conceptId": "CHECKLIST_SEQUENCE_BEFORE_APPROACH",
+      "questionPt": "Qual é o primeiro item do checklist em ANTES DA APROXIMAÇÃO?",
+      "answersPt": [
+        "MASTER POWER — LIGADO",
+        "STAND BY BUS — LIGADO",
+        "EPS — TESTAR/ARMAR/LIGAR",
+        "BRIEFING — CONFIRMADO"
+      ],
+      "explanationPt": "BRIEFING — CONFIRMADO. Os procedimentos de descida e aproximação do POH determinam receber o ATIS e realizar o briefing."
+    },
+    {
+      "id": 4000,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "EASY",
+      "question": "What is the first checklist item in TEN THOUSAND DECENT?",
+      "answers": [
+        "ICE PROTECTION — SET",
+        "SEAT BELTS — ON",
+        "ALTIMETERS — SET",
+        "MDA/DA — SET"
+      ],
+      "correct": 2,
+      "explanation": "ALTIMETERS — SET. The POH approach check requires the altimeter to be set.",
+      "memoryAid": "TEN THOUSAND DECENT: 1/8",
+      "reference": "Checklist PDF, page 1; POH Sections 4.13–4.14.1 and 4.20, pp. 4-22 and 4-28",
+      "sourcePage": "Checklist p. 1; POH 4-22, 4-28",
+      "sourceTopic": "TEN THOUSAND DECENT",
+      "sourceSubtopic": "Checklist step 1",
+      "sourceText": "ALTIMETERS — SET",
+      "factId": "CHECKLIST_TEN_THOUSAND_DESCENT_01",
+      "conceptId": "CHECKLIST_SEQUENCE_TEN_THOUSAND_DESCENT",
+      "questionPt": "Qual é o primeiro item do checklist em DESCIDA A 10.000 FT?",
+      "answersPt": [
+        "PROTEÇÃO CONTRA GELO — AJUSTAR",
+        "CINTOS — AFIVELADOS",
+        "ALTÍMETROS — AJUSTAR",
+        "MDA/DA — AJUSTAR"
+      ],
+      "explanationPt": "ALTÍMETROS — AJUSTAR. A verificação de aproximação do POH exige ajustar o altímetro."
+    },
+    {
+      "id": 4001,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "MEDIUM",
+      "question": "In TEN THOUSAND DECENT, what checklist item comes after “ALTIMETERS — SET”?",
+      "answers": [
+        "SEAT BELTS — ON",
+        "ICE PROTECTION — SET",
+        "MDA/DA — SET",
+        "ALTIMETERS — SET"
+      ],
+      "correct": 1,
+      "explanation": "ICE PROTECTION — SET. The POH requires the ice-protection configuration to match the conditions.",
+      "memoryAid": "TEN THOUSAND DECENT: 2/8",
+      "reference": "Checklist PDF, page 1; POH Sections 4.13–4.14.1 and 4.20, pp. 4-22 and 4-28",
+      "sourcePage": "Checklist p. 1; POH 4-22, 4-28",
+      "sourceTopic": "TEN THOUSAND DECENT",
+      "sourceSubtopic": "Checklist step 2",
+      "sourceText": "ICE PROTECTION — SET",
+      "factId": "CHECKLIST_TEN_THOUSAND_DESCENT_02",
+      "conceptId": "CHECKLIST_SEQUENCE_TEN_THOUSAND_DESCENT",
+      "questionPt": "Em DESCIDA A 10.000 FT, qual item vem depois de “ALTÍMETROS — AJUSTAR”?",
+      "answersPt": [
+        "CINTOS — AFIVELADOS",
+        "PROTEÇÃO CONTRA GELO — AJUSTAR",
+        "MDA/DA — AJUSTAR",
+        "ALTÍMETROS — AJUSTAR"
+      ],
+      "explanationPt": "PROTEÇÃO CONTRA GELO — AJUSTAR. O POH exige que a configuração de proteção contra gelo corresponda às condições."
+    },
+    {
+      "id": 4002,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "MEDIUM",
+      "question": "In TEN THOUSAND DECENT, what checklist item comes after “ICE PROTECTION — SET”?",
+      "answers": [
+        "MDA/DA — SET",
+        "ALTIMETERS — SET",
+        "SEAT BELTS — ON",
+        "ICE PROTECTION — SET"
+      ],
+      "correct": 0,
+      "explanation": "MDA/DA — SET. The supplied checklist and POH list this check or setting, but do not state a separate reason for this individual item.",
+      "memoryAid": "TEN THOUSAND DECENT: 3/8",
+      "reference": "Checklist PDF, page 1; POH Sections 4.13–4.14.1 and 4.20, pp. 4-22 and 4-28",
+      "sourcePage": "Checklist p. 1; POH 4-22, 4-28",
+      "sourceTopic": "TEN THOUSAND DECENT",
+      "sourceSubtopic": "Checklist step 3",
+      "sourceText": "MDA/DA — SET",
+      "factId": "CHECKLIST_TEN_THOUSAND_DESCENT_03",
+      "conceptId": "CHECKLIST_SEQUENCE_TEN_THOUSAND_DESCENT",
+      "questionPt": "Em DESCIDA A 10.000 FT, qual item vem depois de “PROTEÇÃO CONTRA GELO — AJUSTAR”?",
+      "answersPt": [
+        "MDA/DA — AJUSTAR",
+        "ALTÍMETROS — AJUSTAR",
+        "CINTOS — AFIVELADOS",
+        "PROTEÇÃO CONTRA GELO — AJUSTAR"
+      ],
+      "explanationPt": "MDA/DA — AJUSTAR. O checklist enviado e o POH listam esta verificação ou ajuste, mas não apresentam um motivo separado para este item."
+    },
+    {
+      "id": 4003,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "MEDIUM",
+      "question": "In TEN THOUSAND DECENT, what checklist item comes after “MDA/DA — SET”?",
+      "answers": [
+        "ALTIMETERS — SET",
+        "ICE PROTECTION — SET",
+        "SEAT BELTS — ON",
+        "MDA/DA — SET"
+      ],
+      "correct": 2,
+      "explanation": "SEAT BELTS — ON. The supplied checklist and POH list this check or setting, but do not state a separate reason for this individual item.",
+      "memoryAid": "TEN THOUSAND DECENT: 4/8",
+      "reference": "Checklist PDF, page 1; POH Sections 4.13–4.14.1 and 4.20, pp. 4-22 and 4-28",
+      "sourcePage": "Checklist p. 1; POH 4-22, 4-28",
+      "sourceTopic": "TEN THOUSAND DECENT",
+      "sourceSubtopic": "Checklist step 4",
+      "sourceText": "SEAT BELTS — ON",
+      "factId": "CHECKLIST_TEN_THOUSAND_DESCENT_04",
+      "conceptId": "CHECKLIST_SEQUENCE_TEN_THOUSAND_DESCENT",
+      "questionPt": "Em DESCIDA A 10.000 FT, qual item vem depois de “MDA/DA — AJUSTAR”?",
+      "answersPt": [
+        "ALTÍMETROS — AJUSTAR",
+        "PROTEÇÃO CONTRA GELO — AJUSTAR",
+        "CINTOS — AFIVELADOS",
+        "MDA/DA — AJUSTAR"
+      ],
+      "explanationPt": "CINTOS — AFIVELADOS. O checklist enviado e o POH listam esta verificação ou ajuste, mas não apresentam um motivo separado para este item."
+    },
+    {
+      "id": 4004,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "MEDIUM",
+      "question": "In TEN THOUSAND DECENT, what checklist item comes after “SEAT BELTS — ON”?",
+      "answers": [
+        "MDA/DA — SET",
+        "OXYGEN — OFF",
+        "ALTIMETERS — SET",
+        "ICE PROTECTION — SET"
+      ],
+      "correct": 1,
+      "explanation": "OXYGEN — OFF. The supplied checklist and POH list this check or setting, but do not state a separate reason for this individual item.",
+      "memoryAid": "TEN THOUSAND DECENT: 5/8",
+      "reference": "Checklist PDF, page 1; POH Sections 4.13–4.14.1 and 4.20, pp. 4-22 and 4-28",
+      "sourcePage": "Checklist p. 1; POH 4-22, 4-28",
+      "sourceTopic": "TEN THOUSAND DECENT",
+      "sourceSubtopic": "Checklist step 5",
+      "sourceText": "OXYGEN — OFF",
+      "factId": "CHECKLIST_TEN_THOUSAND_DESCENT_05",
+      "conceptId": "CHECKLIST_SEQUENCE_TEN_THOUSAND_DESCENT",
+      "questionPt": "Em DESCIDA A 10.000 FT, qual item vem depois de “CINTOS — AFIVELADOS”?",
+      "answersPt": [
+        "MDA/DA — AJUSTAR",
+        "OXIGÊNIO — DESLIGADO",
+        "ALTÍMETROS — AJUSTAR",
+        "PROTEÇÃO CONTRA GELO — AJUSTAR"
+      ],
+      "explanationPt": "OXIGÊNIO — DESLIGADO. O checklist enviado e o POH listam esta verificação ou ajuste, mas não apresentam um motivo separado para este item."
+    },
+    {
+      "id": 4005,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "MEDIUM",
+      "question": "In TEN THOUSAND DECENT, what checklist item comes after “OXYGEN — OFF”?",
+      "answers": [
+        "LIGHTS — AS REQUIRED",
+        "MDA/DA — SET",
+        "ALTIMETERS — SET",
+        "ICE PROTECTION — SET"
+      ],
+      "correct": 0,
+      "explanation": "LIGHTS — AS REQUIRED. The supplied checklist and POH list this check or setting, but do not state a separate reason for this individual item.",
+      "memoryAid": "TEN THOUSAND DECENT: 6/8",
+      "reference": "Checklist PDF, page 1; POH Sections 4.13–4.14.1 and 4.20, pp. 4-22 and 4-28",
+      "sourcePage": "Checklist p. 1; POH 4-22, 4-28",
+      "sourceTopic": "TEN THOUSAND DECENT",
+      "sourceSubtopic": "Checklist step 6",
+      "sourceText": "LIGHTS — AS REQUIRED",
+      "factId": "CHECKLIST_TEN_THOUSAND_DESCENT_06",
+      "conceptId": "CHECKLIST_SEQUENCE_TEN_THOUSAND_DESCENT",
+      "questionPt": "Em DESCIDA A 10.000 FT, qual item vem depois de “OXIGÊNIO — DESLIGADO”?",
+      "answersPt": [
+        "LUZES — CONFORME NECESSÁRIO",
+        "MDA/DA — AJUSTAR",
+        "ALTÍMETROS — AJUSTAR",
+        "PROTEÇÃO CONTRA GELO — AJUSTAR"
+      ],
+      "explanationPt": "LUZES — CONFORME NECESSÁRIO. O checklist enviado e o POH listam esta verificação ou ajuste, mas não apresentam um motivo separado para este item."
+    },
+    {
+      "id": 4006,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "MEDIUM",
+      "question": "In TEN THOUSAND DECENT, what checklist item comes after “LIGHTS — AS REQUIRED”?",
+      "answers": [
+        "MDA/DA — SET",
+        "ALTIMETERS — SET",
+        "INERTIAL SEPARATOR — OPEN",
+        "ICE PROTECTION — SET"
+      ],
+      "correct": 2,
+      "explanation": "INERTIAL SEPARATOR — OPEN. The POH approach check calls for the inertial separator OPEN when operating on an unprepared surface or for bird-strike protection; the systems description explains that it bypasses heavy particles away from the engine. The POH makes OPEN conditional in the approach check; the supplied checklist lists it in this phase. Confirm applicability for the flight.",
+      "memoryAid": "TEN THOUSAND DECENT: 7/8",
+      "reference": "Checklist PDF, page 1; POH Sections 4.13–4.14.1 and 4.20, pp. 4-22 and 4-28",
+      "sourcePage": "Checklist p. 1; POH 4-22, 4-28",
+      "sourceTopic": "TEN THOUSAND DECENT",
+      "sourceSubtopic": "Checklist step 7",
+      "sourceText": "INERTIAL SEPARATOR — OPEN",
+      "factId": "CHECKLIST_TEN_THOUSAND_DESCENT_07",
+      "conceptId": "CHECKLIST_SEQUENCE_TEN_THOUSAND_DESCENT",
+      "questionPt": "Em DESCIDA A 10.000 FT, qual item vem depois de “LUZES — CONFORME NECESSÁRIO”?",
+      "answersPt": [
+        "MDA/DA — AJUSTAR",
+        "ALTÍMETROS — AJUSTAR",
+        "SEPARADOR INERCIAL — ABERTO",
+        "PROTEÇÃO CONTRA GELO — AJUSTAR"
+      ],
+      "explanationPt": "SEPARADOR INERCIAL — ABERTO. A verificação de aproximação do POH prevê o separador inercial OPEN ao operar em superfície não preparada ou para proteção contra impacto de aves; a descrição do sistema explica que ele desvia partículas pesadas para longe do motor. Na verificação de aproximação, o POH condiciona a seleção OPEN; o checklist enviado a lista nesta fase. Confirme a aplicabilidade ao voo."
+    },
+    {
+      "id": 4007,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "MEDIUM",
+      "question": "In TEN THOUSAND DECENT, what checklist item comes after “INERTIAL SEPARATOR — OPEN”?",
+      "answers": [
+        "MDA/DA — SET",
+        "TERR INHIB — AS REQUIRED",
+        "ALTIMETERS — SET",
+        "ICE PROTECTION — SET"
+      ],
+      "correct": 1,
+      "explanation": "TERR INHIB — AS REQUIRED. When TERR INHIB is active, terrain and aural alerts are deactivated; the POH limits its general use to situations such as inadequate position accuracy or airports missing from the terrain database.",
+      "memoryAid": "TEN THOUSAND DECENT: 8/8",
+      "reference": "Checklist PDF, page 1; POH Sections 4.13–4.14.1 and 4.20, pp. 4-22 and 4-28",
+      "sourcePage": "Checklist p. 1; POH 4-22, 4-28",
+      "sourceTopic": "TEN THOUSAND DECENT",
+      "sourceSubtopic": "Checklist step 8",
+      "sourceText": "TERR INHIB — AS REQUIRED",
+      "factId": "CHECKLIST_TEN_THOUSAND_DESCENT_08",
+      "conceptId": "CHECKLIST_SEQUENCE_TEN_THOUSAND_DESCENT",
+      "questionPt": "Em DESCIDA A 10.000 FT, qual item vem depois de “SEPARADOR INERCIAL — ABERTO”?",
+      "answersPt": [
+        "MDA/DA — AJUSTAR",
+        "TERR INHIB — CONFORME NECESSÁRIO",
+        "ALTÍMETROS — AJUSTAR",
+        "PROTEÇÃO CONTRA GELO — AJUSTAR"
+      ],
+      "explanationPt": "TERR INHIB — CONFORME NECESSÁRIO. Quando TERR INHIB está ativo, os alertas visuais e sonoros de terreno ficam desativados; o POH restringe seu uso geral a situações como precisão inadequada da posição ou aeródromos ausentes do banco de terreno."
+    },
+    {
+      "id": 4100,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "EASY",
+      "question": "What is the first checklist item in FINAL?",
+      "answers": [
+        "CABIN DIFFERENTIAL — < 0.7",
+        "FLAPS — AS REQUIRED",
+        "LANDING GEAR — DOWN (3 GREEN)",
+        "YAW DAMPER — DISENGAGED"
+      ],
+      "correct": 2,
+      "explanation": "LANDING GEAR — DOWN (3 GREEN). The three green lights confirm the landing-gear down indication specified by the POH final check.",
+      "memoryAid": "FINAL: 1/5",
+      "reference": "Checklist PDF, page 1; POH Section 4.14.2, p. 4-23; Limitations, cabin pressure",
+      "sourcePage": "Checklist p. 1; POH 4-23; Section 2",
+      "sourceTopic": "FINAL",
+      "sourceSubtopic": "Checklist step 1",
+      "sourceText": "LANDING GEAR — DOWN (3 GREEN)",
+      "factId": "CHECKLIST_FINAL_01",
+      "conceptId": "CHECKLIST_SEQUENCE_FINAL",
+      "questionPt": "Qual é o primeiro item do checklist em FINAL?",
+      "answersPt": [
+        "DIFERENCIAL DA CABINE — < 0,7",
+        "FLAPS — CONFORME NECESSÁRIO",
+        "TREM DE POUSO — BAIXADO (3 LUZES VERDES)",
+        "YAW DAMPER — DESENGAJADO"
+      ],
+      "explanationPt": "TREM DE POUSO — BAIXADO (3 LUZES VERDES). As três luzes verdes confirmam a indicação de trem baixado especificada na verificação final do POH."
+    },
+    {
+      "id": 4101,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "MEDIUM",
+      "question": "In FINAL, what checklist item comes after “LANDING GEAR — DOWN (3 GREEN)”?",
+      "answers": [
+        "LANDING GEAR — DOWN (3 GREEN)",
+        "YAW DAMPER — DISENGAGED",
+        "CABIN DIFFERENTIAL — < 0.7",
+        "FLAPS — AS REQUIRED"
+      ],
+      "correct": 3,
+      "explanation": "FLAPS — AS REQUIRED. The POH final check specifies 40° or as required, subject to the stated icing and failure limits.",
+      "memoryAid": "FINAL: 2/5",
+      "reference": "Checklist PDF, page 1; POH Section 4.14.2, p. 4-23; Limitations, cabin pressure",
+      "sourcePage": "Checklist p. 1; POH 4-23; Section 2",
+      "sourceTopic": "FINAL",
+      "sourceSubtopic": "Checklist step 2",
+      "sourceText": "FLAPS — AS REQUIRED",
+      "factId": "CHECKLIST_FINAL_02",
+      "conceptId": "CHECKLIST_SEQUENCE_FINAL",
+      "questionPt": "Em FINAL, qual item vem depois de “TREM DE POUSO — BAIXADO (3 LUZES VERDES)”?",
+      "answersPt": [
+        "TREM DE POUSO — BAIXADO (3 LUZES VERDES)",
+        "YAW DAMPER — DESENGAJADO",
+        "DIFERENCIAL DA CABINE — < 0,7",
+        "FLAPS — CONFORME NECESSÁRIO"
+      ],
+      "explanationPt": "FLAPS — CONFORME NECESSÁRIO. A verificação final do POH especifica 40° ou conforme necessário, sujeito aos limites indicados para gelo e falhas."
+    },
+    {
+      "id": 4102,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "MEDIUM",
+      "question": "In FINAL, what checklist item comes after “FLAPS — AS REQUIRED”?",
+      "answers": [
+        "YAW DAMPER — DISENGAGED",
+        "LANDING GEAR — DOWN (3 GREEN)",
+        "CABIN DIFFERENTIAL — < 0.7",
+        "FLAPS — AS REQUIRED"
+      ],
+      "correct": 2,
+      "explanation": "CABIN DIFFERENTIAL — < 0.7. The POH approves pressurized landing only up to 0.7 psid and calls for decreasing cabin differential pressure before landing.",
+      "memoryAid": "FINAL: 3/5",
+      "reference": "Checklist PDF, page 1; POH Section 4.14.2, p. 4-23; Limitations, cabin pressure",
+      "sourcePage": "Checklist p. 1; POH 4-23; Section 2",
+      "sourceTopic": "FINAL",
+      "sourceSubtopic": "Checklist step 3",
+      "sourceText": "CABIN DIFFERENTIAL — < 0.7",
+      "factId": "CHECKLIST_FINAL_03",
+      "conceptId": "CHECKLIST_SEQUENCE_FINAL",
+      "questionPt": "Em FINAL, qual item vem depois de “FLAPS — CONFORME NECESSÁRIO”?",
+      "answersPt": [
+        "YAW DAMPER — DESENGAJADO",
+        "TREM DE POUSO — BAIXADO (3 LUZES VERDES)",
+        "DIFERENCIAL DA CABINE — < 0,7",
+        "FLAPS — CONFORME NECESSÁRIO"
+      ],
+      "explanationPt": "DIFERENCIAL DA CABINE — < 0,7. O POH aprova pouso pressurizado somente até 0,7 psid e exige que o diferencial de pressão da cabine esteja diminuindo antes do pouso."
+    },
+    {
+      "id": 4103,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "MEDIUM",
+      "question": "In FINAL, what checklist item comes after “CABIN DIFFERENTIAL — < 0.7”?",
+      "answers": [
+        "FLAPS — AS REQUIRED",
+        "LANDING GEAR — DOWN (3 GREEN)",
+        "YAW DAMPER — DISENGAGED",
+        "CABIN DIFFERENTIAL — < 0.7"
+      ],
+      "correct": 2,
+      "explanation": "YAW DAMPER — DISENGAGED. The POH limitations require the yaw damper OFF during landing; the final checklist also calls for it disengaged before landing.",
+      "memoryAid": "FINAL: 4/5",
+      "reference": "Checklist PDF, page 1; POH Section 4.14.2, p. 4-23; Limitations, cabin pressure",
+      "sourcePage": "Checklist p. 1; POH 4-23; Section 2",
+      "sourceTopic": "FINAL",
+      "sourceSubtopic": "Checklist step 4",
+      "sourceText": "YAW DAMPER — DISENGAGED",
+      "factId": "CHECKLIST_FINAL_04",
+      "conceptId": "CHECKLIST_SEQUENCE_FINAL",
+      "questionPt": "Em FINAL, qual item vem depois de “DIFERENCIAL DA CABINE — < 0,7”?",
+      "answersPt": [
+        "FLAPS — CONFORME NECESSÁRIO",
+        "TREM DE POUSO — BAIXADO (3 LUZES VERDES)",
+        "YAW DAMPER — DESENGAJADO",
+        "DIFERENCIAL DA CABINE — < 0,7"
+      ],
+      "explanationPt": "YAW DAMPER — DESENGAJADO. As limitações do POH exigem yaw damper OFF durante o pouso; a lista final também determina desengajá-lo antes de pousar."
+    },
+    {
+      "id": 4104,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "MEDIUM",
+      "question": "In FINAL, what checklist item comes after “YAW DAMPER — DISENGAGED”?",
+      "answers": [
+        "CABIN DIFFERENTIAL — < 0.7",
+        "LIGHTS — ALL ON",
+        "LANDING GEAR — DOWN (3 GREEN)",
+        "FLAPS — AS REQUIRED"
+      ],
+      "correct": 1,
+      "explanation": "LIGHTS — ALL ON. The supplied checklist and POH list this check or setting, but do not state a separate reason for this individual item.",
+      "memoryAid": "FINAL: 5/5",
+      "reference": "Checklist PDF, page 1; POH Section 4.14.2, p. 4-23; Limitations, cabin pressure",
+      "sourcePage": "Checklist p. 1; POH 4-23; Section 2",
+      "sourceTopic": "FINAL",
+      "sourceSubtopic": "Checklist step 5",
+      "sourceText": "LIGHTS — ALL ON",
+      "factId": "CHECKLIST_FINAL_05",
+      "conceptId": "CHECKLIST_SEQUENCE_FINAL",
+      "questionPt": "Em FINAL, qual item vem depois de “YAW DAMPER — DESENGAJADO”?",
+      "answersPt": [
+        "DIFERENCIAL DA CABINE — < 0,7",
+        "LUZES — TODAS LIGADAS",
+        "TREM DE POUSO — BAIXADO (3 LUZES VERDES)",
+        "FLAPS — CONFORME NECESSÁRIO"
+      ],
+      "explanationPt": "LUZES — TODAS LIGADAS. O checklist enviado e o POH listam esta verificação ou ajuste, mas não apresentam um motivo separado para este item."
+    },
+    {
+      "id": 4200,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "EASY",
+      "question": "What is the first checklist item in AFTER LANDING?",
+      "answers": [
+        "RADAR — STBY",
+        "FLAPS — AS REQUIRED",
+        "GROUND IDLE — SET",
+        "TRANSPONDER — GROUND"
+      ],
+      "correct": 2,
+      "explanation": "GROUND IDLE — SET. The POH defines GROUND IDLE for ground operation and says it keeps propeller speed above the prohibited 350–950 rpm range under the specified ambient conditions.",
+      "memoryAid": "AFTER LANDING: 1/6",
+      "reference": "Checklist PDF, page 1; POH Sections 4.16–4.17, pp. 4-25",
+      "sourcePage": "Checklist p. 1; POH 4-25",
+      "sourceTopic": "AFTER LANDING",
+      "sourceSubtopic": "Checklist step 1",
+      "sourceText": "GROUND IDLE — SET",
+      "factId": "CHECKLIST_AFTER_LANDING_01",
+      "conceptId": "CHECKLIST_SEQUENCE_AFTER_LANDING",
+      "questionPt": "Qual é o primeiro item do checklist em APÓS O POUSO?",
+      "answersPt": [
+        "RADAR — STBY",
+        "FLAPS — CONFORME NECESSÁRIO",
+        "GROUND IDLE — AJUSTAR",
+        "TRANSPONDER — GROUND"
+      ],
+      "explanationPt": "GROUND IDLE — AJUSTAR. O POH define GROUND IDLE para operação no solo e informa que mantém a rotação da hélice acima da faixa proibida de 350–950 rpm nas condições de temperatura especificadas."
+    },
+    {
+      "id": 4201,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "MEDIUM",
+      "question": "In AFTER LANDING, what checklist item comes after “GROUND IDLE — SET”?",
+      "answers": [
+        "GROUND IDLE — SET",
+        "RADAR — STBY",
+        "TRANSPONDER — GROUND",
+        "FLAPS — AS REQUIRED"
+      ],
+      "correct": 3,
+      "explanation": "FLAPS — AS REQUIRED. The supplied checklist gives this setting as required; the POH after-landing checklist says Flaps UP when the runway is vacated. CHECKLIST/POH DIFFERENCE: checklist says AS REQUIRED; POH Section 4.17 says UP when the runway is vacated.",
+      "memoryAid": "AFTER LANDING: 2/6",
+      "reference": "Checklist PDF, page 1; POH Sections 4.16–4.17, pp. 4-25",
+      "sourcePage": "Checklist p. 1; POH 4-25",
+      "sourceTopic": "AFTER LANDING",
+      "sourceSubtopic": "Checklist step 2",
+      "sourceText": "FLAPS — AS REQUIRED",
+      "factId": "CHECKLIST_AFTER_LANDING_02",
+      "conceptId": "CHECKLIST_SEQUENCE_AFTER_LANDING",
+      "questionPt": "Em APÓS O POUSO, qual item vem depois de “GROUND IDLE — AJUSTAR”?",
+      "answersPt": [
+        "GROUND IDLE — AJUSTAR",
+        "RADAR — STBY",
+        "TRANSPONDER — GROUND",
+        "FLAPS — CONFORME NECESSÁRIO"
+      ],
+      "explanationPt": "FLAPS — CONFORME NECESSÁRIO. O checklist enviado deixa o ajuste conforme necessário; a lista do POH após o pouso diz Flaps UP depois de livrar a pista. DIFERENÇA CHECKLIST/POH: o checklist diz AS REQUIRED; o POH, Seção 4.17, diz UP ao livrar a pista."
+    },
+    {
+      "id": 4202,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "MEDIUM",
+      "question": "In AFTER LANDING, what checklist item comes after “FLAPS — AS REQUIRED”?",
+      "answers": [
+        "RADAR — STBY",
+        "TRANSPONDER — GROUND",
+        "FLAPS — AS REQUIRED",
+        "GROUND IDLE — SET"
+      ],
+      "correct": 0,
+      "explanation": "RADAR — STBY. The POH places the weather radar in STBY after landing; its ground-operation limitation warns about personnel within 15 ft of the forward antenna sector.",
+      "memoryAid": "AFTER LANDING: 3/6",
+      "reference": "Checklist PDF, page 1; POH Sections 4.16–4.17, pp. 4-25",
+      "sourcePage": "Checklist p. 1; POH 4-25",
+      "sourceTopic": "AFTER LANDING",
+      "sourceSubtopic": "Checklist step 3",
+      "sourceText": "RADAR — STBY",
+      "factId": "CHECKLIST_AFTER_LANDING_03",
+      "conceptId": "CHECKLIST_SEQUENCE_AFTER_LANDING",
+      "questionPt": "Em APÓS O POUSO, qual item vem depois de “FLAPS — CONFORME NECESSÁRIO”?",
+      "answersPt": [
+        "RADAR — STBY",
+        "TRANSPONDER — GROUND",
+        "FLAPS — CONFORME NECESSÁRIO",
+        "GROUND IDLE — AJUSTAR"
+      ],
+      "explanationPt": "RADAR — STBY. O POH coloca o radar meteorológico em STBY após o pouso; sua limitação em solo alerta sobre pessoas a menos de 15 ft do setor dianteiro da antena."
+    },
+    {
+      "id": 4203,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "MEDIUM",
+      "question": "In AFTER LANDING, what checklist item comes after “RADAR — STBY”?",
+      "answers": [
+        "TRANSPONDER — GROUND",
+        "RADAR — STBY",
+        "GROUND IDLE — SET",
+        "FLAPS — AS REQUIRED"
+      ],
+      "correct": 0,
+      "explanation": "TRANSPONDER — GROUND. The POH after-landing procedure says STBY or check GND; this checklist specifies GROUND.",
+      "memoryAid": "AFTER LANDING: 4/6",
+      "reference": "Checklist PDF, page 1; POH Sections 4.16–4.17, pp. 4-25",
+      "sourcePage": "Checklist p. 1; POH 4-25",
+      "sourceTopic": "AFTER LANDING",
+      "sourceSubtopic": "Checklist step 4",
+      "sourceText": "TRANSPONDER — GROUND",
+      "factId": "CHECKLIST_AFTER_LANDING_04",
+      "conceptId": "CHECKLIST_SEQUENCE_AFTER_LANDING",
+      "questionPt": "Em APÓS O POUSO, qual item vem depois de “RADAR — STBY”?",
+      "answersPt": [
+        "TRANSPONDER — GROUND",
+        "RADAR — STBY",
+        "GROUND IDLE — AJUSTAR",
+        "FLAPS — CONFORME NECESSÁRIO"
+      ],
+      "explanationPt": "TRANSPONDER — GROUND. O procedimento do POH após o pouso diz STBY ou verificar GND; este checklist especifica GROUND."
+    },
+    {
+      "id": 4204,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "MEDIUM",
+      "question": "In AFTER LANDING, what checklist item comes after “TRANSPONDER — GROUND”?",
+      "answers": [
+        "RADAR — STBY",
+        "FLAPS — AS REQUIRED",
+        "ICE PROTECTION — OFF",
+        "GROUND IDLE — SET"
+      ],
+      "correct": 2,
+      "explanation": "ICE PROTECTION — OFF. The POH after-landing procedure calls for ice-protection switches OFF or as required.",
+      "memoryAid": "AFTER LANDING: 5/6",
+      "reference": "Checklist PDF, page 1; POH Sections 4.16–4.17, pp. 4-25",
+      "sourcePage": "Checklist p. 1; POH 4-25",
+      "sourceTopic": "AFTER LANDING",
+      "sourceSubtopic": "Checklist step 5",
+      "sourceText": "ICE PROTECTION — OFF",
+      "factId": "CHECKLIST_AFTER_LANDING_05",
+      "conceptId": "CHECKLIST_SEQUENCE_AFTER_LANDING",
+      "questionPt": "Em APÓS O POUSO, qual item vem depois de “TRANSPONDER — GROUND”?",
+      "answersPt": [
+        "RADAR — STBY",
+        "FLAPS — CONFORME NECESSÁRIO",
+        "PROTEÇÃO CONTRA GELO — OFF",
+        "GROUND IDLE — AJUSTAR"
+      ],
+      "explanationPt": "PROTEÇÃO CONTRA GELO — OFF. O procedimento do POH após o pouso determina ICE PROTECTION OFF ou conforme necessário."
+    },
+    {
+      "id": 4205,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "MEDIUM",
+      "question": "In AFTER LANDING, what checklist item comes after “ICE PROTECTION — OFF”?",
+      "answers": [
+        "FLAPS — AS REQUIRED",
+        "GROUND IDLE — SET",
+        "TRIM — RESET",
+        "RADAR — STBY"
+      ],
+      "correct": 2,
+      "explanation": "TRIM — RESET. The POH after-landing checklist returns trim to the green range.",
+      "memoryAid": "AFTER LANDING: 6/6",
+      "reference": "Checklist PDF, page 1; POH Sections 4.16–4.17, pp. 4-25",
+      "sourcePage": "Checklist p. 1; POH 4-25",
+      "sourceTopic": "AFTER LANDING",
+      "sourceSubtopic": "Checklist step 6",
+      "sourceText": "TRIM — RESET",
+      "factId": "CHECKLIST_AFTER_LANDING_06",
+      "conceptId": "CHECKLIST_SEQUENCE_AFTER_LANDING",
+      "questionPt": "Em APÓS O POUSO, qual item vem depois de “PROTEÇÃO CONTRA GELO — OFF”?",
+      "answersPt": [
+        "FLAPS — CONFORME NECESSÁRIO",
+        "GROUND IDLE — AJUSTAR",
+        "TRIM — REINICIALIZAR",
+        "RADAR — STBY"
+      ],
+      "explanationPt": "TRIM — REINICIALIZAR. A lista do POH após o pouso retorna o trim à faixa verde."
+    },
+    {
+      "id": 4300,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "EASY",
+      "question": "What is the first checklist item in SHUTDOWN?",
+      "answers": [
+        "CONDITION LEVER — CUTOFF",
+        "BATTERY 1/2 — OFF",
+        "STANDBY BUS — OFF",
+        "EPS — OFF"
+      ],
+      "correct": 0,
+      "explanation": "CONDITION LEVER — CUTOFF. The POH shutdown procedure selects CONDITION LEVER CUT-OFF/FEATHER to shut down the engine.",
+      "memoryAid": "SHUTDOWN: 1/6",
+      "reference": "Checklist PDF, page 1; POH Sections 4.18–4.19, pp. 4-26–4-27",
+      "sourcePage": "Checklist p. 1; POH 4-26–4-27",
+      "sourceTopic": "SHUTDOWN",
+      "sourceSubtopic": "Checklist step 1",
+      "sourceText": "CONDITION LEVER — CUTOFF",
+      "factId": "CHECKLIST_SHUTDOWN_01",
+      "conceptId": "CHECKLIST_SEQUENCE_SHUTDOWN",
+      "questionPt": "Qual é o primeiro item do checklist em DESLIGAMENTO?",
+      "answersPt": [
+        "CONDITION LEVER — CUTOFF",
+        "BATTERY 1/2 — OFF",
+        "STANDBY BUS — OFF",
+        "EPS — OFF"
+      ],
+      "explanationPt": "CONDITION LEVER — CUTOFF. O procedimento de desligamento do POH seleciona CONDITION LEVER CUT-OFF/FEATHER para desligar o motor."
+    },
+    {
+      "id": 4301,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "MEDIUM",
+      "question": "In SHUTDOWN, what checklist item comes after “CONDITION LEVER — CUTOFF”?",
+      "answers": [
+        "BATTERY 1/2 — OFF",
+        "CONDITION LEVER — CUTOFF",
+        "EPS — OFF",
+        "STANDBY BUS — OFF"
+      ],
+      "correct": 3,
+      "explanation": "STANDBY BUS — OFF. The POH shutdown sequence switches the standby bus off before the EPS and battery switches.",
+      "memoryAid": "SHUTDOWN: 2/6",
+      "reference": "Checklist PDF, page 1; POH Sections 4.18–4.19, pp. 4-26–4-27",
+      "sourcePage": "Checklist p. 1; POH 4-26–4-27",
+      "sourceTopic": "SHUTDOWN",
+      "sourceSubtopic": "Checklist step 2",
+      "sourceText": "STANDBY BUS — OFF",
+      "factId": "CHECKLIST_SHUTDOWN_02",
+      "conceptId": "CHECKLIST_SEQUENCE_SHUTDOWN",
+      "questionPt": "Em DESLIGAMENTO, qual item vem depois de “CONDITION LEVER — CUTOFF”?",
+      "answersPt": [
+        "BATTERY 1/2 — OFF",
+        "CONDITION LEVER — CUTOFF",
+        "EPS — OFF",
+        "STANDBY BUS — OFF"
+      ],
+      "explanationPt": "STANDBY BUS — OFF. A sequência de desligamento do POH desliga o standby bus antes do EPS e das baterias."
+    },
+    {
+      "id": 4302,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "MEDIUM",
+      "question": "In SHUTDOWN, what checklist item comes after “STANDBY BUS — OFF”?",
+      "answers": [
+        "CONDITION LEVER — CUTOFF",
+        "STANDBY BUS — OFF",
+        "BATTERY 1/2 — OFF",
+        "EPS — OFF"
+      ],
+      "correct": 3,
+      "explanation": "EPS — OFF. The POH shutdown sequence switches the EPS off after the standby bus.",
+      "memoryAid": "SHUTDOWN: 3/6",
+      "reference": "Checklist PDF, page 1; POH Sections 4.18–4.19, pp. 4-26–4-27",
+      "sourcePage": "Checklist p. 1; POH 4-26–4-27",
+      "sourceTopic": "SHUTDOWN",
+      "sourceSubtopic": "Checklist step 3",
+      "sourceText": "EPS — OFF",
+      "factId": "CHECKLIST_SHUTDOWN_03",
+      "conceptId": "CHECKLIST_SEQUENCE_SHUTDOWN",
+      "questionPt": "Em DESLIGAMENTO, qual item vem depois de “STANDBY BUS — OFF”?",
+      "answersPt": [
+        "CONDITION LEVER — CUTOFF",
+        "STANDBY BUS — OFF",
+        "BATTERY 1/2 — OFF",
+        "EPS — OFF"
+      ],
+      "explanationPt": "EPS — OFF. A sequência de desligamento do POH desliga o EPS depois do standby bus."
+    },
+    {
+      "id": 4303,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "MEDIUM",
+      "question": "In SHUTDOWN, what checklist item comes after “EPS — OFF”?",
+      "answers": [
+        "BATTERY 1/2 — OFF",
+        "EPS — OFF",
+        "STANDBY BUS — OFF",
+        "CONDITION LEVER — CUTOFF"
+      ],
+      "correct": 0,
+      "explanation": "BATTERY 1/2 — OFF. The POH shutdown sequence switches both batteries off after the standby bus and EPS.",
+      "memoryAid": "SHUTDOWN: 4/6",
+      "reference": "Checklist PDF, page 1; POH Sections 4.18–4.19, pp. 4-26–4-27",
+      "sourcePage": "Checklist p. 1; POH 4-26–4-27",
+      "sourceTopic": "SHUTDOWN",
+      "sourceSubtopic": "Checklist step 4",
+      "sourceText": "BATTERY 1/2 — OFF",
+      "factId": "CHECKLIST_SHUTDOWN_04",
+      "conceptId": "CHECKLIST_SEQUENCE_SHUTDOWN",
+      "questionPt": "Em DESLIGAMENTO, qual item vem depois de “EPS — OFF”?",
+      "answersPt": [
+        "BATTERY 1/2 — OFF",
+        "EPS — OFF",
+        "STANDBY BUS — OFF",
+        "CONDITION LEVER — CUTOFF"
+      ],
+      "explanationPt": "BATTERY 1/2 — OFF. A sequência de desligamento do POH desliga as duas baterias após o standby bus e o EPS."
+    },
+    {
+      "id": 4304,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "MEDIUM",
+      "question": "In SHUTDOWN, what checklist item comes after “BATTERY 1/2 — OFF”?",
+      "answers": [
+        "CONDITION LEVER — CUTOFF",
+        "EPS — OFF",
+        "FLIGHT CONTROL LOCK — INSTALL",
+        "STANDBY BUS — OFF"
+      ],
+      "correct": 2,
+      "explanation": "FLIGHT CONTROL LOCK — INSTALL. The POH parking procedure requires the flight-control lock installed while parked.",
+      "memoryAid": "SHUTDOWN: 5/6",
+      "reference": "Checklist PDF, page 1; POH Sections 4.18–4.19, pp. 4-26–4-27",
+      "sourcePage": "Checklist p. 1; POH 4-26–4-27",
+      "sourceTopic": "SHUTDOWN",
+      "sourceSubtopic": "Checklist step 5",
+      "sourceText": "FLIGHT CONTROL LOCK — INSTALL",
+      "factId": "CHECKLIST_SHUTDOWN_05",
+      "conceptId": "CHECKLIST_SEQUENCE_SHUTDOWN",
+      "questionPt": "Em DESLIGAMENTO, qual item vem depois de “BATTERY 1/2 — OFF”?",
+      "answersPt": [
+        "CONDITION LEVER — CUTOFF",
+        "EPS — OFF",
+        "TRAVA DOS CONTROLES DE VOO — INSTALAR",
+        "STANDBY BUS — OFF"
+      ],
+      "explanationPt": "TRAVA DOS CONTROLES DE VOO — INSTALAR. O procedimento de estacionamento do POH exige instalar a trava dos controles de voo enquanto a aeronave estiver estacionada."
+    },
+    {
+      "id": 4305,
+      "pohVerified": false,
+      "manual": "Checklist Pilatus PC12 NG (arquivo enviado) + PC-12/47E POH",
+      "revision": "Checklist revision not stated",
+      "category": "CHECKLIST",
+      "difficulty": "MEDIUM",
+      "question": "In SHUTDOWN, what checklist item comes after “FLIGHT CONTROL LOCK — INSTALL”?",
+      "answers": [
+        "EPS — OFF",
+        "STANDBY BUS — OFF",
+        "CONDITION LEVER — CUTOFF",
+        "MASTER POWER — OFF"
+      ],
+      "correct": 3,
+      "explanation": "MASTER POWER — OFF. This item is present in the supplied checklist. The POH shutdown sequence lists standby bus, EPS and battery switches OFF but does not give a separate Master Power OFF step in Section 4.18. The supplied checklist includes this additional step; the POH shutdown section does not list it separately.",
+      "memoryAid": "SHUTDOWN: 6/6",
+      "reference": "Checklist PDF, page 1; POH Sections 4.18–4.19, pp. 4-26–4-27",
+      "sourcePage": "Checklist p. 1; POH 4-26–4-27",
+      "sourceTopic": "SHUTDOWN",
+      "sourceSubtopic": "Checklist step 6",
+      "sourceText": "MASTER POWER — OFF",
+      "factId": "CHECKLIST_SHUTDOWN_06",
+      "conceptId": "CHECKLIST_SEQUENCE_SHUTDOWN",
+      "questionPt": "Em DESLIGAMENTO, qual item vem depois de “TRAVA DOS CONTROLES DE VOO — INSTALAR”?",
+      "answersPt": [
+        "EPS — OFF",
+        "STANDBY BUS — OFF",
+        "CONDITION LEVER — CUTOFF",
+        "MASTER POWER — OFF"
+      ],
+      "explanationPt": "MASTER POWER — OFF. Este item aparece no checklist enviado. A sequência de desligamento do POH lista standby bus, EPS e baterias OFF, mas não traz uma etapa separada de Master Power OFF na Seção 4.18. O checklist enviado inclui esta etapa adicional; a seção de desligamento do POH não a lista separadamente."
+    }
+  ]
+}

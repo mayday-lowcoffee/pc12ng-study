@@ -35,6 +35,12 @@ O botão mantém o inglês visível e revela a tradução em português da pergu
 
 As traduções servem como apoio ao estudo. Em caso de dúvida sobre terminologia ou procedimento, consulte o texto em inglês e a página indicada do POH.
 
+## Aba Checklist
+
+A aba **Checklist** foi criada a partir do arquivo enviado, com 80 perguntas em sequência distribuídas pelas 14 fases da folha. O estudante pode selecionar uma fase ou percorrer a lista inteira; cada resposta revela a etapa correta, a tradução e uma justificativa baseada no POH quando ela é informada pelo manual. Quando o material apenas manda fazer uma verificação, sem explicar o motivo, isso é indicado claramente.
+
+O texto original do checklist foi preservado. Uma nota de comparação destaca diferenças observadas em relação ao POH, incluindo o acionamento do starter, a seleção de oxigênio, o bleed air após a decolagem, o separador inercial na aproximação e a posição dos flaps após o pouso. Essas notas servem para conferência com a lista aprovada e aplicável à aeronave.
+
 ## Cuidado com revisões e efeito
 
 Os PDFs enviados têm “Rev. 11” no nome, mas algumas páginas exibem revisões internas posteriores. As questões reproduzem o material efetivamente fornecido e mantêm as páginas de referência. Para operação, confirme sempre a revisão aprovada aplicável à aeronave, ao número de série e aos equipamentos instalados.
