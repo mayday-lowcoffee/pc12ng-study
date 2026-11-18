@@ -38,7 +38,15 @@
                     <select id="categorySelect">
                         <option value="ALL">All sections</option>
                         <option value="RANDOM_REVIEW">Review missed questions</option>
+                        <option value="INTRODUCTION">Introduction</option>
+                        <option value="GENERAL">General</option>
                         <option value="LIMITATIONS">Limitations</option>
+                        <option value="EMERGENCY">Emergency procedures</option>
+                        <option value="AIRCRAFT_SYSTEMS">Airplane &amp; systems description</option>
+                        <option value="HANDLING_MAINTENANCE">Handling, servicing &amp; maintenance</option>
+                        <option value="PERFORMANCE">Performance</option>
+                        <option value="SAFETY">Safety &amp; operational tips</option>
+                        <option value="SUPPLEMENTS">Supplements</option>
                         <option value="WEIGHT_BALANCE">Weight &amp; balance</option>
                         <option value="NORMAL_OPERATING_PROCEDURES">Normal operating procedures</option>
                     </select>
@@ -69,6 +77,11 @@
                     <article class="question-card">
                         <div class="question-topline"><span id="questionCategory" class="category-label">STUDY QUESTION</span><span class="question-index" id="questionIndexLabel">01</span></div>
                         <h2 id="questionText" tabindex="-1" aria-live="polite">Choose a study mode to begin.</h2>
+                        <div class="translation-toolbar">
+                            <span class="translation-hint">Keep the English visible and reveal the Portuguese when needed.</span>
+                            <button type="button" class="translation-toggle" id="translationToggle" aria-expanded="false" aria-controls="questionTranslation answers result" hidden>Show Portuguese translation</button>
+                        </div>
+                        <p id="questionTranslation" class="question-translation translation-text" lang="pt" hidden></p>
                         <p class="answer-hint">SELECT ONE ANSWER</p>
                         <div id="answers" role="radiogroup" aria-labelledby="questionText"></div>
                         <div class="question-actions">
@@ -98,17 +111,19 @@
         </main>
     </div>
 
-    <script src="questions/limitations.js"></script>
+    <script src="questions/introduction.js"></script>
     <script src="questions/general.js"></script>
+    <script src="questions/limitations.js"></script>
     <script src="questions/emergency.js"></script>
-    <script src="questions/normal_operating_procedures.js"></script>
-    <script src="questions/performance.js"></script>
-    <script src="questions/weight_balance.js"></script>
     <script src="questions/aircraft_systems.js"></script>
     <script src="questions/handling_maintenance.js"></script>
-    <script src="questions/supplements.js"></script>
+    <script src="questions/performance.js"></script>
     <script src="questions/safety.js"></script>
-    <script src="questions/index.js"></script>
+    <script src="questions/supplements.js"></script>
+    <script src="questions/weight_balance.js"></script>
+    <script src="questions/normal_operating_procedures.js"></script>
+    <script src="questions/reviewed_additions.js"></script>
+    <script src="questions/portuguese_translations.js"></script>
     <script src="script.js"></script>
 </body>
 </html>

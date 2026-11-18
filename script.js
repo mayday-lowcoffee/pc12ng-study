@@ -3,10 +3,19 @@ let activeQuestions = [];
 let currentQuestion = 0;
 let responses = [];
 let missedQuestions = [];
+let portugueseVisible = false;
 
 const questionSets = {
     ALL: () => getAllQuestions(),
+    INTRODUCTION: () => getQuestionSet("introductionQuestions"),
+    GENERAL: () => getQuestionSet("generalQuestions"),
     LIMITATIONS: () => getQuestionSet("limitationsQuestions"),
+    EMERGENCY: () => getQuestionSet("emergencyQuestions"),
+    AIRCRAFT_SYSTEMS: () => getQuestionSet("aircraftSystemsQuestions"),
+    HANDLING_MAINTENANCE: () => getQuestionSet("handlingMaintenanceQuestions"),
+    PERFORMANCE: () => getQuestionSet("performanceQuestions"),
+    SAFETY: () => getQuestionSet("safetyQuestions"),
+    SUPPLEMENTS: () => getQuestionSet("supplementsQuestions"),
     WEIGHT_BALANCE: () => getQuestionSet("weightAndBalanceQuestions"),
     NORMAL_OPERATING_PROCEDURES: () => getQuestionSet("normalOperatingProceduresQuestions"),
     RANDOM_REVIEW: () => missedQuestions.length ? [...missedQuestions] : getAllQuestions()
@@ -15,7 +24,15 @@ const questionSets = {
 const modeNames = {
     ALL: "ALL SECTIONS",
     RANDOM_REVIEW: "REVIEW MISSED QUESTIONS",
+    INTRODUCTION: "INTRODUCTION",
+    GENERAL: "GENERAL",
     LIMITATIONS: "LIMITATIONS",
+    EMERGENCY: "EMERGENCY PROCEDURES",
+    AIRCRAFT_SYSTEMS: "AIRPLANE & SYSTEMS DESCRIPTION",
+    HANDLING_MAINTENANCE: "HANDLING, SERVICING & MAINTENANCE",
+    PERFORMANCE: "PERFORMANCE",
+    SAFETY: "SAFETY & OPERATIONAL TIPS",
+    SUPPLEMENTS: "SUPPLEMENTS",
     WEIGHT_BALANCE: "WEIGHT & BALANCE",
     NORMAL_OPERATING_PROCEDURES: "NORMAL OPERATING PROCEDURES"
 };
@@ -23,6 +40,9 @@ const modeNames = {
 window.addEventListener("DOMContentLoaded", () => {
     const selector = document.getElementById("categorySelect");
     if (!selector) return;
+    document.getElementById("translationToggle")?.addEventListener("click", () => {
+        setPortugueseVisible(!portugueseVisible);
+    });
     startStudyMode();
 });
 
@@ -30,6 +50,7 @@ function getQuestionSet(name) {
     // Top-level let/const declarations in classic script files are not properties
     // of window, so resolve the known database names explicitly.
     const sets = {
+        introductionQuestions: typeof introductionQuestions !== "undefined" ? introductionQuestions : undefined,
         limitationsQuestions: typeof limitationsQuestions !== "undefined" ? limitationsQuestions : undefined,
         generalQuestions: typeof generalQuestions !== "undefined" ? generalQuestions : undefined,
         emergencyQuestions: typeof emergencyQuestions !== "undefined" ? emergencyQuestions : undefined,
@@ -49,7 +70,7 @@ function getAllQuestions() {
         return [...allQuestions];
     }
     return [
-        "limitationsQuestions", "generalQuestions", "emergencyQuestions",
+        "introductionQuestions", "generalQuestions", "limitationsQuestions", "emergencyQuestions",
         "normalOperatingProceduresQuestions", "performanceQuestions",
         "weightAndBalanceQuestions", "aircraftSystemsQuestions",
         "handlingMaintenanceQuestions", "supplementsQuestions", "safetyQuestions"
@@ -90,6 +111,12 @@ function displayQuestion() {
     setText("questionDifficulty", question.difficulty || "");
     setText("questionCategory", question.category || "");
     setText("questionText", question.question || "");
+    const questionTranslation = document.getElementById("questionTranslation");
+    if (questionTranslation) {
+        questionTranslation.textContent = question.questionPt || "";
+        questionTranslation.hidden = !portugueseVisible || !question.questionPt;
+    }
+    updateTranslationToggle(question);
     setText("questionReference", `Reference: ${question.reference || ""}`, "Reference:");
     setText("questionTopic", `Topic: ${question.sourceTopic || ""}`, "Topic:");
     setText("questionPage", `POH Page: ${question.sourcePage || ""}`, "POH Page:");
@@ -99,6 +126,27 @@ function displayQuestion() {
     restoreResult();
     updateProgress();
     updateNavigation();
+}
+
+function updateTranslationToggle(question) {
+    const button = document.getElementById("translationToggle");
+    if (!button) return;
+    const hasTranslation = Boolean(question?.questionPt || question?.answersPt?.some(Boolean));
+    button.hidden = !hasTranslation;
+    button.textContent = portugueseVisible ? "Hide Portuguese translation" : "Show Portuguese translation";
+    button.setAttribute("aria-expanded", String(portugueseVisible));
+}
+
+function setPortugueseVisible(visible) {
+    portugueseVisible = visible;
+    const question = activeQuestions[currentQuestion];
+    updateTranslationToggle(question);
+    if (question) {
+        const translatedQuestion = document.getElementById("questionTranslation");
+        if (translatedQuestion) translatedQuestion.hidden = !visible || !question.questionPt;
+        renderAnswers();
+        restoreResult();
+    }
 }
 
 function setText(id, value, label) {
@@ -143,7 +191,20 @@ function renderAnswers() {
         input.addEventListener("change", () => selectAnswer(index));
 
         const text = document.createElement("span");
-        text.textContent = answer;
+        text.className = "answer-copy";
+        const english = document.createElement("span");
+        english.className = "answer-english";
+        english.textContent = answer;
+        text.append(english);
+        const translatedAnswer = question.answersPt?.[index];
+        if (translatedAnswer && translatedAnswer !== answer) {
+            const portuguese = document.createElement("span");
+            portuguese.className = "translation-text answer-translation";
+            portuguese.lang = "pt";
+            portuguese.textContent = translatedAnswer;
+            portuguese.hidden = !portugueseVisible;
+            text.append(portuguese);
+        }
         row.append(input, text);
         answersElement.append(row);
     });
@@ -182,15 +243,30 @@ function restoreResult() {
     heading.textContent = response.correct ? "✅ Correct" : "❌ Incorrect";
     card.append(heading);
 
-    if (!response.correct) {
-        const answer = document.createElement("p");
-        const strong = document.createElement("strong");
-        strong.textContent = "Correct Answer: ";
-        answer.append(strong, document.createTextNode(question.answers?.[question.correct] || ""));
-        card.append(answer);
+    const answer = document.createElement("p");
+    const answerLabel = document.createElement("strong");
+    answerLabel.textContent = "Correct answer: ";
+    answer.append(answerLabel, document.createTextNode(question.answers?.[question.correct] || ""));
+    if (question.answersPt?.[question.correct]) {
+        const translatedAnswer = document.createElement("span");
+        translatedAnswer.className = "translation-text result-translation";
+        translatedAnswer.lang = "pt";
+        translatedAnswer.hidden = !portugueseVisible;
+        translatedAnswer.textContent = `Resposta correta: ${question.answersPt[question.correct]}`;
+        answer.append(document.createElement("br"), translatedAnswer);
     }
+    card.append(answer);
+
     const explanation = document.createElement("p");
     explanation.textContent = question.explanation || "";
+    if (question.explanationPt) {
+        const translatedExplanation = document.createElement("span");
+        translatedExplanation.className = "translation-text result-translation";
+        translatedExplanation.lang = "pt";
+        translatedExplanation.hidden = !portugueseVisible;
+        translatedExplanation.textContent = question.explanationPt;
+        explanation.append(document.createElement("br"), translatedExplanation);
+    }
     card.append(explanation);
     result.append(card);
 }
@@ -254,6 +330,13 @@ function restartSession() {
 }
 
 function showEmptyState(message) {
+    const translationToggle = document.getElementById("translationToggle");
+    if (translationToggle) translationToggle.hidden = true;
+    const questionTranslation = document.getElementById("questionTranslation");
+    if (questionTranslation) {
+        questionTranslation.textContent = "";
+        questionTranslation.hidden = true;
+    }
     setText("questionCounter", "");
     setText("questionDifficulty", "");
     setText("questionCategory", "");
